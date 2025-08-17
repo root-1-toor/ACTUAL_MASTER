@@ -1,0 +1,1667 @@
+Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\Administrator
+
+08/15/2025  04:01 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/15/2025  04:01 AM    <DIR>          desktop
+08/13/2025  04:54 PM         1,835,008 NTUSER.DAT
+08/15/2025  04:01 AM    <DIR>          Pictures
+08/15/2025  03:44 AM    <DIR>          Searches
+               1 File(s)      1,835,008 bytes
+               5 Dir(s)  1,939,608,330,240 bytes free
+
+C:\Users\Administrator>cd desktop
+
+C:\Users\Administrator\desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\Administrator\desktop
+
+08/15/2025  04:01 AM    <DIR>          .
+08/15/2025  04:01 AM    <DIR>          ..
+08/14/2025  05:29 PM             1,237 autorun.txt.inf
+08/15/2025  12:19 AM               466 bomb.txt
+08/14/2025  06:04 PM             2,018 catch.xml.bat
+08/15/2025  02:43 AM                 0 DONTREADME.TXT.txt
+08/15/2025  12:38 AM            23,828 DxDiag.txt
+08/14/2025  05:59 PM           156,765 LOGSFROMSPAM.txt
+08/15/2025  03:42 AM    <DIR>          MASTER_ALL
+08/15/2025  12:38 AM            23,828 Music.txt
+08/15/2025  01:58 AM                 0 New Text Document (2).txt
+08/15/2025  02:28 AM                 0 New Text Document (3).txt
+08/14/2025  07:31 PM                 0 New Text Document.txt
+08/14/2025  11:15 AM           665,255 ownership_of_winsxs_manifests.txt
+08/15/2025  04:01 AM                 0 POST_REMOVAL.txt
+08/14/2025  03:28 PM            11,233 rawconsole.txt
+08/14/2025  11:18 AM               824 re_created_by_self-winsxs.txt
+08/15/2025  02:41 AM        39,133,158 SAMSUNGTV.7z
+08/14/2025  06:00 PM           251,880 SAMSUNGTV.zip
+08/15/2025  02:42 AM        39,133,205 SAMSUNGTV_2.7z
+08/13/2025  03:25 PM               214 SIV_DBGOUT.log
+08/14/2025  04:17 PM           272,160 SNMPTRAP.TXT
+08/14/2025  06:00 AM                19 tron_stage.txt
+08/15/2025  01:44 AM                 0 WHATTHEFUCK.txt
+08/15/2025  01:59 AM           800,812 WHATTHEFUCK2.TXT
+08/14/2025  03:21 PM           450,398 Windows PowerShell.txt
+08/15/2025  01:35 AM            26,624 Windows.tar
+08/14/2025  03:49 PM             1,043 xml version=1.0 encoding=UTF-8.png.XML
+              25 File(s)     80,954,967 bytes
+               3 Dir(s)  1,939,608,330,240 bytes free
+
+C:\Users\Administrator\desktop>cd users
+The system cannot find the path specified.
+
+C:\Users\Administrator\desktop>cd ../../
+
+C:\Users>cd z
+
+C:\Users\z>cd desktop
+
+C:\Users\z\Desktop>resources
+'resources' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop
+
+08/14/2025  10:50 PM    <DIR>          .
+08/15/2025  03:57 AM    <DIR>          ..
+08/14/2025  05:27 PM                31 bomb.txt
+08/14/2025  04:57 PM             2,016 catch.xml.bat
+01/09/2025  06:26 PM    <DIR>          integrity_verification
+08/14/2025  10:11 AM             2,285 jail2
+08/13/2025  09:49 AM           258,254 kdi_and_ziptie.png
+08/14/2025  03:46 PM               573 lol.xml.txt
+08/14/2025  11:33 AM    <DIR>          moved
+08/13/2025  10:34 AM            12,290 postzip.md
+08/15/2025  03:38 AM    <DIR>          resources
+08/14/2025  11:02 AM             1,868 Rkill.txt
+08/14/2025  06:18 PM    <DIR>          SAMSUNGTV
+08/14/2025  05:13 PM                 0 start
+08/13/2025  10:37 AM    <DIR>          tron
+01/09/2025  04:51 PM            40,854 tron.bat
+08/14/2025  10:50 PM             3,456 UninstallDeviceTask.xml
+08/14/2025  04:01 PM             1,113 Winaero Tweaker.lnk
+08/14/2025  01:40 PM           476,461 WindowsUpdate.log
+08/14/2025  10:49 PM             3,440 XblGameSaveTask.xml
+              13 File(s)        802,641 bytes
+               7 Dir(s)  1,939,608,330,240 bytes free
+
+C:\Users\z\Desktop>cd moved
+
+C:\Users\z\Desktop\moved>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\moved
+
+08/14/2025  11:33 AM    <DIR>          .
+08/14/2025  10:50 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  1,939,608,330,240 bytes free
+
+C:\Users\z\Desktop\moved>cd .
+
+C:\Users\z\Desktop\moved>cd ..
+
+C:\Users\z\Desktop>rmdir /moved
+Invalid switch - "moved".
+
+C:\Users\z\Desktop>cd ..
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  03:57 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  08:35 AM                20 .lesshst
+08/13/2025  05:49 PM    <DIR>          .swt
+08/13/2025  08:29 AM             1,735 .viminfo
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/13/2025  02:48 PM                 7 query
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)          6,240 bytes
+              15 Dir(s)  1,939,608,330,240 bytes free
+
+C:\Users\z>cd desktop
+
+C:\Users\z\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop
+
+08/14/2025  10:50 PM    <DIR>          .
+08/15/2025  03:57 AM    <DIR>          ..
+08/14/2025  05:27 PM                31 bomb.txt
+08/14/2025  04:57 PM             2,016 catch.xml.bat
+01/09/2025  06:26 PM    <DIR>          integrity_verification
+08/14/2025  10:11 AM             2,285 jail2
+08/13/2025  09:49 AM           258,254 kdi_and_ziptie.png
+08/14/2025  03:46 PM               573 lol.xml.txt
+08/14/2025  11:33 AM    <DIR>          moved
+08/13/2025  10:34 AM            12,290 postzip.md
+08/15/2025  03:38 AM    <DIR>          resources
+08/14/2025  11:02 AM             1,868 Rkill.txt
+08/14/2025  06:18 PM    <DIR>          SAMSUNGTV
+08/14/2025  05:13 PM                 0 start
+08/13/2025  10:37 AM    <DIR>          tron
+01/09/2025  04:51 PM            40,854 tron.bat
+08/14/2025  10:50 PM             3,456 UninstallDeviceTask.xml
+08/14/2025  04:01 PM             1,113 Winaero Tweaker.lnk
+08/14/2025  01:40 PM           476,461 WindowsUpdate.log
+08/14/2025  10:49 PM             3,440 XblGameSaveTask.xml
+              13 File(s)        802,641 bytes
+               7 Dir(s)  1,939,608,330,240 bytes free
+
+C:\Users\z\Desktop>"Winaero Tweaker.lnk"
+
+C:\Users\z\Desktop>start winaero Tweaker.lnk
+The system cannot find the file winaero.
+
+C:\Users\z\Desktop>where winaero
+INFO: Could not find files for the given pattern(s).
+
+C:\Users\z\Desktop>where 'winaero'
+INFO: Could not find files for the given pattern(s).
+
+C:\Users\z\Desktop>where 'winaero tweaker'
+INFO: Could not find files for the given pattern(s).
+
+C:\Users\z\Desktop>cd resources
+
+C:\Users\z\Desktop\resources>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\resources
+
+08/15/2025  03:38 AM    <DIR>          .
+08/14/2025  10:50 PM    <DIR>          ..
+08/13/2025  10:37 AM    <DIR>          functions
+08/13/2025  03:25 PM               214 SIV_DBGOUT.log
+08/13/2025  05:07 PM    <DIR>          stage_0_prep
+08/13/2025  10:37 AM    <DIR>          stage_1_tempclean
+08/13/2025  10:37 AM    <DIR>          stage_2_de-bloat
+08/13/2025  10:37 AM    <DIR>          stage_3_disinfect
+08/13/2025  10:37 AM    <DIR>          stage_4_repair
+08/13/2025  10:37 AM    <DIR>          stage_5_patch
+08/13/2025  10:37 AM    <DIR>          stage_6_optimize
+08/13/2025  10:37 AM    <DIR>          stage_7_wrap-up
+08/13/2025  10:37 AM    <DIR>          stage_8_custom_scripts
+08/15/2025  03:46 AM    <DIR>          stage_9_manual_tools
+08/14/2025  06:00 AM                19 tron_stage.txt
+08/15/2025  03:39 AM    <DIR>          wrap_up
+               2 File(s)            233 bytes
+              14 Dir(s)  1,939,608,252,416 bytes free
+
+C:\Users\z\Desktop\resources>cd stage_0_prep
+
+C:\Users\z\Desktop\resources\stage_0_prep>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\resources\stage_0_prep
+
+08/13/2025  05:07 PM    <DIR>          .
+08/15/2025  03:38 AM    <DIR>          ..
+08/13/2025  10:37 AM    <DIR>          caffeine
+08/13/2025  10:37 AM    <DIR>          capture_screenshot
+08/13/2025  10:37 AM    <DIR>          check_update
+08/13/2025  10:37 AM    <DIR>          log_tools
+08/13/2025  10:37 AM    <DIR>          processkiller
+08/13/2025  10:37 AM    <DIR>          repair_wmi
+08/13/2025  03:25 PM    <DIR>          rkill
+01/09/2025  05:07 PM            20,466 stage_0_prep.bat
+08/13/2025  03:54 PM    <DIR>          tdss_killer
+08/13/2025  10:37 AM    <DIR>          trellix_stinger
+               1 File(s)         20,466 bytes
+              11 Dir(s)  1,939,608,252,416 bytes free
+
+C:\Users\z\Desktop\resources\stage_0_prep>check_update
+'check_update' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z\Desktop\resources\stage_0_prep>cd check_update
+
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>check_update.bat
+
+ ERROR
+
+  You cannot run this script directly - it must be
+  called from Tron.bat during a Tron run.
+
+  Navigate to Tron's root folder and execute Tron.bat
+
+Press any key to continue . . .
+Terminate batch job (Y/N)? y
+
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\resources\stage_0_prep\check_update
+
+08/13/2025  10:37 AM    <DIR>          .
+08/13/2025  05:07 PM    <DIR>          ..
+08/13/2025  02:55 PM                 0 .wget-hsts
+07/03/2018  12:47 PM             7,372 check_update.bat
+07/03/2018  12:20 PM            10,544 check_update_debloat_lists.bat
+01/29/2014  02:38 PM           789,504 hashdeep.exe
+09/05/2023  10:13 PM         6,542,680 wget.exe
+               5 File(s)      7,350,100 bytes
+               2 Dir(s)  1,939,608,252,416 bytes free
+
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>.wget-hsts
+
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>wget.exe
+wget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>wget.exe www.google.com/chrome
+--2025-08-15 04:14:48--  http://www.google.com/chrome
+Resolving www.google.com (www.google.com)... failed: No such host is known. .
+wget: unable to resolve host address 'www.google.com'
+
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>hashdeep.exe
+hashdeep.exe: WARNING: You are running a 32-bit program on a 64-bit system.
+hashdeep.exe: You probably want to use the 64-bit version of this program.
+%^C
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>
+
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\resources\stage_0_prep\check_update
+
+08/13/2025  10:37 AM    <DIR>          .
+08/13/2025  05:07 PM    <DIR>          ..
+08/13/2025  02:55 PM                 0 .wget-hsts
+07/03/2018  12:47 PM             7,372 check_update.bat
+07/03/2018  12:20 PM            10,544 check_update_debloat_lists.bat
+01/29/2014  02:38 PM           789,504 hashdeep.exe
+09/05/2023  10:13 PM         6,542,680 wget.exe
+               5 File(s)      7,350,100 bytes
+               2 Dir(s)  1,939,607,760,896 bytes free
+
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>check_update_debloat_lists.bat
+
+ ERROR
+
+  You cannot run this script directly - it must be
+  called from Tron.bat during a Tron run.
+
+  Navigate to Tron's root folder and execute Tron.bat
+
+Press any key to continue . . .
+
+C:\Users\z\Desktop\resources\stage_0_prep\check_update>cd ..
+
+C:\Users\z\Desktop\resources\stage_0_prep>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\resources\stage_0_prep
+
+08/13/2025  05:07 PM    <DIR>          .
+08/15/2025  03:38 AM    <DIR>          ..
+08/13/2025  10:37 AM    <DIR>          caffeine
+08/13/2025  10:37 AM    <DIR>          capture_screenshot
+08/13/2025  10:37 AM    <DIR>          check_update
+08/13/2025  10:37 AM    <DIR>          log_tools
+08/13/2025  10:37 AM    <DIR>          processkiller
+08/13/2025  10:37 AM    <DIR>          repair_wmi
+08/13/2025  03:25 PM    <DIR>          rkill
+01/09/2025  05:07 PM            20,466 stage_0_prep.bat
+08/13/2025  03:54 PM    <DIR>          tdss_killer
+08/13/2025  10:37 AM    <DIR>          trellix_stinger
+               1 File(s)         20,466 bytes
+              11 Dir(s)  1,939,607,760,896 bytes free
+
+C:\Users\z\Desktop\resources\stage_0_prep>repair_wmi
+'repair_wmi' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z\Desktop\resources\stage_0_prep>cd repair_wmi
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi
+
+08/13/2025  10:37 AM    <DIR>          .
+08/13/2025  05:07 PM    <DIR>          ..
+07/03/2018  03:20 PM             7,020 repair_wmi.bat
+               1 File(s)          7,020 bytes
+               2 Dir(s)  1,939,607,760,896 bytes free
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>repair_wmi.bat
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>SETLOCAL
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>set SCRIPT_VERSION=1.0.1
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>set SCRIPT_UPDATED=2018-07-04
+CHECKING WMI... ATTEMPT:0...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+1. RESTARTING WMI... ATTEMPT:1...
+1. RESTARTING WMI... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+1. RESTARTING WMI... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+Control-C
+^CTerminate batch job (Y/N)? takeown /f wio
+Terminate batch job (Y/N)? y
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>cd ..
+
+C:\Users\z\Desktop\resources\stage_0_prep>takeown /f repair_wmi
+
+SUCCESS: The file (or folder): "C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi" now owned by user "DESKTOP-2EDLMIG\Administrator".
+
+C:\Users\z\Desktop\resources\stage_0_prep>repair_wmi
+'repair_wmi' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z\Desktop\resources\stage_0_prep>cd repair_wmi
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>repair_wmi.bat
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>SETLOCAL
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>set SCRIPT_VERSION=1.0.1
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>set SCRIPT_UPDATED=2018-07-04
+CHECKING WMI... ATTEMPT:0...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+1. RESTARTING WMI... ATTEMPT:1...
+1. RESTARTING WMI... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+1. RESTARTING WMI... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+1. RESTARTING WMI... Starting WinMgmt
+1. RESTARTING WMI... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:1...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+2. REPAIRING WMI REPOSITORY... ATTEMPT:2...
+2. REPAIRING WMI REPOSITORY... 1. Resetting permissions...
+[SC] OpenSCManager FAILED 5:
+
+Access is denied.
+
+2. REPAIRING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+2. REPAIRING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+2. REPAIRING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+2. REPAIRING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+2. REPAIRING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2. REPAIRING WMI REPOSITORY.. Starting WinMgmt
+2. REPAIRING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:2...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+3. REBUILDING WMI REPOSITORY... ATTEMPT:3...
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping BITS
+The Background Intelligent Transfer Service service is not started.
+
+More help is available by typing NET HELPMSG 3521.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Deleting WMI Repository
+Access is denied.
+3. REBUILDING WMI REPOSITORY... ERROR! Unable to delete WMI repository. Reboot Required.
+Press any key to continue . . .
+3. REBUILDING WMI REPOSITORY... Registering DLLs (scecli.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (userenv.dll)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (cimwin32.mof)
+Microsoft (R) MOF Compiler Version 10.0.26100.1
+Copyright (c) Microsoft Corp. 1997-2006. All rights reserved.
+Parsing MOF file: cimwin32.mof
+MOF file has been successfully parsed
+Storing data in the repository...
+An error occurred while processing item 1 defined on lines 8 - 11 in file cimwin32.mof:
+Error Number: 0x80041003, Facility: WMI
+Description: Access denied
+Compiler returned error 0x800410033. REBUILDING WMI REPOSITORY... Compiling MOFs (cimwin32.mfl)
+Microsoft (R) MOF Compiler Version 10.0.26100.1
+Copyright (c) Microsoft Corp. 1997-2006. All rights reserved.
+File 'cimwin32.mfl' not found!
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (rsop.mof)
+Microsoft (R) MOF Compiler Version 10.0.26100.1
+Copyright (c) Microsoft Corp. 1997-2006. All rights reserved.
+Parsing MOF file: rsop.mof
+MOF file has been successfully parsed
+Storing data in the repository...
+An error occurred while processing item 1 defined on lines 6 - 9 in file rsop.mof:
+Error Number: 0x80041003, Facility: WMI
+Description: Access denied
+Compiler returned error 0x800410033. REBUILDING WMI REPOSITORY... Compiling MOFs (rsop.mfl)
+Microsoft (R) MOF Compiler Version 10.0.26100.1
+Copyright (c) Microsoft Corp. 1997-2006. All rights reserved.
+File 'rsop.mfl' not found!
+3. REBUILDING WMI REPOSITORY... Registering DLLs
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\appbackgroundtask.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\cimwin32.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\DMWmiBridgeProv.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\DMWmiBridgeProv1.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\dnsclientcim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\dnsclientpsprovider.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\Dscpspluginwkr.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\dsprov.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\EmbeddedLockdownWmi.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\esscli.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\EventTracingManagement.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\fastprox.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\ipmiprr.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\ipmiprv.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\KrnlProv.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\MDMAppProv.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\MDMSettingsProv.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\Microsoft.AppV.AppVClientWmi.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\Microsoft.Uev.AgentWmi.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\MMFUtil.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\mofd.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\mofinstall.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\msdtcwmi.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\msiprov.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\NCProv.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\ndisimplatcim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\NetAdapterCim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\netdacim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\NetEventPacketCapture.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\netnccim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\NetPeerDistCim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\netswitchteamcim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\NetTCPIP.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\netttcim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\nlmcim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\ntevt.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\PolicMan.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\PrintManagementProvider.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\qoswmi.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\RacWmiProv.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\repdrvfs.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\schedprov.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\ServDeps.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\SMTPCons.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\stdprov.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\vdswmi.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\viewprov.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\vpnclientpsprovider.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\vsswmi.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wbemcntl.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wbemcons.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wbemcore.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wbemdisp.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wbemess.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wbemprox.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wbemsvc.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WdacWmiProv.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wfascim.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\Win32_EncryptableVolume.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\Win32_Tpm.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WinMgmtR.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WmiApRes.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WmiApRpl.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WMICOOKR.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WmiDcPrv.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wmipcima.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wmipdfs.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wmipdskq.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WmiPerfClass.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WmiPerfInst.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WMIPICMP.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WMIPIPRT.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WMIPJOBJ.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wmiprov.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WmiPrvSD.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WMIPSESS.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\WMIsvc.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wmitimep.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\wmiutils.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\en\Microsoft.AppV.AppVClientWmi.resources.dll)
+3. REBUILDING WMI REPOSITORY... Registering DLLs (C:\Windows\System32\wbem\xml\wmi2xml.dll)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (aeinv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (AgentWmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (AgentWmiUninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (appbackgroundtask.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (appbackgroundtask_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (AuditRsop.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (authfwcfg.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (bcd.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (BthMtpEnum.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (cimdmtf.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (cimwin32.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (CIWmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (classlog.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ddp.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (dimsjob.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (dimsroam.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (DMWmiBridgeProv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (DMWmiBridgeProv1.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (DMWmiBridgeProv1_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (DMWmiBridgeProv_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (dnsclientcim.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (dnsclientpsprovider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (dnsclientpsprovider_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (drvinst.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (DscCore.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (DscCoreConfProv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (dscproxy.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (DscTimer.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (dsprov.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (eaimeapi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (embeddedlockdownwmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (embeddedlockdownwmi_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (EventTracingManagement.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (fdPHost.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (fdrespub.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (fdSSDP.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (fdWNet.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (fdWSD.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (filetrace.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (firewallapi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (FolderRedirectionWMIProvider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (FunDisc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (fwcfg.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (hbaapi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (hnetcfg.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (IMAPIv2-Base.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (IMAPIv2-FileSystemSupport.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (IMAPIv2-LegacyShim.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (interop.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (IpmiDTrc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ipmiprv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (IpmiPTrc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ipsecsvc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (iscsidsc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (iscsihba.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (iscsiprf.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (iscsirem.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (iscsiwmiv2.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (iscsiwmiv2_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (kerberos.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (krnlprov.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (lltdio.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (lltdsvc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (lsasrv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mblctr.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (MDMAppProv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (MDMAppProv_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (MDMSettingsProv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (MDMSettingsProv_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Microsoft-Windows-OfflineFiles.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Microsoft-Windows-Remote-FileSystem.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Microsoft.AppV.AppVClientWmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Microsoft.Uev.ManagedAgentWmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Microsoft.Uev.ManagedAgentWmiUninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mispace.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mispace_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mmc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mountmgr.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mpeval.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mpsdrv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mpssvc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (MsDtcWmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (msfeeds.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (msfeedsbs.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (msi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (msiscsi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (MsNetImPlatform.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mstsc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mstscax.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (msv1_0.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (mswmdm.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ncprov.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ncsi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ndistrace.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetAdapterCim.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetAdapterCimTrace.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetAdapterCimTraceUninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetAdapterCim_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (netdacim.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (netdacim_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetEventPacketCapture.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetEventPacketCapture_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (netnccim.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (netnccim_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetPeerDistCim.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetPeerDistCim_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (netprofm.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetSwitchTeam.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetTCPIP.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (NetTCPIP_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (netttcim.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (netttcim_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (networkitemfactory.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (newdev.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (nlasvc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (nlmcim.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (nlmcim_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (nlsvc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (npivwmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (nshipsec.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ntevt.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ntfs.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (OfflineFilesConfigurationWmiProvider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (OfflineFilesConfigurationWmiProvider_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (OfflineFilesWmiProvider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (OfflineFilesWmiProvider_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (pcsvDevice.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (pcsvDevice_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (PNPXAssoc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (PolicMan.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (polproc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (polprocl.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (polprou.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (polstore.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (portabledeviceapi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (portabledeviceclassextension.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (portabledeviceconnectapi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (portabledevicetypes.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (portabledevicewiacompat.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (powermeterprovider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (PowerPolicyProvider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ppcRsopCompSchema.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ppcRsopUserSchema.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (PrintFilterPipelineSvc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (PrintManagementProvider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (PrintManagementProvider_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (profileassociationprovider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (PS_MMAgent.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (qmgr.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (qoswmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (qoswmitrc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (qoswmitrc_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (qoswmi_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (RacWmiProv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (rdpendp.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (rdpinit.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (rdpshell.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (refs.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (refsv1.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (regevent.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Remove.Microsoft.AppV.AppvClientWmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (rsop.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (rspndr.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (samsrv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (scersop.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (schannel.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (SchedProv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (scm.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (scrcons.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (sdbus.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (secrcw32.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (SensorsClassExtension.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ServiceModel.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (ServiceModel35.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (services.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (setupapi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (SmbWitnessWmiv2Provider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (smbwmiv2.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (smtpcons.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (sppwmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (sr.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (sstpsvc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (storagewmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (storagewmi_passthru.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (storagewmi_passthru_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (storagewmi_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (stortrace.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (subscrpt.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (system.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (tcpip.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (tsallow.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (tscfgwmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (tsmf.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (tspkg.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (umb.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (umbus.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (umpass.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (umpnpmgr.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (UserProfileConfigurationWmiProvider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (UserProfileWmiProvider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (UserStateWMIProvider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (vds.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (vpnclientpsprovider.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (vpnclientpsprovider_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (vss.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WBEMCons.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wcncsvc.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WdacEtwProv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WdacWmiProv.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WdacWmiProv_Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Wdf01000.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Wdf01000Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wdigest.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WFAPIGP.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wfascim.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wfascim_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WFP.MOF)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (whqlprov.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Win32_DeviceGuard.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (win32_encryptablevolume.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Win32_EncryptableVolumeUninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (win32_printer.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Win32_Tpm.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wininit.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (winipsec.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (winlogon.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Winsat.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WinsatUninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wlan.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmi.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmipcima.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmipdfs.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmipdskq.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WmiPerfClass.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WmiPerfInst.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmipicmp.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmipiprt.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmipjobj.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmipsess.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmitimep.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WMI_Tracing.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmp.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wmpnetwk.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wpdbusenum.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wpdcomp.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wpdfs.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wpdmtp.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wpdshext.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WPDShServiceObj.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wpdsp.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wpd_ci.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wscenter.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WsmAgent.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WsmAgentUninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WsmAuto.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wsp_fs.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wsp_fs_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wsp_health.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wsp_health_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wsp_sr.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (wsp_sr_uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WUDFx.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Wudfx02000.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (Wudfx02000Uninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (WUDFxUninstall.mof)
+3. REBUILDING WMI REPOSITORY... Compiling MOFs (xwizards.mof)
+File Not Found
+3. REBUILDING WMI REPOSITORY... Registering .exe's
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting BITS
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+
+Waiting for  6 seconds, press a key to continue ...
+3. REBUILDING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:3...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR:4001 UNABLE TO REPAIR WMI, ATTEMPTS:3 (3:4001).
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting BITS
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+
+Waiting for  9 seconds, press a key to continue ...
+3. REBUILDING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:3...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR:4001 UNABLE TO REPAIR WMI, ATTEMPTS:3 (3:4001).
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting BITS
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+
+Waiting for  5 seconds, press a key to continue ...
+3. REBUILDING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:3...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR:4001 UNABLE TO REPAIR WMI, ATTEMPTS:3 (3:4001).
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting BITS
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+
+Waiting for  0 seconds, press a key to continue ...
+3. REBUILDING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:3...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR:4001 UNABLE TO REPAIR WMI, ATTEMPTS:3 (3:4001).
+Invalid parameter
+
+Windows Management Instrumentation
+
+Usage:  winmgmt [/backup <filename>] [/restore <filename> <flag>]
+                [/resyncperf] [/standalonehost [<level>]] [/sharedhost]
+                [/verifyrepository [<path>]] [/salvagerepository]
+                [/resetrepository] [/dumptasks <option> [flag]]
+
+/backup <filename>
+        Causes WMI to back up the repository to the specified file name. The
+        filename argument should contain the full path to the file location.
+        This process requires a write lock on the repository so that write
+        operations to the repository are suspended until the backup process is
+        completed.
+
+/restore <filename> <flag>
+        Manually restores the WMI repository from the specified backup file.
+        The filename argument should contain the full path to the backup file
+        location. To perform the restore operation, WMI saves the existing
+        repository to write back if the operation fails. Then the repository is
+        restored from the backup file that is specified in the filename
+        argument. If exclusive access to the repository cannot be achieved,
+        existing clients are disconnected from WMI. The flag argument must be a
+        1 (force - disconnect users and restore) or 0 (default - restore if no
+        users connected) and specifies the restore mode.
+
+/resyncperf
+        Registers the system performance libraries with WMI.
+
+/standalonehost [<level>]
+        Moves the Winmgmt service to a standalone Svchost process that has a
+        fixed DCOM endpoint. The default endpoint is "ncacn_ip_tcp.0.24158".
+        However, the endpoint may be changed by running Dcomcnfg.exe. The level
+        argument is the authentication level for the Svchost process. If level
+        is not specified, the default is 4 (RPC_C_AUTHN_LEVEL_PKT).
+
+/sharedhost
+        Moves the Winmgmt service into the shared Svchost process.
+
+/verifyrepository [<path>]
+        Performs a consistency check on the WMI repository. When you add the
+        /verifyrepository switch without the <path> argument, then the live
+        repository currently used by WMI is verified. When you specify the path
+        argument, you can verify any saved copy of the repository. In this
+        case, the path argument should contain the full path to the saved
+        repository copy. The saved repository should be a copy of the entire
+        repository folder.
+
+/salvagerepository
+        Performs a consistency check on the WMI repository, and if an
+        inconsistency is detected, rebuilds the repository.  The content of the
+        inconsistent repository is merged into the rebuilt repository, if it
+        can be read. The salvage operation always works with the repository
+        that the WMI service is currently using. MOF files that contain the
+        #pragma autorecover preprocessor statement are restored to the
+        repository.
+
+/resetrepository
+        The repository is reset to the initial state when the operating system
+        is first installed. MOF files that contain the #pragma autorecover
+        preprocessor statement are restored to the repository.
+
+/dumptasks <option> [flag]
+        Dumping information of running Client Tasks/Requests to logfile from
+        Winmgmt service or Wmiprvse.exe
+        option: specify target resource : <Arb | Ess>
+        flag: setting Timestamp format in present, default: 1
+                1: DMFT            - 20230509155205.574271-420
+                2: Datetime(local) - 2023/05/09 15:52:05.564845
+                4: UTC ticks       - 133281463255648457
+        LogFile: %Windir%\System32\wbem\logs\<filename>
+                <filename>: overwritten by latest dump action.
+                Arb (Winmgmt_Arb.log)
+                Ess (Winmgmt_ess.log)
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting BITS
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+
+Waiting for  9 seconds, press a key to continue ...
+3. REBUILDING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:3...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR:4001 UNABLE TO REPAIR WMI, ATTEMPTS:3 (3:4001).
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting BITS
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+
+Waiting for  9 seconds, press a key to continue ...
+3. REBUILDING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+Control-C
+^CTerminate batch job (Y/N)? n
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:3...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR:4001 UNABLE TO REPAIR WMI, ATTEMPTS:3 (3:4001).
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting BITS
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+
+Waiting for  0 seconds, press a key to continue ...
+3. REBUILDING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:3...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR:4001 UNABLE TO REPAIR WMI, ATTEMPTS:3 (3:4001).
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting BITS
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+
+Waiting for  0 seconds, press a key to continue ...
+3. REBUILDING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:3...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR:4001 UNABLE TO REPAIR WMI, ATTEMPTS:3 (3:4001).
+'/RegServer' is not recognized as an internal or external command,
+operable program or batch file.
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting BITS
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+
+Waiting for  0 seconds, press a key to continue ...
+3. REBUILDING WMI REPOSITORY... 1. Verifying...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 2. Salvaging...
+WMI repository verification failed
+Error code:     0x80041003
+Facility:       WMI
+Description:    Access denied
+
+3. REBUILDING WMI REPOSITORY... 3. Resetting...
+WMI repository reset failed
+Error code:     0x80070005
+Facility:       Win32
+Description:    Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping "MBAMService"...
+System error 5 has occurred.
+
+Access is denied.
+
+3. REBUILDING WMI REPOSITORY... Stopping WinMgmt
+System error 5 has occurred.
+
+Access is denied.
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+3. REBUILDING WMI REPOSITORY... Starting WinMgmt
+3. REBUILDING WMI REPOSITORY... Starting "MBAMService"...
+CHECKING WMI... ATTEMPT:3...
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR:4001 UNABLE TO REPAIR WMI, ATTEMPTS:3 (3:4001).
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi
+
+08/13/2025  10:37 AM    <DIR>          .
+08/13/2025  05:07 PM    <DIR>          ..
+07/03/2018  03:20 PM             7,020 repair_wmi.bat
+               1 File(s)          7,020 bytes
+               2 Dir(s)  1,939,602,669,568 bytes free
+
+C:\Users\z\Desktop\resources\stage_0_prep\repair_wmi>cd ..
+
+C:\Users\z\Desktop\resources\stage_0_prep>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\resources\stage_0_prep
+
+08/13/2025  05:07 PM    <DIR>          .
+08/15/2025  03:38 AM    <DIR>          ..
+08/13/2025  10:37 AM    <DIR>          caffeine
+08/13/2025  10:37 AM    <DIR>          capture_screenshot
+08/13/2025  10:37 AM    <DIR>          check_update
+08/13/2025  10:37 AM    <DIR>          log_tools
+08/13/2025  10:37 AM    <DIR>          processkiller
+08/13/2025  10:37 AM    <DIR>          repair_wmi
+08/13/2025  03:25 PM    <DIR>          rkill
+01/09/2025  05:07 PM            20,466 stage_0_prep.bat
+08/13/2025  03:54 PM    <DIR>          tdss_killer
+08/13/2025  10:37 AM    <DIR>          trellix_stinger
+               1 File(s)         20,466 bytes
+              11 Dir(s)  1,939,602,669,568 bytes free
+
+C:\Users\z\Desktop\resources\stage_0_prep>cd trellix_stinger
+
+C:\Users\z\Desktop\resources\stage_0_prep\trellix_stinger>dor
+'dor' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z\Desktop\resources\stage_0_prep\trellix_stinger>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\Desktop\resources\stage_0_prep\trellix_stinger
+
+08/13/2025  10:37 AM    <DIR>          .
+08/13/2025  05:07 PM    <DIR>          ..
+01/09/2025  04:32 PM        48,028,392 stinger32.exe
+01/09/2025  04:32 PM        49,161,960 stinger64.exe
+               2 File(s)     97,190,352 bytes
+               2 Dir(s)  1,939,602,669,568 bytes free
+
+C:\Users\z\Desktop\resources\stage_0_prep\trellix_stinger>stinger32.exe
+Access is denied.
+
+C:\Users\z\Desktop\resources\stage_0_prep\trellix_stinger>del
+The syntax of the command is incorrect.
+
+C:\Users\z\Desktop\resources\stage_0_prep\trellix_stinger>cd ..
+
+C:\Users\z\Desktop\resources\stage_0_prep>cd .
+
+C:\Users\z\Desktop\resources\stage_0_prep>cd .ipcofig
+The system cannot find the path specified.
+
+C:\Users\z\Desktop\resources\stage_0_prep>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::5f6e:63b1:effd:533f%20
+   IPv4 Address. . . . . . . . . . . : 192.168.50.79
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.50.1
+
+Unknown adapter OpenVPN Data Channel Offload for NordVPN:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Unknown adapter Local Area Connection 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+C:\Users\z\Desktop\resources\stage_0_prep>

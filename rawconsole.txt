@@ -1,0 +1,247 @@
+CHROME LOG 
+
+
+https://api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183484173
+www.googletagmanager.com/gtag/js?id=G-8FEWB057YH:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+
+
+Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+injection-topics.js:1 Browsing Topics API removed from https://grok.com/ which is main frame
+static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+20204-327bd67350edc5f1.js:13 [tiptap warn]: Duplicate extension names found: ['codeBlock']. This can lead to issues.
+(anonymous) @ 20204-327bd67350edc5f1.js:13
+resolve @ bfe95e02-6fbf644da2277d92.js:1
+R @ bfe95e02-6fbf644da2277d92.js:1
+createExtensionManager @ bfe95e02-6fbf644da2277d92.js:75
+eI @ bfe95e02-6fbf644da2277d92.js:75
+createEditor @ 99492-90dbbf9aca48ac9e.js:14
+refreshEditorInstance @ 99492-90dbbf9aca48ac9e.js:14
+(anonymous) @ 99492-90dbbf9aca48ac9e.js:14
+oq @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1
+um @ aa749e88-420df6690339267b.js:1
+uh @ aa749e88-420df6690339267b.js:1Understand this warning
+20204-327bd67350edc5f1.js:13 
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓
+░                                        ░
+░                                        ░
+░                                 ░▒░    ░
+░                ░░▒▒▒▒▒░░░     ░█░      ░
+░            ░▒████████████▓░ ▒██░       ░
+░          ░████▓░         ░▓███░        ░
+░         ░███▒          ░▓█████░        ░
+░         ███░         ░██▒  ▓███░       ░
+░        ░███░       ▒█▒      ███░       ░
+░         ███░     ▒░░       ▒███░       ░
+░         ▒███░             ░███░        ░
+░         ░███▓░         ░▒████░         ░
+░         ▓█░ ░▒▓████████████░           ░
+░       ▒▒░     ░░▒█████▒░░              ░
+░     ▒░                                 ░
+░                                        ░
+░                                        ░
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓
+
+Curious? Join us at https://x.ai/careers
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183448363:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/engage/?verbose=1&ip=1&_=1755183448364:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183463261:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183464137:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183484173:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183525249:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183530150:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183551161:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183564104:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183566144:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+api-js.mixpanel.com/track/?verbose=1&ip=1&_=1755183581154:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENTUnderstand this error
+
+

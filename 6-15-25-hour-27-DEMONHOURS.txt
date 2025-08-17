@@ -1,0 +1,2878 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Administrator> "C:\Users\z\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\autorun.inf.inf"
+C:\Users\z\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\autorun.inf.inf
+PS C:\Users\Administrator> start "C:\Users\z\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\autorun.inf.inf"
+start : This command cannot be run due to the error: There are no more endpoints available from the endpoint mapper.
+At line:1 char:1
++ start "C:\Users\z\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\autorun.in ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\Users\Administrator> net user notadmin
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+PS C:\Users\Administrator> net user notadmin notadmin
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+PS C:\Users\Administrator> net user admin admin
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+PS C:\Users\Administrator> net user administrator active:yes
+System error 5 has occurred.
+
+Access is denied.
+
+PS C:\Users\Administrator> start .\catch.xml.bat
+PS C:\Users\Administrator> start .\ntuser.dat.LOG1
+PS C:\Users\Administrator> start .\ntuser.dat.LOG1
+PS C:\Users\Administrator> start .\catch.xml.bat
+PS C:\Users\Administrator> start '.\ntuser.dat.LOG1'^C
+PS C:\Users\Administrator> wordpad 'C:\System Volume Information\'
+wordpad : The term 'wordpad' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ wordpad 'C:\System Volume Information\'
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (wordpad:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator> Stop-NetEventSession
+Stop-NetEventSession : Parameter set cannot be resolved using the specified named parameters.
+At line:1 char:1
++ Stop-NetEventSession
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-NetEventSession], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Stop-NetEventSession
+
+PS C:\Users\Administrator> Stop-NetEventSession 5512
+Stop-NetEventSession : Invalid class
+At line:1 char:1
++ Stop-NetEventSession 5512
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : MetadataError: (MSFT_NetEventSession:root/StandardCimv2/MSFT_NetEventSession) [Stop-NetE
+   ventSession], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80041010,Stop-NetEventSession
+
+PS C:\Users\Administrator> Stop-NetEventSession
+Stop-NetEventSession : Parameter set cannot be resolved using the specified named parameters.
+At line:1 char:1
++ Stop-NetEventSession
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-NetEventSession], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Stop-NetEventSession
+
+PS C:\Users\Administrator> sc stop bits
+PS C:\Users\Administrator> sc stop '.\NTUSER.DAT{8e19e53a-784a-11f0-97f0-7c10c941ec8a}.TMContainer00000000000000000001.regtrans-ms'
+PS C:\Users\Administrator> chkdsk C:
+Access Denied as you do not have sufficient privileges or
+the disk may be locked by another process.
+You have to invoke this utility running in elevated mode
+and make sure the disk is unlocked.
+PS C:\Users\Administrator> sc stop '.\NTUSER.DAT{8e19e53a-784a-11f0-97f0-7c10c941ec8a}.TMContainer00000000000000000001.regtrans-ms'
+PS C:\Users\Administrator> sfc /scannow
+
+You must be an administrator running a console session in order to
+use the sfc utility.
+PS C:\Users\Administrator> & 'C:\logpostzip.csv'^C
+PS C:\Users\Administrator> LogViewer.exe
+PS C:\Users\Administrator> ProcessGovernor.exe
+PS C:\Users\Administrator> s
+s : The term 's' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ s
++ ~
+    + CategoryInfo          : ObjectNotFound: (s:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator> ^C
+PS C:\Users\Administrator> sc stop bthserv
+PS C:\Users\Administrator> sc stop dosvc
+PS C:\Users\Administrator> sc query dosvc
+PS C:\Users\Administrator> sc '.\NTUSER.DAT{8e19e53a-784a-11f0-97f0-7c10c941ec8a}.TM.blf^C
+PS C:\Users\Administrator> sc query dosvc^C
+PS C:\Users\Administrator> ^C
+PS C:\Users\Administrator> ^C
+PS C:\Users\Administrator> sc stop .\dosvc
+PS C:\Users\Administrator> get-childitem '.\dosvc'
+get-childitem : Cannot find path 'C:\Users\Administrator\dosvc' because it does not exist.
+At line:1 char:1
++ get-childitem '.\dosvc'
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Administrator\dosvc:String) [Get-ChildItem], ItemNotFoundExcep
+   tion
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\Administrator> sc stop dosvc
+PS C:\Users\Administrator> sc stop nsi
+PS C:\Users\Administrator> sc query '.\nsi\
+>>
+>> ^C
+PS C:\Users\Administrator> sc stop '.\nsi'
+PS C:\Users\Administrator> sc .\query
+
+cmdlet Set-Content at command pipeline position 1
+Supply values for the following parameters:
+Value[0]: nsi
+Value[1]: .\nsi
+Value[2]:
+PS C:\Users\Administrator> get-childitem '.\dosvc'
+get-childitem : Cannot find path 'C:\Users\Administrator\dosvc' because it does not exist.
+At line:1 char:1
++ get-childitem '.\dosvc'
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Administrator\dosvc:String) [Get-ChildItem], ItemNotFoundExcep
+   tion
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\Administrator> get-service
+
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  AarSvc_3490278     Agent Activation Runtime_3490278
+Stopped  ADPSvc             ADPSvc
+Stopped  ALG                Application Layer Gateway Service
+Stopped  AppIDSvc           Application Identity
+Running  Appinfo            Application Information
+Stopped  AppMgmt            Application Management
+Stopped  AppReadiness       App Readiness
+Stopped  AppVClient         Microsoft App-V Client
+Stopped  AppXSvc            AppX Deployment Service (AppXSVC)
+Stopped  ApxSvc             Windows Virtual Audio Device Proxy ...
+Stopped  AssignedAccessM... AssignedAccessManager Service
+Stopped  AsusUpdateCheck    AsusUpdateCheck
+Stopped  AudioEndpointBu... Windows Audio Endpoint Builder
+Stopped  Audiosrv           Windows Audio
+Stopped  autotimesvc        Cellular Time
+Stopped  AxInstSV           ActiveX Installer (AxInstSV)
+Stopped  BcastDVRUserSer... GameDVR and Broadcast User Service_...
+Running  BDESVC             BitLocker Drive Encryption Service
+Running  BFE                Base Filtering Engine
+Stopped  BITS               Background Intelligent Transfer Ser...
+Stopped  BluetoothUserSe... Bluetooth User Support Service_3490278
+Running  BrokerInfrastru... Background Tasks Infrastructure Ser...
+Stopped  BTAGService        Bluetooth Audio Gateway Service
+Stopped  BthAvctpSvc        AVCTP service
+Stopped  bthserv            Bluetooth Support Service
+Stopped  camsvc             Capability Access Manager Service
+Stopped  CaptureService_... CaptureService_3490278
+Stopped  cbdhsvc_3490278    Clipboard User Service_3490278
+Stopped  CDPSvc             Connected Devices Platform Service
+Stopped  CDPUserSvc_3490278 Connected Devices Platform User Ser...
+Stopped  CertPropSvc        Certificate Propagation
+Stopped  ClipSVC            Client License Service (ClipSVC)
+Stopped  CloudBackupRest... Cloud Backup and Restore Service_34...
+Stopped  cloudidsvc         Microsoft Cloud Identity Service
+Stopped  COMSysApp          COM+ System Application
+Stopped  ConsentUxUserSv... ConsentUX User Service_3490278
+Running  CoreMessagingRe... CoreMessaging
+Stopped  CredentialEnrol... CredentialEnrollmentManagerUserSvc_...
+Running  CryptSvc           Cryptographic Services
+Stopped  CscService         Offline Files
+Running  DcomLaunch         DCOM Server Process Launcher
+Stopped  dcsvc              Declared Configuration(DC) service
+Stopped  defragsvc          Optimize drives
+Stopped  DeviceAssociati... DeviceAssociationBroker_3490278
+Stopped  DeviceAssociati... Device Association Service
+Stopped  DeviceInstall      Device Install Service
+Stopped  DevicePickerUse... DevicePicker_3490278
+Stopped  DevicesFlowUser... DevicesFlow_3490278
+Stopped  DevQueryBroker     DevQuery Background Discovery Broker
+Running  Dhcp               DHCP Client
+Stopped  diagsvc            Diagnostic Execution Service
+Stopped  DiagTrack          Connected User Experiences and Tele...
+Stopped  DialogBlockingS... DialogBlockingService
+Stopped  DispBrokerDeskt... Display Policy Service
+Stopped  DisplayEnhancem... Display Enhancement Service
+Stopped  DmEnrollmentSvc    Device Management Enrollment Service
+Stopped  dmwappushservice   Device Management Wireless Applicat...
+Running  Dnscache           DNS Client
+Running  DoSvc              Delivery Optimization
+Stopped  dot3svc            Wired AutoConfig
+Stopped  DPS                Diagnostic Policy Service
+Stopped  DsmSvc             Device Setup Manager
+Stopped  DsSvc              Data Sharing Service
+Stopped  DusmSvc            Data Usage
+Stopped  EapHost            Extensible Authentication Protocol
+Stopped  edgeupdate         Microsoft Edge Update Service (edge...
+Stopped  edgeupdatem        Microsoft Edge Update Service (edge...
+Stopped  EFS                Encrypting File System (EFS)
+Stopped  embeddedmode       Embedded Mode
+Stopped  EntAppSvc          Enterprise App Management Service
+Stopped  EventLog           Windows Event Log
+Stopped  EventSystem        COM+ Event System
+Stopped  fdPHost            Function Discovery Provider Host
+Stopped  FDResPub           Function Discovery Resource Publica...
+Stopped  fhsvc              File History Service
+Stopped  FontCache          Windows Font Cache Service
+Stopped  FontCache3.0.0.0   Windows Presentation Foundation Fon...
+Stopped  FrameServer        Windows Camera Frame Server
+Stopped  FrameServerMonitor Windows Camera Frame Server Monitor
+Stopped  GameInputSvc       GameInput Service
+Stopped  GoogleChromeEle... Google Chrome Elevation Service (Go...
+Stopped  GoogleUpdaterIn... Google Updater Internal Service (Go...
+Stopped  GoogleUpdaterSe... Google Updater Service (GoogleUpdat...
+Stopped  gpsvc              Group Policy Client
+Stopped  GraphicsPerfSvc    GraphicsPerfSvc
+Stopped  hidserv            Human Interface Device Service
+Stopped  hpatchmon          Hotpatch Monitoring Service
+Stopped  HvHost             HV Host Service
+Stopped  icssvc             Windows Mobile Hotspot Service
+Stopped  IKEEXT             IKE and AuthIP IPsec Keying Modules
+Stopped  InstallService     Microsoft Store Install Service
+Stopped  Intel(R) TPM Pr... Intel(R) TPM Provisioning Service
+Stopped  InventorySvc       Inventory and Compatibility Apprais...
+Stopped  iphlpsvc           IP Helper
+Stopped  IpxlatCfgSvc       IP Translation Configuration Service
+Stopped  jhi_service        Intel(R) Dynamic Application Loader...
+Running  KeyIso             CNG Key Isolation
+Stopped  KtmRm              KtmRm for Distributed Transaction C...
+Stopped  LanmanServer       Server
+Stopped  LanmanWorkstation  Workstation
+Stopped  lfsvc              Geolocation Service
+Stopped  LicenseManager     Windows License Manager Service
+Stopped  lltdsvc            Link-Layer Topology Discovery Mapper
+Stopped  lmhosts            TCP/IP NetBIOS Helper
+Stopped  LocalKdc           Kerberos Local Key Distribution Center
+Stopped  logi_lamparray_... Logitech LampArray Service
+Running  LSM                Local Session Manager
+Stopped  LxpSvc             Language Experience Service
+Stopped  MapsBroker         Downloaded Maps Manager
+Running  MBAMService        Malwarebytes Service
+Stopped  McmSvc             This service provides profile manag...
+Stopped  McpManagementSe... McpManagementService
+Running  MDCoreSvc          Microsoft Defender Core Service
+Stopped  MessagingServic... MessagingService_3490278
+Stopped  MicrosoftEdgeEl... Microsoft Edge Elevation Service (M...
+Running  mpssvc             Windows Defender Firewall
+Stopped  MSiSCSI            Microsoft iSCSI Initiator Service
+Stopped  msiserver          Windows Installer
+Stopped  MsKeyboardFilter   Microsoft Keyboard Filter
+Stopped  NaturalAuthenti... Natural Authentication
+Stopped  NcaSvc             Network Connectivity Assistant
+Stopped  NcbService         Network Connection Broker
+Stopped  NcdAutoSetup       Network Connected Devices Auto-Setup
+Stopped  Netlogon           Netlogon
+Stopped  Netman             Network Connections
+Running  netprofm           Network List Service
+Stopped  NetSetupSvc        Network Setup Service
+Stopped  NetTcpPortSharing  Net.Tcp Port Sharing Service
+Stopped  NgcCtnrSvc         Microsoft Passport Container
+Stopped  NgcSvc             Microsoft Passport
+Stopped  NlaSvc             Network Location Awareness
+Stopped  nordsec-threatp... nordsec-threatprotection-service
+Stopped  NordUpdaterService NordSec Update Service
+Stopped  nordvpn-service    nordvpn-service
+Stopped  NPSMSvc_3490278    Now Playing Session Manager Service...
+Running  nsi                Network Store Interface Service
+Stopped  NVDisplay.Conta... NVIDIA Display Container LS
+Stopped  OneSyncSvc_3490278 Sync Host_3490278
+Stopped  P9RdrService_34... P9RdrService_3490278
+Stopped  PcaSvc             Program Compatibility Assistant Ser...
+Stopped  PeerDistSvc        BranchCache
+Stopped  PenService_3490278 PenService_3490278
+Stopped  perceptionsimul... Windows Perception Simulation Service
+Stopped  PerfHost           Performance Counter DLL Host
+Stopped  PhoneSvc           Phone Service
+Stopped  PimIndexMainten... Contact Data_3490278
+Stopped  pla                Performance Logs & Alerts
+Stopped  PlugPlay           Plug and Play
+Stopped  PolicyAgent        IPsec Policy Agent
+Running  Power              Power
+Stopped  PrintDeviceConf... Print Device Configuration Service
+Stopped  PrintNotify        Printer Extensions and Notifications
+Stopped  PrintScanBroker... PrintScanBrokerService
+Stopped  PrintWorkflowUs... PrintWorkflow_3490278
+Stopped  ProcessGovernor    Process Lasso Core (Process Governor)
+Running  ProfSvc            User Profile Service
+Stopped  PushToInstall      Windows PushToInstall Service
+Stopped  QWAVE              Quality Windows Audio Video Experience
+Stopped  RasAuto            Remote Access Auto Connection Manager
+Stopped  RasMan             Remote Access Connection Manager
+Stopped  refsdedupsvc       ReFS Dedup Service
+Stopped  RemoteAccess       Routing and Remote Access
+Stopped  RemoteRegistry     Remote Registry
+Running  RmSvc              Radio Management Service
+Running  RpcEptMapper       RPC Endpoint Mapper
+Stopped  RpcLocator         Remote Procedure Call (RPC) Locator
+Running  RpcSs              Remote Procedure Call (RPC)
+Running  SamSs              Security Accounts Manager
+Stopped  SCardSvr           Smart Card
+Stopped  ScDeviceEnum       Smart Card Device Enumeration Service
+Running  Schedule           Task Scheduler
+Stopped  SCPolicySvc        Smart Card Removal Policy
+Stopped  SDRSVC             Windows Backup
+Stopped  seclogon           Secondary Logon
+Running  SecurityHealthS... Windows Security Service
+Stopped  SEMgrSvc           Payments and NFC/SE Manager
+Stopped  SENS               System Event Notification Service
+Stopped  Sense              Windows Defender Advanced Threat Pr...
+Stopped  SensorDataService  Sensor Data Service
+Stopped  SensorService      Sensor Service
+Stopped  SensrSvc           Sensor Monitoring Service
+Stopped  SessionEnv         Remote Desktop Configuration
+Stopped  SharedAccess       Internet Connection Sharing (ICS)
+Stopped  ShellHWDetection   Shell Hardware Detection
+Stopped  shpamsvc           Shared PC Account Manager
+Stopped  smphost            Microsoft Storage Spaces SMP
+Stopped  SmsRouter          Microsoft Windows SMS Router Service.
+Stopped  SNMPTrap           SNMP Trap
+Stopped  Spooler            Print Spooler
+Stopped  sppsvc             Software Protection
+Stopped  SSDPSRV            SSDP Discovery
+Stopped  ssh-agent          OpenSSH Authentication Agent
+Stopped  SstpSvc            Secure Socket Tunneling Protocol Se...
+Running  StateRepository    State Repository Service
+Stopped  StiSvc             Windows Image Acquisition (WIA)
+Stopped  StorSvc            Storage Service
+Stopped  svsvc              Spot Verifier
+Stopped  swprv              Microsoft Software Shadow Copy Prov...
+Stopped  SysMain            SysMain
+Running  SystemEventsBroker System Events Broker
+Stopped  TapiSrv            Telephony
+Stopped  TermService        Remote Desktop Services
+Running  TextInputManage... Text Input Management Service
+Stopped  Themes             Themes
+Stopped  TieringEngineSe... Storage Tiers Management
+Running  TimeBrokerSvc      Time Broker
+Stopped  TokenBroker        Web Account Manager
+Stopped  TrkWks             Distributed Link Tracking Client
+Stopped  TroubleshootingSvc Recommended Troubleshooting Service
+Stopped  TrustedInstaller   Windows Modules Installer
+Stopped  tzautoupdate       Auto Time Zone Updater
+Stopped  UdkUserSvc_3490278 Udk User Service_3490278
+Stopped  UevAgentService    User Experience Virtualization Service
+Stopped  UmRdpService       Remote Desktop Services UserMode Po...
+Stopped  UnistoreSvc_349... User Data Storage_3490278
+Stopped  upnphost           UPnP Device Host
+Stopped  UserDataSvc_349... User Data Access_3490278
+Stopped  UserManager        User Manager
+Stopped  UsoSvc             Update Orchestrator Service
+Stopped  VaultSvc           Credential Manager
+Stopped  vds                Virtual Disk
+Stopped  vmicguestinterface Hyper-V Guest Service Interface
+Stopped  vmicheartbeat      Hyper-V Heartbeat Service
+Stopped  vmickvpexchange    Hyper-V Data Exchange Service
+Stopped  vmicrdv            Hyper-V Remote Desktop Virtualizati...
+Stopped  vmicshutdown       Hyper-V Guest Shutdown Service
+Stopped  vmictimesync       Hyper-V Time Synchronization Service
+Stopped  vmicvmsession      Hyper-V PowerShell Direct Service
+Stopped  vmicvss            Hyper-V Volume Shadow Copy Requestor
+Stopped  VSS                Volume Shadow Copy
+Stopped  W32Time            Windows Time
+Stopped  WaaSMedicSvc       WaaSMedicSvc
+Stopped  WalletService      WalletService
+Stopped  WarpJITSvc         Warp JIT Service
+Stopped  wbengine           Block Level Backup Engine Service
+Stopped  WbioSrvc           Windows Biometric Service
+Stopped  Wcmsvc             Windows Connection Manager
+Stopped  wcncsvc            Windows Connect Now - Config Registrar
+Stopped  WdiServiceHost     Diagnostic Service Host
+Stopped  WdiSystemHost      Diagnostic System Host
+Running  WdNisSvc           Microsoft Defender Antivirus Networ...
+Stopped  WebClient          WebClient
+Stopped  webthreatdefsvc    Web Threat Defense Service
+Stopped  webthreatdefuse... Web Threat Defense User Service_349...
+Stopped  Wecsvc             Windows Event Collector
+Stopped  WEPHOSTSVC         Windows Encryption Provider Host Se...
+Stopped  wercplsupport      Problem Reports Control Panel Support
+Stopped  WerSvc             Windows Error Reporting Service
+Stopped  WFDSConMgrSvc      Wi-Fi Direct Services Connection Ma...
+Stopped  whesvc             Windows Health and Optimized Experi...
+Stopped  WiaRpc             Still Image Acquisition Events
+Running  WinDefend          Microsoft Defender Antivirus Service
+Running  WinHttpAutoProx... WinHTTP Web Proxy Auto-Discovery Se...
+Running  Winmgmt            Windows Management Instrumentation
+Stopped  WinRM              Windows Remote Management (WS-Manag...
+Stopped  wisvc              Windows Insider Service
+Stopped  WlanSvc            WLAN AutoConfig
+Stopped  wlidsvc            Microsoft Account Sign-in Assistant
+Stopped  wlpasvc            Local Profile Assistant Service
+Stopped  WManSvc            Windows Management Service
+Stopped  WmiApSrv           WMI Performance Adapter
+Stopped  WMIRegistration... Intel(R) Management Engine WMI Prov...
+Stopped  WMPNetworkSvc      Windows Media Player Network Sharin...
+Stopped  workfolderssvc     Work Folders
+Stopped  WpcMonSvc          Parental Controls
+Stopped  WPDBusEnum         Portable Device Enumerator Service
+Stopped  WpnService         Windows Push Notifications System S...
+Stopped  WpnUserService_... Windows Push Notifications User Ser...
+Stopped  WSAIFabricSvc      WSAIFabricSvc
+Running  wscsvc             Security Center
+Stopped  WSearch            Windows Search
+Stopped  wuauserv           Windows Update
+Stopped  WwanSvc            WWAN AutoConfig
+Stopped  XblAuthManager     Xbox Live Auth Manager
+Stopped  XblGameSave        Xbox Live Game Save
+Stopped  XboxGipSvc         Xbox Accessory Management Service
+Stopped  XboxNetApiSvc      Xbox Live Networking Service
+
+
+PS C:\Users\Administrator> sc stop MBAMService
+PS C:\Users\Administrator> sc stop '.\mbamservice'
+PS C:\Users\Administrator> sc stop '.\Malwarebytes Service'
+PS C:\Users\Administrator> sc query Malwarebytes Service
+Set-Content : A positional parameter cannot be found that accepts argument 'Service'.
+At line:1 char:1
++ sc query Malwarebytes Service
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Content], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetContentCommand
+
+PS C:\Users\Administrator> stop-service Malwarebytes Service
+Stop-Service : A positional parameter cannot be found that accepts argument 'Service'.
+At line:1 char:1
++ stop-service Malwarebytes Service
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Service], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.StopServiceCommand
+
+PS C:\Users\Administrator> stop-service MBAMService
+stop-service : Service 'Malwarebytes Service (MBAMService)' cannot be stopped due to the following error: Cannot open
+MBAMService service on computer '.'.
+At line:1 char:1
++ stop-service MBAMService
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : CloseError: (System.ServiceProcess.ServiceController:ServiceController) [Stop-Service],
+   ServiceCommandException
+    + FullyQualifiedErrorId : CouldNotStopService,Microsoft.PowerShell.Commands.StopServiceCommand
+
+PS C:\Users\Administrator> stop-service '.\MBAMService\'
+stop-service : Cannot find any service with service name '.\MBAMService\'.
+At line:1 char:1
++ stop-service '.\MBAMService\'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\MBAMService\:String) [Stop-Service], ServiceCommandException
+    + FullyQualifiedErrorId : NoServiceFoundForGivenName,Microsoft.PowerShell.Commands.StopServiceCommand
+
+PS C:\Users\Administrator> sc stop cryptsvc
+PS C:\Users\Administrator> sc stop CryptSvc
+PS C:\Users\Administrator> cd ..
+PS C:\Users> cd ..
+PS C:\> sc stop CryptSvc
+sc : A required privilege is not held by the client.
+At line:1 char:1
++ sc stop CryptSvc
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\stop:String) [Set-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.SetContentCommand
+
+PS C:\> netsh
+netsh>
+PS C:\> netsh
+netsh>
+PS C:\> ^C
+PS C:\> stop-service BrokerInfrastructure
+stop-service : 'Cannot access dependent services of 'Background Tasks Infrastructure Service (BrokerInfrastructure)'
+At line:1 char:1
++ stop-service BrokerInfrastructure
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.ServiceProcess.ServiceController:ServiceController) [Stop-Serv
+   ice], ServiceCommandException
+    + FullyQualifiedErrorId : CouldNotAccessDependentServices,Microsoft.PowerShell.Commands.StopServiceCommand
+
+stop-service : Service 'Background Tasks Infrastructure Service (BrokerInfrastructure)' cannot be stopped due to the
+following error: Cannot open BrokerInfrastructure service on computer '.'.
+At line:1 char:1
++ stop-service BrokerInfrastructure
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : CloseError: (System.ServiceProcess.ServiceController:ServiceController) [Stop-Service],
+   ServiceCommandException
+    + FullyQualifiedErrorId : CouldNotStopService,Microsoft.PowerShell.Commands.StopServiceCommand
+
+PS C:\> stop-service ta^C
+PS C:\> ^C
+PS C:\> taskmgr
+PS C:\> stop-service StateRepository
+stop-service : Service 'State Repository Service (StateRepository)' cannot be stopped due to the following error:
+Cannot open StateRepository service on computer '.'.
+At line:1 char:1
++ stop-service StateRepository
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : CloseError: (System.ServiceProcess.ServiceController:ServiceController) [Stop-Service],
+   ServiceCommandException
+    + FullyQualifiedErrorId : CouldNotStopService,Microsoft.PowerShell.Commands.StopServiceCommand
+
+PS C:\> stop-service CredentialEnrollmentManagerUserSvc_3490278
+PS C:\> stop-service CredentialEnrollmentManagerUserSvc_3490278
+PS C:\> stop-service Radio Management Service
+Stop-Service : A positional parameter cannot be found that accepts argument 'Management'.
+At line:1 char:1
++ stop-service Radio Management Service
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Service], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.StopServiceCommand
+
+PS C:\> stop-service .\Radio Management Service
+Stop-Service : A positional parameter cannot be found that accepts argument 'Management'.
+At line:1 char:1
++ stop-service .\Radio Management Service
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Service], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.StopServiceCommand
+
+PS C:\> sc stop '.\Malwarebytes Service'
+sc : A required privilege is not held by the client.
+At line:1 char:1
++ sc stop '.\Malwarebytes Service'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\stop:String) [Set-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.SetContentCommand
+
+PS C:\> sc stop '.\Radio Management Service'
+sc : A required privilege is not held by the client.
+At line:1 char:1
++ sc stop '.\Radio Management Service'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\stop:String) [Set-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.SetContentCommand
+
+PS C:\> sc query Radio Management Service
+Set-Content : A positional parameter cannot be found that accepts argument 'Management'.
+At line:1 char:1
++ sc query Radio Management Service
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Content], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetContentCommand
+
+PS C:\> sc stop '.\Radio Management Service'
+sc : A required privilege is not held by the client.
+At line:1 char:1
++ sc stop '.\Radio Management Service'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\stop:String) [Set-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.SetContentCommand
+
+PS C:\> sc query '.\Radio Management Service'
+sc : A required privilege is not held by the client.
+At line:1 char:1
++ sc query '.\Radio Management Service'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\query:String) [Set-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.SetContentCommand
+
+PS C:\> net user
+
+User accounts for \\
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           NO
+WDAGUtilityAccount       z
+The command completed with one or more errors.
+
+PS C:\> net user administrator
+User name                    Administrator
+Full Name
+Comment                      Built-in account for administering the computer/domain
+User's comment
+Country/region code          000 (System Default)
+Account active               Yes
+Account expires              Never
+
+Password last set            8/14/2025 8:57:34 PM
+Password expires             Never
+Password changeable          8/14/2025 8:57:34 PM
+Password required            Yes
+User may change password     Yes
+
+Workstations allowed         All
+Logon script
+User profile
+Home directory
+Last logon                   8/14/2025 3:10:30 PM
+
+Logon hours allowed          All
+
+Local Group Memberships      *Administrators
+Global Group memberships     *None
+The command completed successfully.
+
+PS C:\> sc stop '.\Radio Management Service'
+sc : A required privilege is not held by the client.
+At line:1 char:1
++ sc stop '.\Radio Management Service'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\stop:String) [Set-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.SetContentCommand
+
+PS C:\> net user admin
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+PS C:\> net user administrator active:yes
+System error 5 has occurred.
+
+Access is denied.
+
+PS C:\> takeown /s services.msc
+ERROR: Invalid syntax.
+Type "TAKEOWN /?" for usage.
+PS C:\> takeown /f services.msc
+ERROR: The system cannot find the file specified.
+PS C:\> takeown '.\$RECYCLE.BIN\'
+ERROR: Invalid argument/option - '.\$RECYCLE.BIN\'.
+Type "TAKEOWN /?" for usage.
+PS C:\> takeown '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'
+ERROR: Invalid argument/option - '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'.
+Type "TAKEOWN /?" for usage.
+PS C:\> takeown /f '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'
+
+SUCCESS: The file (or folder): "C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar" now owned by user "DESKTOP-2EDLMIG\Administrator".
+PS C:\> takeown /f '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'^C
+PS C:\> takeown /f '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'
+
+SUCCESS: The file (or folder): "C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar" now owned by user "DESKTOP-2EDLMIG\Administrator".
+PS C:\> rmdir /s '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'
+Remove-Item : A positional parameter cannot be found that accepts argument
+'.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'.
+At line:1 char:1
++ rmdir /s '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\> rmdir /s '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'
+Remove-Item : A positional parameter cannot be found that accepts argument
+'.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'.
+At line:1 char:1
++ rmdir /s '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\> rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\$IBFR65Y.tar'
+PS C:\> rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
+
+Confirm
+The item at C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\ has children and the Recurse parameter was
+not specified. If you continue, all children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): a
+rmdir : Cannot remove item C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\desktop.ini: You do not have
+sufficient access rights to perform this operation.
+At line:1 char:1
++ rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (desktop.ini:FileInfo) [Remove-Item], IOException
+    + FullyQualifiedErrorId : RemoveFileSystemItemUnAuthorizedAccess,Microsoft.PowerShell.Commands.RemoveItemCommand
+rmdir : Directory C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\ cannot be removed because it is not
+empty.
+At line:1 char:1
++ rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\$RECYCLE.BIN...-154222760-500\:DirectoryInfo) [Remove-Item], IOException
+    + FullyQualifiedErrorId : DirectoryNotEmpty,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\> takeown /f '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
+
+SUCCESS: The file (or folder): "C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\" now owned by user "DESKTOP-2EDLMIG\Administrator".
+PS C:\> rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
+
+Confirm
+The item at C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\ has children and the Recurse parameter was
+not specified. If you continue, all children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): a
+rmdir : Cannot remove item C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\desktop.ini: You do not have
+sufficient access rights to perform this operation.
+At line:1 char:1
++ rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (desktop.ini:FileInfo) [Remove-Item], IOException
+    + FullyQualifiedErrorId : RemoveFileSystemItemUnAuthorizedAccess,Microsoft.PowerShell.Commands.RemoveItemCommand
+rmdir : Directory C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\ cannot be removed because it is not
+empty.
+At line:1 char:1
++ rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\$RECYCLE.BIN...-154222760-500\:DirectoryInfo) [Remove-Item], IOException
+    + FullyQualifiedErrorId : DirectoryNotEmpty,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\> takeown /f '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
+
+SUCCESS: The file (or folder): "C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\" now owned by user "DESKTOP-2EDLMIG\Administrator".
+PS C:\> rmdir /s '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
+Remove-Item : A positional parameter cannot be found that accepts argument
+'.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'.
+At line:1 char:1
++ rmdir /s '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\> rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
+
+Confirm
+The item at C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\ has children and the Recurse parameter was
+not specified. If you continue, all children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): y
+rmdir : Cannot remove item C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\desktop.ini: You do not have
+sufficient access rights to perform this operation.
+At line:1 char:1
++ rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (desktop.ini:FileInfo) [Remove-Item], IOException
+    + FullyQualifiedErrorId : RemoveFileSystemItemUnAuthorizedAccess,Microsoft.PowerShell.Commands.RemoveItemCommand
+rmdir : Directory C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\ cannot be removed because it is not
+empty.
+At line:1 char:1
++ rmdir '.\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\$RECYCLE.BIN...-154222760-500\:DirectoryInfo) [Remove-Item], IOException
+    + FullyQualifiedErrorId : DirectoryNotEmpty,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\> takeown /f C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\desktop.ini
+ERROR: The system cannot find the path specified.
+PS C:\> takeown /f C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\desktop.ini
+ERROR: The system cannot find the path specified.
+PS C:\> C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\desktop.ini
+PS C:\> ^C
+PS C:\> ^C
+PS C:\> C:\$RECYCLE.BIN\S-1-5-21-2896170314-2545007374-154222760-500\desktop.ini
+
+Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>services.msxc
+'services.msxc' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>services.msc
+Access is denied.
+
+C:\Users\Administrator>
+C:\Users\Administrator>
+C:\Users\Administrator>cd users
+The system cannot find the path specified.
+
+C:\Users\Administrator>cd ..
+
+C:\Users>cd z
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:28 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,877,113,344 bytes free
+
+C:\Users\z>query NetHood
+Invalid parameter(s)
+QUERY { PROCESS | SESSION | TERMSERVER | USER }
+
+C:\Users\z>takeown /f NetHood
+
+SUCCESS: The file (or folder): "C:\Users\z\NetHood" now owned by user "DESKTOP-2EDLMIG\Administrator".
+
+C:\Users\z>rmdir /f nethood
+Invalid switch - "f".
+
+C:\Users\z>rmdir /s NetHood
+NetHood, Are you sure (Y/N)? y
+
+C:\Users\z>dior
+'dior' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,877,113,344 bytes free
+
+C:\Users\z>"C:\Users\z\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\SNMPTRAP.lnk"
+Access is denied.
+
+C:\Users\z>"C:\Users\z\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\autorun.inf.inf"
+Access is denied.
+
+C:\Users\z>where mapper
+INFO: Could not find files for the given pattern(s).
+
+C:\Users\z>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      2,204 K
+Registry                       316 Services                   0     46,944 K
+smss.exe                       952 Services                   0        472 K
+csrss.exe                     1248 Services                   0      4,452 K
+wininit.exe                   1336 Services                   0      2,784 K
+services.exe                  1420 Services                   0      9,088 K
+lsass.exe                     1504 Services                   0     20,860 K
+svchost.exe                   1636 Services                   0     27,852 K
+fontdrvhost.exe               1676 Services                   0      1,440 K
+svchost.exe                   1752 Services                   0     18,000 K
+svchost.exe                   1804 Services                   0      8,188 K
+svchost.exe                   1180 Services                   0      4,800 K
+svchost.exe                   2212 Services                   0      4,916 K
+svchost.exe                   2336 Services                   0     14,124 K
+svchost.exe                   2760 Services                   0      7,408 K
+svchost.exe                   2884 Services                   0      8,792 K
+svchost.exe                   3164 Services                   0     10,456 K
+Memory Compression            3288 Services                   0     19,516 K
+svchost.exe                   3616 Services                   0      4,796 K
+svchost.exe                   3696 Services                   0      6,124 K
+svchost.exe                   3784 Services                   0      6,012 K
+svchost.exe                   4180 Services                   0     18,208 K
+svchost.exe                   4788 Services                   0     26,664 K
+MsMpEng.exe                   4928 Services                   0    381,020 K
+MpDefenderCoreService.exe     4940 Services                   0     18,216 K
+MBAMService.exe               5512 Services                   0    252,212 K
+NisSrv.exe                    9260 Services                   0      7,036 K
+svchost.exe                   9416 Services                   0      7,444 K
+svchost.exe                  10880 Services                   0     13,768 K
+SecurityHealthService.exe    13704 Services                   0     21,216 K
+svchost.exe                   5676 Services                   0      7,560 K
+csrss.exe                     3104 Console                    3     12,092 K
+winlogon.exe                  6172 Console                    3      7,272 K
+fontdrvhost.exe              14676 Console                    3      7,020 K
+dwm.exe                      10352 Console                    3    132,672 K
+explorer.exe                 28872 Console                    3    747,464 K
+explorer.exe                 21452 Console                    3    613,112 K
+svchost.exe                  28296 Services                   0     18,692 K
+svchost.exe                  26996 Services                   0      9,224 K
+svchost.exe                  18124 Services                   0     21,028 K
+explorer.exe                 20712 Console                    3    307,872 K
+ctfmon.exe                   33808 Console                    3     32,432 K
+svchost.exe                  21772 Services                   0     15,004 K
+explorer.exe                 20824 Console                    3    142,796 K
+dllhost.exe                   6504 Console                    3     12,912 K
+svchost.exe                  29996 Services                   0     18,804 K
+cmd.exe                      34936 Console                    3     23,272 K
+conhost.exe                  34764 Console                    3     26,900 K
+powershell.exe               18408 Console                    3    337,592 K
+dllhost.exe                  36072 Console                    3     18,296 K
+cmd.exe                      30888 Console                    3     32,296 K
+conhost.exe                   9092 Console                    3     18,908 K
+powershell.exe               21000 Console                    3    132,024 K
+conhost.exe                   7120 Console                    3     24,156 K
+Taskmgr.exe                  32916 Console                    3     22,948 K
+cmd.exe                      28520 Console                    3     20,000 K
+smartscreen.exe              31440 Console                    3     13,448 K
+powershell.exe               34236 Console                    3     98,460 K
+conhost.exe                  31400 Console                    3     18,276 K
+WmiPrvSE.exe                 11616 Services                   0     12,712 K
+tasklist.exe                 35484 Console                    3     16,740 K
+WmiPrvSE.exe                 35764 Services                   0     13,280 K
+
+C:\Users\z>kill 31440
+'kill' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>taskkill /pid 31440 /f
+SUCCESS: The process with PID 31440 has been terminated.
+
+C:\Users\z>taskkill /pid 5512 /f
+ERROR: The process with PID 5512 could not be terminated.
+Reason: Access is denied.
+
+C:\Users\z>takeown /f mbamservice.exe
+ERROR: The system cannot find the file specified.
+
+C:\Users\z>cd
+C:\Users\z
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,872,402,944 bytes free
+
+C:\Users\z>stop
+'stop' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,872,402,944 bytes free
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,872,402,944 bytes free
+
+C:\Users\z>cd dir
+The system cannot find the path specified.
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,872,402,944 bytes free
+
+C:\Users\z>netstat -ano
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1752
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       1504
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       1336
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       3164
+  TCP    0.0.0.0:49672          0.0.0.0:0              LISTENING       1420
+  TCP    127.0.0.1:43227        0.0.0.0:0              LISTENING       5512
+  TCP    192.168.50.79:139      0.0.0.0:0              LISTENING       4
+  TCP    [::]:135               [::]:0                 LISTENING       1752
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:49664             [::]:0                 LISTENING       1504
+  TCP    [::]:49665             [::]:0                 LISTENING       1336
+  TCP    [::]:49668             [::]:0                 LISTENING       3164
+  TCP    [::]:49672             [::]:0                 LISTENING       1420
+  UDP    0.0.0.0:5353           *:*                                    2760
+  UDP    0.0.0.0:5355           *:*                                    2760
+  UDP    192.168.50.79:137      *:*                                    4
+  UDP    192.168.50.79:138      *:*                                    4
+  UDP    [::]:5353              *:*                                    2760
+  UDP    [::]:5355              *:*                                    2760
+
+C:\Users\z>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      2,208 K
+Registry                       316 Services                   0     46,944 K
+smss.exe                       952 Services                   0        472 K
+csrss.exe                     1248 Services                   0      4,424 K
+wininit.exe                   1336 Services                   0      2,788 K
+services.exe                  1420 Services                   0      9,104 K
+lsass.exe                     1504 Services                   0     20,788 K
+svchost.exe                   1636 Services                   0     27,836 K
+fontdrvhost.exe               1676 Services                   0      1,440 K
+svchost.exe                   1752 Services                   0     18,248 K
+svchost.exe                   1804 Services                   0      8,168 K
+svchost.exe                   1180 Services                   0      4,800 K
+svchost.exe                   2212 Services                   0      4,864 K
+svchost.exe                   2336 Services                   0     14,204 K
+svchost.exe                   2760 Services                   0      7,172 K
+svchost.exe                   2884 Services                   0      8,788 K
+svchost.exe                   3164 Services                   0     10,404 K
+Memory Compression            3288 Services                   0     19,516 K
+svchost.exe                   3616 Services                   0      4,832 K
+svchost.exe                   3696 Services                   0      6,080 K
+svchost.exe                   3784 Services                   0      5,996 K
+svchost.exe                   4180 Services                   0     18,156 K
+svchost.exe                   4788 Services                   0     26,336 K
+MsMpEng.exe                   4928 Services                   0    351,348 K
+MpDefenderCoreService.exe     4940 Services                   0     18,212 K
+MBAMService.exe               5512 Services                   0    252,212 K
+NisSrv.exe                    9260 Services                   0      7,032 K
+svchost.exe                   9416 Services                   0      7,492 K
+svchost.exe                  10880 Services                   0     13,768 K
+SecurityHealthService.exe    13704 Services                   0     21,212 K
+svchost.exe                   5676 Services                   0      7,544 K
+csrss.exe                     3104 Console                    3     12,080 K
+winlogon.exe                  6172 Console                    3      7,256 K
+fontdrvhost.exe              14676 Console                    3      7,008 K
+dwm.exe                      10352 Console                    3    132,428 K
+explorer.exe                 28872 Console                    3    748,892 K
+explorer.exe                 21452 Console                    3    611,540 K
+svchost.exe                  28296 Services                   0     18,684 K
+svchost.exe                  26996 Services                   0      9,212 K
+svchost.exe                  18124 Services                   0     20,988 K
+explorer.exe                 20712 Console                    3    307,648 K
+ctfmon.exe                   33808 Console                    3     32,460 K
+svchost.exe                  21772 Services                   0     15,004 K
+explorer.exe                 20824 Console                    3    142,800 K
+dllhost.exe                   6504 Console                    3     12,912 K
+svchost.exe                  29996 Services                   0     18,788 K
+cmd.exe                      34936 Console                    3     23,272 K
+conhost.exe                  34764 Console                    3     26,904 K
+powershell.exe               18408 Console                    3    337,592 K
+dllhost.exe                  36072 Console                    3     18,256 K
+cmd.exe                      30888 Console                    3     32,464 K
+conhost.exe                   9092 Console                    3     19,152 K
+powershell.exe               21000 Console                    3    132,044 K
+conhost.exe                   7120 Console                    3     24,212 K
+Taskmgr.exe                  32916 Console                    3     22,960 K
+cmd.exe                      28520 Console                    3     19,992 K
+powershell.exe               34236 Console                    3    131,708 K
+conhost.exe                  31400 Console                    3     18,412 K
+WmiPrvSE.exe                 11616 Services                   0     12,656 K
+smartscreen.exe              32512 Console                    3     13,452 K
+Taskmgr.exe                  11628 Console                    3     22,744 K
+Taskmgr.exe                  15808 Console                    3     22,624 K
+tasklist.exe                  9864 Console                    3     16,792 K
+WmiPrvSE.exe                   848 Services                   0     13,388 K
+
+C:\Users\z>stop wininit.exe
+'stop' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>stop-process wininit.exe
+'stop-process' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>net user
+
+User accounts for \\
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           NO
+WDAGUtilityAccount       z
+The command completed with one or more errors.
+
+
+C:\Users\z>net user admin
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+
+C:\Users\z>net user admin admin no no
+The syntax of this command is:
+
+NET USER
+[username [password | *] [options]] [/DOMAIN]
+         username {password | *} /ADD [options] [/DOMAIN]
+         username [/DELETE] [/DOMAIN]
+         username [/TIMES:{times | ALL}]
+         username [/ACTIVE: {YES | NO}]
+
+
+C:\Users\z>net user notadmin {notadmin | *} /add administrators
+'*}' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>net user notadmin {notadmin | *} /add administrators
+'*}' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>net user admin admin
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+
+C:\Users\z>net user z z
+System error 5 has occurred.
+
+Access is denied.
+
+
+C:\Users\z>takeown /f z
+ERROR: The system cannot find the file specified.
+
+C:\Users\z>takeown /f username username
+ERROR: Invalid argument/option - 'username'.
+Type "TAKEOWN /?" for usage.
+
+C:\Users\z>takeown /f
+ERROR: Invalid syntax. Value expected for '/f'.
+Type "TAKEOWN /?" for usage.
+
+C:\Users\z>takeown /?
+
+TAKEOWN [/S system [/U username [/P [password]]]]
+        /F filename [/A] [/R [/D prompt]]
+
+Description:
+    This tool allows an administrator to recover access to a file that
+    was denied by re-assigning file ownership.
+
+Parameter List:
+    /S           system          Specifies the remote system to
+                                 connect to.
+
+    /U           [domain\]user   Specifies the user context under
+                                 which the command should execute.
+
+    /P           [password]      Specifies the password for the
+                                 given user context.
+                                 Prompts for input if omitted.
+
+    /F           filename        Specifies the filename or directory
+                                 name pattern. Wildcard "*" can be used
+                                 to specify the pattern. Allows
+                                 sharename\filename.
+
+    /A                           Gives ownership to the administrators
+                                 group instead of the current user.
+
+    /R                           Recurse: instructs tool to operate on
+                                 files in specified directory and all
+                                 subdirectories.
+
+    /D           prompt          Default answer used when the current user
+                                 does not have the "list folder" permission
+                                 on a directory.  This occurs while operating
+                                 recursively (/R) on sub-directories. Valid
+                                 values "Y" to take ownership or "N" to skip.
+
+    /SKIPSL                      Do not follow symbolic links.
+                                 Only applicable with /R.
+
+    /?                           Displays this help message.
+
+    NOTE: 1) If /A is not specified, file ownership will be given to the
+             current logged on user.
+
+          2) Mixed patterns using "?" and "*" are not supported.
+
+          3) /D is used to suppress the confirmation prompt.
+
+Examples:
+    TAKEOWN /?
+    TAKEOWN /F lostfile
+    TAKEOWN /F \\system\share\lostfile /A
+    TAKEOWN /F directory /R /D N
+    TAKEOWN /F directory /R /A
+    TAKEOWN /F *
+    TAKEOWN /F C:\Windows\System32\acme.exe
+    TAKEOWN /F %windir%\*.txt
+    TAKEOWN /S system /F MyShare\Acme*.doc
+    TAKEOWN /S system /U user /F MyShare\MyBinary.dll
+    TAKEOWN /S system /U domain\user /P password /F share\filename
+    TAKEOWN /S system /U user /P password /F Doc\Report.doc /A
+    TAKEOWN /S system /U user /P password /F Myshare\*
+    TAKEOWN /S system /U user /P password /F Home\Logon /R
+    TAKEOWN /S system /U user /P password /F Myshare\directory /R /A
+
+C:\Users\z>WINNTWINNT
+'WINNTWINNT' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>WINNT
+'WINNT' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>takeown /f
+
+C:\Users\z>takeown /f username username
+ERROR: Invalid argument/option - 'username'.
+Type "TAKEOWN /?" for usage.
+
+C:\Users\z>rmdir /"Local Settings"
+Invalid switch - ""Local Settings"".
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,871,608,320 bytes free
+
+C:\Users\z>rm /f .git
+'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>rmdir gotrmdi
+
+C:\Users\z>rmdir
+The syntax of the command is incorrect.
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,871,608,320 bytes free
+
+C:\Users\z>sfc /scannow
+
+You must be an administrator running a console session in order to
+use the sfc utility.
+
+C:\Users\z>chkdsk
+Access Denied as you do not have sufficient privileges or
+the disk may be locked by another process.
+You have to invoke this utility running in elevated mode
+and make sure the disk is unlocked.
+
+C:\Users\z>chkdsk C:
+Access Denied as you do not have sufficient privileges or
+the disk may be locked by another process.
+You have to invoke this utility running in elevated mode
+and make sure the disk is unlocked.
+
+C:\Users\z>net user administrator
+User name                    Administrator
+Full Name
+Comment                      Built-in account for administering the computer/domain
+User's comment
+Country/region code          000 (System Default)
+Account active               Yes
+Account expires              Never
+
+Password last set            8/14/2025 8:57:34 PM
+Password expires             Never
+Password changeable          8/14/2025 8:57:34 PM
+Password required            Yes
+User may change password     Yes
+
+Workstations allowed         All
+Logon script
+User profile
+Home directory
+Last logon                   8/14/2025 3:10:30 PM
+
+Logon hours allowed          All
+
+Local Group Memberships      *Administrators
+Global Group memberships     *None
+The command completed successfully.
+
+
+C:\Users\z>chkdsk C:
+Access Denied as you do not have sufficient privileges or
+the disk may be locked by another process.
+You have to invoke this utility running in elevated mode
+and make sure the disk is unlocked.
+
+C:\Users\z>manage-bde -fr
+BitLocker Drive Encryption: Configuration Tool version 10.0.26100
+Copyright (C) 2013 Microsoft Corporation. All rights reserved.
+
+ERROR: A volume letter is required.
+
+C:\Users\z>manage-bde C: -fr
+BitLocker Drive Encryption: Configuration Tool version 10.0.26100
+Copyright (C) 2013 Microsoft Corporation. All rights reserved.
+
+ERROR: An error occurred (code 0x8004100e):
+Invalid namespace
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,871,608,320 bytes free
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,871,608,320 bytes free
+
+C:\Users\z>cd AppData
+
+C:\Users\z\AppData>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z\AppData
+
+08/15/2025  06:41 AM    <DIR>          ..
+               0 File(s)              0 bytes
+               1 Dir(s)  1,936,871,608,320 bytes free
+
+C:\Users\z\AppData>cd ..
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,871,608,320 bytes free
+
+C:\Users\z>cd "\System Volume Information"
+Access is denied.
+
+C:\Users\z>takeown /f "\System Volume Information"
+ERROR: Access is denied.
+
+C:\Users\z>rmdir .swt
+The directory is not empty.
+
+C:\Users\z>rmdir /f .swt
+Invalid switch - "f".
+
+C:\Users\z>rmdir  /s /f .swt
+Invalid switch - "f".
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,871,608,320 bytes free
+
+C:\Users\z>
+
+C:\Users\z>get-service
+'get-service' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>tasklist /m
+
+Image Name                     PID Modules
+========================= ======== ============================================
+System Idle Process              0 N/A
+System                           4 N/A
+Registry                       316 N/A
+smss.exe                       952 N/A
+csrss.exe                     1248 N/A
+wininit.exe                   1336 N/A
+services.exe                  1420 N/A
+lsass.exe                     1504 N/A
+svchost.exe                   1636 N/A
+fontdrvhost.exe               1676 N/A
+svchost.exe                   1752 N/A
+svchost.exe                   1804 N/A
+svchost.exe                   1180 N/A
+svchost.exe                   2212 N/A
+svchost.exe                   2336 N/A
+svchost.exe                   2760 N/A
+svchost.exe                   2884 N/A
+svchost.exe                   3164 N/A
+Memory Compression            3288 N/A
+svchost.exe                   3616 N/A
+svchost.exe                   3696 N/A
+svchost.exe                   3784 N/A
+svchost.exe                   4180 N/A
+svchost.exe                   4788 N/A
+MsMpEng.exe                   4928 N/A
+MpDefenderCoreService.exe     4940 N/A
+MBAMService.exe               5512 N/A
+NisSrv.exe                    9260 N/A
+svchost.exe                   9416 N/A
+svchost.exe                  10880 N/A
+SecurityHealthService.exe    13704 N/A
+svchost.exe                   5676 N/A
+csrss.exe                     3104 N/A
+winlogon.exe                  6172 N/A
+fontdrvhost.exe              14676 N/A
+dwm.exe                      10352 N/A
+explorer.exe                 28872 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcp_win.dll, ucrtbase.dll, combase.dll,
+                                   RPCRT4.dll, OLEAUT32.dll, shcore.dll,
+                                   advapi32.dll, AEPIC.dll, msvcrt.dll,
+                                   MDMRegistration.DLL, sechost.dll,
+                                   shlwapi.dll, msvcp110_win.dll, user32.dll,
+                                   windows.storage.dll, win32u.dll, GDI32.dll,
+                                   gdi32full.dll, SHELL32.dll, wintypes.dll,
+                                   PROPSYS.dll, kernel.appcore.dll, dxgi.dll,
+                                   CoreMessaging.dll, WININET.dll,
+                                   UxTheme.dll, SspiCli.dll, dwmapi.dll,
+                                   USERENV.dll, powrprof.dll,
+                                   twinapi.appcore.dll, mscms.dll,
+                                   WTSAPI32.dll, bcryptPrimitives.dll,
+                                   IMM32.DLL, directxdatabasehelper.dll,
+                                   UMPDC.dll, dxcore.dll, ole32.dll,
+                                   clbcatq.dll, CFGMGR32.dll, rmclient.dll,
+                                   NInput.dll, explorerframe.dll,
+                                   twinui.pcshell.dll, UIAutomationCore.DLL,
+                                   wincorlib.DLL, Windows.UI.Xaml.dll,
+                                   OneCoreUAPCommonProxyStub.dll,
+                                   windows.staterepositorycore.dll,
+                                   appxdeploymentclient.dll,
+                                   windows.staterepositoryclient.dll,
+                                   MrmCoreR.dll, Windows.UI.dll, profapi.dll,
+                                   bcp47mrm.dll, languageoverlayutil.dll,
+                                   Windows.UI.Immersive.dll,
+                                   WindowsInternal.ComposableShell.DesktopHosti
+                                   ng.dll,
+                                   WindowsInternal.ComposableShell.Experiences.
+                                   Switcher.dll, TileControl.dll,
+                                   WindowsInternal.ShellUI.dll, d2d1.dll,
+                                   Microsoft.UI.Xaml.dll,
+                                   windowsudk.shellcommon.dll, InputHost.dll,
+                                   CRYPTBASE.DLL, MSCTF.dll, UiaManager.dll,
+                                   WindowManagementAPI.dll, urlmon.dll,
+                                   iertutil.dll, netutils.dll, srvcli.dll,
+                                   dcomp.dll, Microsoft.Internal.WarpPal.dll,
+                                   d3d11.dll, nvldumdx.dll, VERSION.dll,
+                                   DataExchange.dll, msasn1.dll, cryptnet.dll,
+                                   CRYPT32.dll, wldp.dll, drvstore.dll,
+                                   devobj.dll, WinUICohabitation.dll,
+                                   wintrust.dll, imagehlp.dll,
+                                   Windows.UI.Xaml.Controls.dll, ActXPrxy.dll,
+                                   comctl32.dll, sxs.dll, CRYPTSP.dll,
+                                   Windows.UI.FileExplorer.dll, OLEACC.dll,
+                                   rsaenh.dll, bcrypt.dll, DUI70.dll,
+                                   DUser.dll, nvgpucomp64.dll,
+                                   NvMemMapStoragex.dll, WINMM.dll,
+                                   CoreMessagingXP.dll,
+                                   Microsoft.Internal.FrameworkUdk.dll,
+                                   ntmarta.dll, Bcp47Langs.dll,
+                                   Microsoft.Internal.FrameworkUdk.System.dll,
+                                   Microsoft.Internal.FrameworkUdk.CBS.dll,
+                                   textinputframework.dll,
+                                   Windows.FileExplorer.Common.dll,
+                                   edputil.dll, TextShaping.dll, cldapi.dll,
+                                   nvwgf2umx.dll, atlthunk.dll,
+                                   OneCoreCommonProxyStub.dll, thumbcache.dll,
+                                   xmllite.dll, IconCodecService.dll,
+                                   WindowsCodecs.dll, ntshrui.dll,
+                                   Microsoft.UI.Xaml.dll,
+                                   Microsoft.UI.Windowing.Core.dll,
+                                   DWrite.dll, cscapi.dll,
+                                   Microsoft.UI.Xaml.Controls.dll,
+                                   Windows.ApplicationModel.dll,
+                                   Microsoft.Windows.ApplicationModel.Resources
+                                   .dll, MRM.dll, Windows.Globalization.dll,
+                                   dcompi.dll, marshal.dll, dwmcorei.dll,
+                                   Microsoft.UI.Composition.OSSupport.dll,
+                                   D3DCOMPILER_47.dll,
+                                   Microsoft.InputStateManager.dll,
+                                   Microsoft.UI.Input.dll,
+                                   Microsoft.UI.Windowing.dll,
+                                   FileExplorerExtensions.dll,
+                                   MSVCP140_APP.dll, VCRUNTIME140_APP.dll,
+                                   VCRUNTIME140_1_APP.dll, SLC.dll,
+                                   Windows.Networking.Connectivity.dll,
+                                   MicrosoftGraphRecentItemsManager.dll,
+                                   Windows.Management.Workplace.dll,
+                                   policymanager.dll,
+                                   SystemSettings.DataModel.dll,
+                                   StructuredQuery.dll, icu.dll,
+                                   Windows.System.Launcher.dll,
+                                   Windows.Storage.Search.dll,
+                                   Windows.Web.dll, Windows.Web.Http.dll,
+                                   Windows.Security.Authentication.Web.Core.dll
+                                   , coml2.dll, DPAPI.dll, apphelp.dll,
+                                   EhStorShell.dll, SETUPAPI.dll, cscui.dll,
+                                   CoreUIComponents.dll,
+                                   Windows.Internal.System.UserProfile.dll,
+                                   wkscli.dll, Windows.Graphics.dll,
+                                   PhotoMetadataHandler.dll, LINKINFO.dll,
+                                   MPR.dll, dlnashext.dll,
+                                   NetworkExplorer.dll,
+                                   DevDispItemProvider.dll, gdiplus.dll,
+                                   RTMediaFrame.dll, Secur32.dll, samcli.dll,
+                                   SAMLIB.dll,
+                                   Microsoft.DirectManipulation.dll,
+                                   WinUIEdit.dll, USP10.dll, elscore.dll,
+                                   globinputhost.dll, wuceffectsi.dll,
+                                   threadpoolwinrt.dll, D3D10Warp.dll,
+                                   comsvcs.dll, Windows.Energy.dll,
+                                   appresolver.dll, gpapi.dll,
+                                   StartTileData.dll, StartMenu.dll,
+                                   IPHLPAPI.DLL, MSWB7.dll,
+                                   Windows.StateRepositoryPS.dll,
+                                   DesktopSpotlight.dll, wuceffects.dll,
+                                   Microsoft.UI.Xaml.Internal.dll,
+                                   Cabinet.dll, feclient.dll, SHDOCVW.dll,
+                                   WINHTTP.dll, ieframe.DLL, virtdisk.dll,
+                                   pcacli.dll, sfc_os.dll,
+                                   ServicingCommon.dll, DSROLE.dll,
+                                   RemoveDeviceContextHandler.dll,
+                                   zipfldr.dll, archiveint.dll, twext.dll,
+                                   WS2_32.dll, ACLUI.dll, NTDSAPI.dll,
+                                   ncrypt.dll, NTASN1.dll, logoncli.dll,
+                                   WLDAP32.dll, DNSAPI.dll, NSI.dll,
+                                   rstrtmgr.dll, searchfolder.dl
+explorer.exe                 21452 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcp_win.dll, ucrtbase.dll, combase.dll,
+                                   RPCRT4.dll, OLEAUT32.dll, shcore.dll,
+                                   advapi32.dll, AEPIC.dll,
+                                   MDMRegistration.DLL, msvcrt.dll,
+                                   sechost.dll, shlwapi.dll, user32.dll,
+                                   msvcp110_win.dll, windows.storage.dll,
+                                   win32u.dll, GDI32.dll, gdi32full.dll,
+                                   SHELL32.dll, wintypes.dll, PROPSYS.dll,
+                                   kernel.appcore.dll, dxgi.dll,
+                                   CoreMessaging.dll, WININET.dll,
+                                   UxTheme.dll, dwmapi.dll, SspiCli.dll,
+                                   USERENV.dll, powrprof.dll,
+                                   twinapi.appcore.dll, WTSAPI32.dll,
+                                   mscms.dll, bcryptPrimitives.dll, IMM32.DLL,
+                                   directxdatabasehelper.dll, UMPDC.dll,
+                                   dxcore.dll, ole32.dll, rmclient.dll,
+                                   NInput.dll, clbcatq.dll, explorerframe.dll,
+                                   ActXPrxy.dll, comctl32.dll, MSCTF.dll,
+                                   profapi.dll, CFGMGR32.dll, sxs.dll,
+                                   cldapi.dll, FLTLIB.DLL,
+                                   Windows.UI.FileExplorer.dll, OLEACC.dll,
+                                   WinUICohabitation.dll, Windows.UI.dll,
+                                   windowsudk.shellcommon.dll,
+                                   windows.staterepositoryclient.dll,
+                                   windows.staterepositorycore.dll,
+                                   appxdeploymentclient.dll, MrmCoreR.dll,
+                                   bcp47mrm.dll, DUI70.dll, DUser.dll,
+                                   CoreMessagingXP.dll,
+                                   Microsoft.Internal.FrameworkUdk.dll,
+                                   ntmarta.dll, Bcp47Langs.dll, dcomp.dll,
+                                   Microsoft.Internal.WarpPal.dll,
+                                   Microsoft.Internal.FrameworkUdk.System.dll,
+                                   Microsoft.Internal.FrameworkUdk.CBS.dll,
+                                   textinputframework.dll, dataexchange.dll,
+                                   Windows.FileExplorer.Common.dll,
+                                   edputil.dll, TextShaping.dll,
+                                   uiautomationcore.dll, atlthunk.dll,
+                                   OneCoreUAPCommonProxyStub.dll,
+                                   OneCoreCommonProxyStub.dll, thumbcache.dll,
+                                   xmllite.dll, IconCodecService.dll,
+                                   WindowsCodecs.dll,
+                                   Windows.UI.Immersive.dll, ntshrui.dll,
+                                   twinui.pcshell.dll, wincorlib.DLL,
+                                   srvcli.dll, Microsoft.UI.Xaml.dll,
+                                   DWrite.dll, urlmon.dll, d3d11.dll,
+                                   Microsoft.UI.Windowing.Core.dll,
+                                   VERSION.dll, d2d1.dll, iertutil.dll,
+                                   netutils.dll, cscapi.dll,
+                                   languageoverlayutil.dll,
+                                   Microsoft.UI.Xaml.Controls.dll,
+                                   Windows.ApplicationModel.dll,
+                                   Microsoft.Windows.ApplicationModel.Resources
+                                   .dll, MRM.dll, nvldumdx.dll,
+                                   Windows.Globalization.dll, msasn1.dll,
+                                   cryptnet.dll, CRYPT32.dll, cryptbase.dll,
+                                   wldp.dll, drvstore.dll, devobj.dll,
+                                   wintrust.dll, imagehlp.dll, bcrypt.dll,
+                                   dcompi.dll, dwmcorei.dll,
+                                   Microsoft.UI.Composition.OSSupport.dll,
+                                   marshal.dll, D3DCOMPILER_47.dll,
+                                   cryptsp.dll,
+                                   Microsoft.InputStateManager.dll,
+                                   Microsoft.UI.Input.dll,
+                                   Microsoft.UI.Windowing.dll, rsaenh.dll,
+                                   FileExplorerExtensions.dll,
+                                   MSVCP140_APP.dll, VCRUNTIME140_1_APP.dll,
+                                   VCRUNTIME140_APP.dll, SLC.dll,
+                                   nvgpucomp64.dll,
+                                   Windows.Networking.Connectivity.dll,
+                                   MicrosoftGraphRecentItemsManager.dll,
+                                   Windows.Management.Workplace.dll,
+                                   NvMemMapStoragex.dll, WINMM.dll,
+                                   policymanager.dll,
+                                   SystemSettings.DataModel.dll,
+                                   StructuredQuery.dll, icu.dll,
+                                   Windows.StateRepositoryPS.dll,
+                                   Windows.System.Launcher.dll,
+                                   Windows.Storage.Search.dll,
+                                   Windows.Web.dll, Windows.Web.Http.dll,
+                                   Windows.Security.Authentication.Web.Core.dll
+                                   , nvwgf2umx.dll, apphelp.dll,
+                                   EhStorShell.dll, SETUPAPI.dll, cscui.dll,
+                                   CoreUIComponents.dll,
+                                   Windows.Internal.System.UserProfile.dll,
+                                   wkscli.dll, netjoin.dll, JoinUtil.dll,
+                                   Windows.Graphics.dll,
+                                   PhotoMetadataHandler.dll, MPR.dll,
+                                   dlnashext.dll, Secur32.dll, samcli.dll,
+                                   SAMLIB.dll, coml2.dll, NetworkExplorer.dll,
+                                   LINKINFO.dll, DevDispItemProvider.dll,
+                                   zipfldr.dll, archiveint.dll, gdiplus.dll,
+                                   RTMediaFrame.dll, InputHost.dll,
+                                   Microsoft.DirectManipulation.dll,
+                                   WinUIEdit.dll, USP10.dll, elscore.dll,
+                                   globinputhost.dll, wuceffectsi.dll,
+                                   threadpoolwinrt.dll, D3D10Warp.dll,
+                                   Windows.Energy.dll, DesktopSpotlight.dll,
+                                   wuceffects.dll,
+                                   Microsoft.UI.Xaml.Internal.dll,
+                                   Cabinet.dll, NppShell.dll, virtdisk.dll,
+                                   appresolver.dll, pcacli.dll, sfc_os.dll,
+                                   ServicingCommon.dll, WS2_32.dll,
+                                   IPHLPAPI.DLL,
+                                   windows.applicationmodel.datatransfer.dll,
+                                   DragDropExperienceDataExchangeDelegated.dll,
+                                    occache.dll, MSWB7.dll, webcheck.dll,
+                                   IEFRAME.dll, StartTileData.dll,
+                                   StartMenu.dll, comsvcs.dll, mbshlext.dll,
+                                   sfc.dll, twext.dll, shellext.dll,
+                                   gpapi.dll, SHDOCVW.dll, WINHTTP.dll,
+                                   MLANG.dll, comdlg32.dll, DSROLE.dll,
+                                   ACLUI.dll, NTDSAPI.dll, logoncli.dll,
+                                   WLDAP32.dll, smartscreenps.dll,
+                                   comctl32.dll, usermgrcli.dll, mswsock.dll,
+                                   DNSAPI.dll, NSI.dll, rasadhlp.dll,
+                                   fwpuclnt.dll, wtdccm.dll, NETAPI32.dll,
+                                   davhlpr.dll, searchfolder.dll, font
+svchost.exe                  28296 N/A
+svchost.exe                  26996 N/A
+svchost.exe                  18124 N/A
+explorer.exe                 20712 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcp_win.dll, ucrtbase.dll, combase.dll,
+                                   RPCRT4.dll, OLEAUT32.dll, shcore.dll,
+                                   advapi32.dll, AEPIC.dll,
+                                   MDMRegistration.DLL, msvcrt.dll,
+                                   sechost.dll, shlwapi.dll, user32.dll,
+                                   msvcp110_win.dll, windows.storage.dll,
+                                   win32u.dll, GDI32.dll, gdi32full.dll,
+                                   SHELL32.dll, wintypes.dll, PROPSYS.dll,
+                                   dxgi.dll, kernel.appcore.dll,
+                                   CoreMessaging.dll, WININET.dll,
+                                   UxTheme.dll, dwmapi.dll, SspiCli.dll,
+                                   USERENV.dll, powrprof.dll,
+                                   twinapi.appcore.dll, mscms.dll,
+                                   WTSAPI32.dll, bcryptPrimitives.dll,
+                                   IMM32.DLL, directxdatabasehelper.dll,
+                                   UMPDC.dll, dxcore.dll, rmclient.dll,
+                                   NInput.dll, MSCTF.dll, ole32.dll,
+                                   comctl32.dll, clbcatq.dll, appresolver.dll,
+                                   profapi.dll, StartTileData.dll,
+                                   windowsudk.shellcommon.dll, usermgrcli.dll,
+                                   Windows.UI.dll,
+                                   Windows.StateRepositoryPS.dll,
+                                   Windows.UI.Immersive.dll,
+                                   Windows.CloudStore.dll,
+                                   Windows.ApplicationModel.dll, MrmCoreR.dll,
+                                   AppXDeploymentClient.dll, bcrypt.dll,
+                                   languageoverlayutil.dll, bcp47mrm.dll,
+                                   IDStore.dll, SAMLIB.dll, wlidprov.dll,
+                                   Bcp47Langs.dll, policymanager.dll,
+                                   cfgmgr32.dll, iertutil.dll, srvcli.dll,
+                                   netutils.dll,
+                                   windows.staterepositoryclient.dll,
+                                   windows.staterepositorycore.dll,
+                                   Taskbar.dll, winsta.dll, urlmon.dll,
+                                   SLC.dll, TWINAPI.dll, SndVolSSO.DLL,
+                                   MMDevAPI.DLL, DEVOBJ.dll, OLEACC.dll,
+                                   TextShaping.dll, explorerframe.dll,
+                                   SettingsHandlers_DesktopTaskbar.dll,
+                                   windowscodecs.dll, dcomp.dll,
+                                   Microsoft.Internal.WarpPal.dll,
+                                   dataexchange.dll, twinui.pcshell.dll,
+                                   wincorlib.DLL, UIAutomationCore.DLL,
+                                   windows.immersiveshell.serviceprovider.dll,
+                                   twinui.appcore.dll, twinui.dll,
+                                   textinputframework.dll,
+                                   CoreUIComponents.dll, CRYPTBASE.DLL,
+                                   cldapi.dll, FLTLIB.DLL, InputHost.dll,
+                                   Wldp.dll, sppc.dll, ApplicationFrame.dll,
+                                   OneCoreCommonProxyStub.dll,
+                                   Windows.Graphics.dll,
+                                   windowmanagementapi.dll, d2d1.dll,
+                                   Windows.Internal.ShellCommon.dll,
+                                   activationclient.dll,
+                                   PhotoMetadataHandler.dll, d3d11.dll,
+                                   nvldumdx.dll, VERSION.dll, msasn1.dll,
+                                   cryptnet.dll, CRYPT32.dll, drvstore.dll,
+                                   wintrust.dll, imagehlp.dll, ntshrui.dll,
+                                   CRYPTSP.dll, cscapi.dll, rsaenh.dll,
+                                   thumbcache.dll, nvgpucomp64.dll,
+                                   rstrtmgr.dll, ncrypt.dll, NTASN1.dll,
+                                   NvMemMapStoragex.dll, WINMM.dll,
+                                   nvwgf2umx.dll, Windows.System.Launcher.dll,
+                                   Secur32.dll, samcli.dll, apphelp.dll,
+                                   wuceffects.dll, EhStorShell.dll,
+                                   SETUPAPI.dll, cscui.dll, gdiplus.dll,
+                                   edputil.dll, OneCoreUAPCommonProxyStub.dll,
+                                   omadmapi.dll,
+                                   CloudExperienceHostCommon.dll,
+                                   Windows.Management.Workplace.dll,
+                                   SystemSettings.DataModel.dll,
+                                   StructuredQuery.dll, icu.dll,
+                                   Windows.Storage.Search.dll,
+                                   Windows.Web.dll, dsreg.dll, cryptngc.dll,
+                                   dmEnrollEngine.DLL, winbio.dll,
+                                   stobject.dll, ntmarta.dll,
+                                   Windows.UI.Xaml.dll, BatMeter.dll,
+                                   WindowsInternal.ComposableShell.DesktopHosti
+                                   ng.dll,
+                                   WindowsInternal.ComposableShell.Experiences.
+                                   Switcher.dll, TileControl.dll, sxs.dll,
+                                   WindowsInternal.ShellUI.dll,
+                                   Microsoft.UI.Xaml.dll, UiaManager.dll,
+                                   WMICLNT.dll, prnfldr.dll, es.dll,
+                                   WinUICohabitation.dll,
+                                   Windows.UI.Xaml.Controls.dll, atlthunk.dll,
+                                   dxp.dll, Actioncenter.dll, Syncreg.dll,
+                                   Taskbar.View.dll, MSVCP140_APP.dll,
+                                   VCRUNTIME140_1_APP.dll,
+                                   VCRUNTIME140_APP.dll, MFSENSORGROUP.dll,
+                                   Windows.FileExplorer.Common.dll,
+                                   Windows.Networking.Connectivity.dll,
+                                   npmproxy.dll, dwrite.dll,
+                                   wpdshserviceobj.dll,
+                                   PortableDeviceTypes.dll,
+                                   PortableDeviceApi.dll, cscobj.dll,
+                                   Windows.Devices.Sensors.dll, srchadmin.dll,
+                                   shdocvw.dll, WINHTTP.dll, SyncCenter.dll,
+                                   imapi2.dll, bthprops.cpl,
+                                   bluetoothapis.dll, MFPlat.DLL, RTWorkQ.DLL,
+                                   Windows.Media.Devices.dll,
+                                   Windows.UI.Core.TextInput.dll,
+                                   InputSwitch.dll, Windows.Energy.dll,
+                                   NetworkIcon.dll, MSWB7.dll,
+                                   NetworkUXBroker.dll,
+                                   EthernetMediaManager.dll,
+                                   Windows.Globalization.dll,
+                                   DevDispItemProvider.dll, dot3api.dll,
+                                   MobileNetworking.dll, wpnclient.dll,
+                                   IPHLPAPI.DLL, NSI.dll, threadpoolwinrt.dll,
+                                   gpapi.dll, RTMediaFrame.dll,
+                                   directmanipulation.dll,
+                                   TileDataRepository.dll,
+                                   StateRepository.Core.dll,
+                                   Windows.StateRepository.dll, pfclient.dll,
+                                   DesktopSwitcherDataModel.dll,
+                                   windows.internal.shell.broker.dll,
+                                   coml2.dll, WorkFoldersShell.dll,
+                                   ActXPrxy.dll, DUI70.dll, DUser.dll,
+                                   CHARTV.dll, IconCodecService.dll,
+                                   wscinterop.dll, wscui.cpl, WSCAPI.
+ctfmon.exe                   33808 N/A
+svchost.exe                  21772 N/A
+explorer.exe                 20824 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcp_win.dll, ucrtbase.dll, combase.dll,
+                                   RPCRT4.dll, OLEAUT32.dll, shcore.dll,
+                                   advapi32.dll, msvcrt.dll, sechost.dll,
+                                   MDMRegistration.DLL, AEPIC.dll,
+                                   shlwapi.dll, user32.dll, win32u.dll,
+                                   windows.storage.dll, msvcp110_win.dll,
+                                   GDI32.dll, gdi32full.dll, SHELL32.dll,
+                                   wintypes.dll, PROPSYS.dll, dxgi.dll,
+                                   kernel.appcore.dll, CoreMessaging.dll,
+                                   WININET.dll, UxTheme.dll, dwmapi.dll,
+                                   SspiCli.dll, USERENV.dll, powrprof.dll,
+                                   twinapi.appcore.dll, mscms.dll,
+                                   WTSAPI32.dll, bcryptPrimitives.dll,
+                                   IMM32.DLL, directxdatabasehelper.dll,
+                                   UMPDC.dll, dxcore.dll, ole32.dll,
+                                   clbcatq.dll, CFGMGR32.dll, rmclient.dll,
+                                   NInput.dll, explorerframe.dll,
+                                   twinui.pcshell.dll, UIAutomationCore.DLL,
+                                   wincorlib.DLL, Windows.UI.Xaml.dll,
+                                   OneCoreUAPCommonProxyStub.dll,
+                                   windows.staterepositorycore.dll,
+                                   appxdeploymentclient.dll,
+                                   windows.staterepositoryclient.dll,
+                                   MrmCoreR.dll, Windows.UI.dll, profapi.dll,
+                                   bcp47mrm.dll, languageoverlayutil.dll,
+                                   Windows.UI.Immersive.dll,
+                                   WindowsInternal.ComposableShell.DesktopHosti
+                                   ng.dll,
+                                   WindowsInternal.ComposableShell.Experiences.
+                                   Switcher.dll, TileControl.dll,
+                                   WindowsInternal.ShellUI.dll, d2d1.dll,
+                                   Microsoft.UI.Xaml.dll,
+                                   windowsudk.shellcommon.dll, InputHost.dll,
+                                   CRYPTBASE.DLL, MSCTF.dll, UiaManager.dll,
+                                   WindowManagementAPI.dll, urlmon.dll,
+                                   iertutil.dll, srvcli.dll, netutils.dll,
+                                   dcomp.dll, Microsoft.Internal.WarpPal.dll,
+                                   d3d11.dll, nvldumdx.dll, VERSION.dll,
+                                   DataExchange.dll, msasn1.dll, cryptnet.dll,
+                                   CRYPT32.dll, wldp.dll, drvstore.dll,
+                                   devobj.dll, WinUICohabitation.dll,
+                                   wintrust.dll, imagehlp.dll,
+                                   Windows.UI.Xaml.Controls.dll, ActXPrxy.dll,
+                                   comctl32.dll, sxs.dll, msxml3.dll,
+                                   bcrypt.dll, CRYPTSP.dll, rsaenh.dll,
+                                   OLEACC.dll, DUI70.dll, DUser.dll,
+                                   nvgpucomp64.dll, CoreMessagingXP.dll,
+                                   Microsoft.Internal.FrameworkUdk.dll,
+                                   ntmarta.dll, Bcp47Langs.dll,
+                                   Microsoft.Internal.FrameworkUdk.System.dll,
+                                   Microsoft.Internal.FrameworkUdk.CBS.dll,
+                                   NvMemMapStoragex.dll, WINMM.dll,
+                                   textinputframework.dll, WindowsCodecs.dll,
+                                   thumbcache.dll, rstrtmgr.dll, ncrypt.dll,
+                                   NTASN1.dll, nvwgf2umx.dll,
+                                   policymanager.dll, TextShaping.dll,
+                                   Windows.Globalization.dll,
+                                   globinputhost.dll,
+                                   Windows.FileExplorer.Common.dll,
+                                   edputil.dll, Windows.System.Launcher.dll,
+                                   dwrite.dll, Secur32.dll, MLANG.dll,
+                                   Windows.StateRepositoryPS.dll, apphelp.dll,
+                                   CoreUIComponents.dll, samcli.dll,
+                                   wkscli.dll, atlthunk.dll, xmllite.dll,
+                                   IconCodecService.dll, StructuredQuery.dll,
+                                   icu.dll, MSWB7.dll,
+                                   Windows.Storage.Search.dll,
+                                   NetworkExplorer.dll, WindowsCodecsExt.dll,
+                                   netjoin.dll, JoinUtil.dll, IDStore.dll,
+                                   SAMLIB.dll, MPR.dll, WINSTA.dll,
+                                   cscapi.dll, dlnashext.dll,
+                                   DevDispItemProvider.dll, SETUPAPI.dll,
+                                   EhStorShell.dll, cscui.dll, ntshrui.dll,
+                                   appresolver.dll, pcacli.dll, sfc_os.dll,
+                                   ServicingCommon.dll, shpafact.dll,
+                                   comsvcs.dll, actioncenter.dll,
+                                   wscinterop.dll, wscui.cpl, WSCAPI.dll,
+                                   werconcpl.dll, framedynos.dll, wer.dll,
+                                   hcproviders.dll, wevtapi.dll,
+                                   Microsoft.UI.Windowing.Core.dll,
+                                   Windows.UI.FileExplorer.dll, SLC.dll,
+                                   StartTileData.dll, Windows.Graphics.dll,
+                                   PhotoMetadataHandler.dll, usercpl.dll,
+                                   credui.dll, logoncli.dll, shgina.dll,
+                                   credprovhost.dll, CredProvCommonCore.DLL,
+                                   shacct.dll, virtdisk.dll, SHDOCVW.dll,
+                                   WINHTTP.dll, ieframe.DLL, powercpl.dll,
+                                   twinui.appcore.dll, msi.dll,
+                                   WorkfoldersControl.dll, appwiz.cpl,
+                                   osbaseln.dll, coml2.dll
+dllhost.exe                   6504 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   ucrtbase.dll, combase.dll, RPCRT4.dll,
+                                   kernel.appcore.dll, msvcrt.dll,
+                                   bcryptPrimitives.dll, clbcatq.dll,
+                                   sechost.dll, user32.dll, win32u.dll,
+                                   GDI32.dll, gdi32full.dll, msvcp_win.dll,
+                                   IMM32.DLL, uxtheme.dll,
+                                   webplatstorageserver.dll, OLEAUT32.dll,
+                                   IndexedDbLegacy.dll, iertutil.dll,
+                                   advapi32.dll, srvcli.dll, netutils.dll,
+                                   windows.storage.dll, SHCORE.dll,
+                                   shlwapi.dll, profapi.dll
+svchost.exe                  29996 N/A
+cmd.exe                      34936 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   ucrtbase.dll, RPCRT4.dll, USER32.dll,
+                                   win32u.dll, GDI32.dll, gdi32full.dll,
+                                   msvcp_win.dll, IMM32.DLL, SspiCli.dll,
+                                   winbrand.dll, msvcrt.dll, combase.dll,
+                                   sechost.dll, cmdext.dll, SHELL32.dll,
+                                   wintypes.dll, Windows.Storage.dll,
+                                   advapi32.dll, bcryptPrimitives.dll,
+                                   comctl32.dll, SHCORE.dll, shlwapi.dll,
+                                   ole32.dll, kernel.appcore.dll, uxtheme.dll,
+                                   PROPSYS.dll, OLEAUT32.dll, clbcatq.dll,
+                                   profapi.dll, CFGMGR32.dll, DUser.dll,
+                                   MSCTF.dll, atlthunk.dll, TextShaping.dll,
+                                   textinputframework.dll, CoreMessaging.dll,
+                                   CoreUIComponents.dll, CRYPTBASE.DLL
+conhost.exe                  34764 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcp_win.dll, ucrtbase.dll, advapi32.dll,
+                                   msvcrt.dll, sechost.dll, RPCRT4.dll,
+                                   user32.dll, win32u.dll, GDI32.dll,
+                                   gdi32full.dll, IMM32.DLL, combase.dll,
+                                   kernel.appcore.dll, bcryptPrimitives.dll,
+                                   clbcatq.dll,
+                                   windows.staterepositorycore.dll,
+                                   uxtheme.dll, MSCTF.dll, shcore.dll,
+                                   TextShaping.dll, comctl32.DLL, dwmapi.dll,
+                                   OLEAUT32.dll, textinputframework.dll,
+                                   CoreMessaging.dll, CoreUIComponents.dll,
+                                   wintypes.dll, CRYPTBASE.DLL, ole32.dll,
+                                   wtdccm.dll, windows.storage.dll, winmm.dll,
+                                   AudioSes.DLL, winmmbase.dll, MMDevAPI.DLL,
+                                   wdmaud.drv
+powershell.exe               18408 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcrt.dll, OLEAUT32.dll, msvcp_win.dll,
+                                   ucrtbase.dll, combase.dll, RPCRT4.dll,
+                                   ADVAPI32.dll, sechost.dll, OLE32.dll,
+                                   GDI32.dll, win32u.dll, gdi32full.dll,
+                                   USER32.dll, ATL.DLL, mscoree.dll,
+                                   IMM32.DLL, ntmarta.dll, SspiCli.dll,
+                                   mscoreei.dll, SHLWAPI.dll,
+                                   kernel.appcore.dll, VERSION.dll, clr.dll,
+                                   VCRUNTIME140_1_CLR0400.dll,
+                                   VCRUNTIME140_CLR0400.dll,
+                                   ucrtbase_clr0400.dll, mscorlib.ni.dll,
+                                   bcryptPrimitives.dll, System.ni.dll,
+                                   System.Core.ni.dll,
+                                   Microsoft.PowerShell.ConsoleHost.ni.dll,
+                                   CRYPTSP.dll, rsaenh.dll, CRYPTBASE.dll,
+                                   bcrypt.dll,
+                                   System.Management.Automation.ni.dll,
+                                   clbcatq.dll, psapi.dll, shell32.dll,
+                                   wintypes.dll, windows.storage.dll,
+                                   amsi.dll, SHCORE.dll, USERENV.dll,
+                                   profapi.dll, wintrust.dll, CRYPT32.dll,
+                                   MSASN1.dll, mbamsi64.dll, WS2_32.dll,
+                                   IPHLPAPI.DLL, MPR.dll, NETAPI32.dll,
+                                   AUTHZ.dll, sfc.dll, NETUTILS.DLL,
+                                   sfc_os.DLL, wldp.dll, gpapi.dll,
+                                   Windows.StateRepositoryPS.dll, uxtheme.dll,
+                                   System.Configuration.ni.dll,
+                                   System.Xml.ni.dll, offreg.dll,
+                                   System.Data.ni.dll, System.Data.dll,
+                                   System.Management.ni.dll,
+                                   System.DirectoryServices.ni.dll,
+                                   clrjit.dll,
+                                   Microsoft.PowerShell.Security.ni.dll,
+                                   System.Transactions.ni.dll,
+                                   System.Transactions.dll,
+                                   Microsoft.Management.Infrastructure.ni.dll,
+                                   secur32.dll, MpOav.dll, MPCLIENT.DLL,
+                                   urlmon.dll, iertutil.dll, srvcli.dll,
+                                   PROPSYS.dll, virtdisk.dll,
+                                   Microsoft.PowerShell.Commands.Management.ni.
+                                   dll, System.Configuration.Install.ni.dll,
+                                   diasymreader.dll, System.Drawing.ni.dll,
+                                   System.Windows.Forms.ni.dll,
+                                   System.ServiceProcess.ni.dll,
+                                   Microsoft.Management.Infrastructure.Native.n
+                                   i.dll,
+                                   Microsoft.Management.Infrastructure.Native.U
+                                   nmanaged.DLL, mi.dll, miutils.dll,
+                                   wmidcom.dll, wbemprox.dll, wbemcomn.dll,
+                                   wbemsvc.dll, fastprox.dll,
+                                   Microsoft.PowerShell.Commands.Utility.ni.dll
+                                   , Microsoft.WSMan.Management.ni.dll,
+                                   Microsoft.WSMan.Runtime.ni.dll,
+                                   wmiutils.dll, wminet_utils.dll,
+                                   napinsp.dll, mswsock.dll, DNSAPI.dll,
+                                   NSI.dll, winrnr.dll, nlansp_c.dll,
+                                   wshbth.dll, fwpuclnt.dll, rasadhlp.dll,
+                                   Microsoft.PowerShell.GraphicalHost.ni.dll,
+                                   WindowsBase.ni.dll,
+                                   PresentationCore.ni.dll,
+                                   PresentationFramework.ni.dll, dwrite.dll,
+                                   wpfgfx_v0400.dll, MSVCP140_CLR0400.dll,
+                                   PresentationNative_v0400.dll,
+                                   System.Xaml.ni.dll, MSCTF.dll, DWMAPI.dll,
+                                   d3d9.dll, dxcore.dll, nvldumdx.dll,
+                                   cryptnet.dll, drvstore.dll, devobj.dll,
+                                   cfgmgr32.dll, imagehlp.dll,
+                                   nvgpucomp64.dll, NvMemMapStoragex.dll,
+                                   WINMM.dll, POWRPROF.dll, UMPDC.dll,
+                                   nvd3dumx.dll, directxdatabasehelper.dll,
+                                   PresentationFramework.Aero2.ni.dll,
+                                   WindowsCodecs.dll, wtsapi32.dll,
+                                   WINSTA.dll, dataexchange.dll,
+                                   twinapi.appcore.dll, nvppex.dll,
+                                   TextShaping.dll, UIAutomationCore.dll,
+                                   textinputframework.dll, msctfui.dll,
+                                   D3DCOMPILER_47.dll, CoreMessaging.dll,
+                                   CoreUIComponents.dll, dcomp.dll,
+                                   Microsoft.Internal.WarpPal.dll,
+                                   Microsoft.AppV.AppvClientComConsumer.dll,
+                                   Normaliz.dll, WININET.dll,
+                                   AppXDeploymentClient.dll,
+                                   Windows.System.Launcher.dll,
+                                   windows.staterepositorycore.dll,
+                                   edputil.dll, apphelp.dll,
+                                   OneCoreUAPCommonProxyStub.dll,
+                                   OneCoreCommonProxyStub.dll,
+                                   System.Net.Http.ni.dll,
+                                   System.Xml.Linq.ni.dll,
+                                   Microsoft.PowerShell.Commands.Diagnostics.ni
+                                   .dll, dhcpcsvc6.DLL, dhcpcsvc.DLL,
+                                   WINNSI.DLL, rasapi32.dll, rtutils.dll,
+                                   RASMAN.DLL, winhttp.dll,
+                                   Microsoft.Management.Infrastructure.CimCmdle
+                                   ts.ni.dll, Windows.ApplicationModel.dll,
+                                   Microsoft.ConfigCI.Commands.ni.dll,
+                                   coml2.dll,
+                                   Microsoft.KeyDistributionService.Cmdlets.ni.
+                                   dll,
+                                   Microsoft.KeyDistributionService.Cmdlets.dll
+                                   , WLDAP32.dll, KdsCli.dll, NTASN1.dll,
+                                   Microsoft.PowerShell.ScheduledJob.ni.dll,
+                                   Microsoft.Powershell.Workflow.ServiceCore.ni
+                                   .dll, Microsoft.SecureBoot.Commands.ni.dll,
+                                   Microsoft.WindowsAuthenticationProtocols.Com
+                                   mands.ni.dll,
+                                   Microsoft.WindowsAuthenticationProtocols.Com
+                                   mands.dll, ncrypt.dll,
+                                   Microsoft.Tpm.Commands.ni.dll,
+                                   Microsoft.WindowsSearch.Commands.ni.dll,
+                                   Microsoft.Dtc.PowerShell.ni.dll,
+                                   wevtapi.dll,
+                                   apisethost.appexecutionalias.dll
+dllhost.exe                  36072 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   ucrtbase.dll, combase.dll, RPCRT4.dll,
+                                   kernel.appcore.dll, msvcrt.dll,
+                                   bcryptPrimitives.dll, clbcatq.dll,
+                                   sechost.dll, user32.dll, win32u.dll,
+                                   GDI32.dll, gdi32full.dll, msvcp_win.dll,
+                                   IMM32.DLL, uxtheme.dll, wininet.dll,
+                                   windows.storage.dll, advapi32.dll,
+                                   SHCORE.dll, shlwapi.dll, profapi.dll,
+                                   iertutil.dll, srvcli.dll, netutils.dll,
+                                   OLEAUT32.dll, ESENT.dll, CRYPTBASE.DLL,
+                                   powrprof.dll, UMPDC.dll
+cmd.exe                      30888 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   ucrtbase.dll, RPCRT4.dll, USER32.dll,
+                                   win32u.dll, GDI32.dll, gdi32full.dll,
+                                   msvcp_win.dll, IMM32.DLL, SspiCli.dll,
+                                   winbrand.dll, msvcrt.dll, combase.dll,
+                                   sechost.dll, cmdext.dll, SHELL32.dll,
+                                   wintypes.dll, Windows.Storage.dll,
+                                   advapi32.dll, bcryptPrimitives.dll,
+                                   comctl32.dll, SHCORE.dll, shlwapi.dll,
+                                   ole32.dll, kernel.appcore.dll, uxtheme.dll,
+                                   PROPSYS.dll, OLEAUT32.dll, clbcatq.dll,
+                                   profapi.dll, CFGMGR32.dll, edputil.dll,
+                                   urlmon.dll, iertutil.dll, srvcli.dll,
+                                   netutils.dll, virtdisk.dll, Wldp.dll,
+                                   MPR.dll, DUser.dll, MSCTF.dll,
+                                   atlthunk.dll, TextShaping.dll,
+                                   textinputframework.dll, CoreMessaging.dll,
+                                   CoreUIComponents.dll, CRYPTBASE.DLL,
+                                   LINKINFO.dll,
+                                   windows.staterepositoryclient.dll,
+                                   Windows.System.Launcher.dll,
+                                   windows.staterepositorycore.dll,
+                                   mrmcorer.dll, bcp47mrm.dll, apphelp.dll,
+                                   usermgrcli.dll
+conhost.exe                   9092 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcp_win.dll, ucrtbase.dll, advapi32.dll,
+                                   msvcrt.dll, sechost.dll, RPCRT4.dll,
+                                   user32.dll, win32u.dll, GDI32.dll,
+                                   gdi32full.dll, IMM32.DLL, combase.dll,
+                                   kernel.appcore.dll, bcryptPrimitives.dll,
+                                   clbcatq.dll,
+                                   windows.staterepositorycore.dll,
+                                   uxtheme.dll, MSCTF.dll, shcore.dll,
+                                   TextShaping.dll, comctl32.DLL, dwmapi.dll,
+                                   OLEAUT32.dll, textinputframework.dll,
+                                   CoreMessaging.dll, CoreUIComponents.dll,
+                                   wintypes.dll, CRYPTBASE.DLL, ole32.dll,
+                                   windows.storage.dll, wtdccm.dll
+powershell.exe               21000 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcrt.dll, OLEAUT32.dll, msvcp_win.dll,
+                                   ucrtbase.dll, combase.dll, RPCRT4.dll,
+                                   ADVAPI32.dll, sechost.dll, OLE32.dll,
+                                   GDI32.dll, win32u.dll, gdi32full.dll,
+                                   USER32.dll, ATL.DLL, mscoree.dll,
+                                   IMM32.DLL, ntmarta.dll, SspiCli.dll,
+                                   kernel.appcore.dll, bcryptPrimitives.dll,
+                                   uxtheme.dll, clbcatq.dll,
+                                   windows.storage.dll, SHCORE.dll,
+                                   SHLWAPI.dll, propsys.dll, CFGMGR32.dll,
+                                   profapi.dll, shell32.dll, wintypes.dll,
+                                   LINKINFO.dll, ntshrui.dll, srvcli.dll,
+                                   cscapi.dll, mscoreei.dll, VERSION.dll,
+                                   clr.dll, VCRUNTIME140_1_CLR0400.dll,
+                                   VCRUNTIME140_CLR0400.dll,
+                                   ucrtbase_clr0400.dll, mscorlib.ni.dll,
+                                   System.ni.dll, System.Core.ni.dll,
+                                   Microsoft.PowerShell.ConsoleHost.ni.dll,
+                                   CRYPTSP.dll, rsaenh.dll, CRYPTBASE.dll,
+                                   bcrypt.dll,
+                                   System.Management.Automation.ni.dll,
+                                   psapi.dll, amsi.dll, USERENV.dll,
+                                   wintrust.dll, CRYPT32.dll, MSASN1.dll,
+                                   mbamsi64.dll, WS2_32.dll, IPHLPAPI.DLL,
+                                   MPR.dll, NETAPI32.dll, AUTHZ.dll, sfc.dll,
+                                   NETUTILS.DLL, sfc_os.DLL, wldp.dll,
+                                   Windows.StateRepositoryPS.dll, gpapi.dll,
+                                   System.Configuration.ni.dll,
+                                   System.Xml.ni.dll, offreg.dll,
+                                   System.Data.ni.dll, System.Data.dll,
+                                   System.Management.ni.dll,
+                                   System.DirectoryServices.ni.dll,
+                                   clrjit.dll,
+                                   Microsoft.PowerShell.Security.ni.dll,
+                                   System.Transactions.ni.dll,
+                                   System.Transactions.dll,
+                                   Microsoft.Management.Infrastructure.ni.dll,
+                                   secur32.dll, MpOav.dll, MPCLIENT.DLL,
+                                   urlmon.dll, iertutil.dll, virtdisk.dll,
+                                   Microsoft.PowerShell.Commands.Management.ni.
+                                   dll, System.Configuration.Install.ni.dll,
+                                   System.ServiceProcess.ni.dll,
+                                   diasymreader.dll,
+                                   Windows.System.Launcher.dll,
+                                   windows.staterepositorycore.dll,
+                                   apphelp.dll, edputil.dll, comctl32.dll,
+                                   OneCoreUAPCommonProxyStub.dll,
+                                   OneCoreCommonProxyStub.dll,
+                                   System.Drawing.ni.dll,
+                                   System.Windows.Forms.ni.dll,
+                                   Microsoft.PowerShell.Commands.Utility.ni.dll
+                                   , Microsoft.PowerShell.ScheduledJob.ni.dll
+powershell.exe               34236 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcrt.dll, OLEAUT32.dll, msvcp_win.dll,
+                                   ucrtbase.dll, combase.dll, RPCRT4.dll,
+                                   ADVAPI32.dll, sechost.dll, OLE32.dll,
+                                   GDI32.dll, win32u.dll, gdi32full.dll,
+                                   USER32.dll, ATL.DLL, mscoree.dll,
+                                   IMM32.DLL, ntmarta.dll, SspiCli.dll,
+                                   kernel.appcore.dll, bcryptPrimitives.dll,
+                                   uxtheme.dll, clbcatq.dll,
+                                   windows.storage.dll, SHCORE.dll,
+                                   SHLWAPI.dll, propsys.dll, CFGMGR32.dll,
+                                   profapi.dll, shell32.dll, wintypes.dll,
+                                   LINKINFO.dll, ntshrui.dll, srvcli.dll,
+                                   cscapi.dll, mscoreei.dll, VERSION.dll,
+                                   clr.dll, VCRUNTIME140_1_CLR0400.dll,
+                                   VCRUNTIME140_CLR0400.dll,
+                                   ucrtbase_clr0400.dll, mscorlib.ni.dll,
+                                   System.ni.dll, System.Core.ni.dll,
+                                   Microsoft.PowerShell.ConsoleHost.ni.dll,
+                                   CRYPTSP.dll, rsaenh.dll, CRYPTBASE.dll,
+                                   bcrypt.dll,
+                                   System.Management.Automation.ni.dll,
+                                   psapi.dll, amsi.dll, USERENV.dll,
+                                   wintrust.dll, CRYPT32.dll, MSASN1.dll,
+                                   mbamsi64.dll, WS2_32.dll, IPHLPAPI.DLL,
+                                   MPR.dll, NETAPI32.dll, AUTHZ.dll, sfc.dll,
+                                   NETUTILS.DLL, sfc_os.DLL, wldp.dll,
+                                   gpapi.dll, Windows.StateRepositoryPS.dll,
+                                   System.Configuration.ni.dll,
+                                   System.Xml.ni.dll, offreg.dll,
+                                   System.Data.ni.dll, System.Data.dll,
+                                   System.Management.ni.dll,
+                                   System.DirectoryServices.ni.dll,
+                                   clrjit.dll,
+                                   Microsoft.PowerShell.Security.ni.dll,
+                                   System.Transactions.ni.dll,
+                                   System.Transactions.dll,
+                                   Microsoft.Management.Infrastructure.ni.dll,
+                                   secur32.dll, MpOav.dll, MPCLIENT.DLL,
+                                   urlmon.dll, iertutil.dll, virtdisk.dll,
+                                   Microsoft.PowerShell.Commands.Management.ni.
+                                   dll, System.Configuration.Install.ni.dll,
+                                   Windows.System.Launcher.dll,
+                                   windows.staterepositorycore.dll,
+                                   edputil.dll,
+                                   windows.staterepositoryclient.dll,
+                                   comctl32.dll, twinui.appcore.dll,
+                                   mrmcorer.dll, bcp47mrm.dll, Windows.UI.dll,
+                                   OneCoreUAPCommonProxyStub.dll,
+                                   usermgrcli.dll, diasymreader.dll,
+                                   apphelp.dll, OneCoreCommonProxyStub.dll,
+                                   System.Drawing.ni.dll,
+                                   System.Windows.Forms.ni.dll,
+                                   System.ServiceProcess.ni.dll,
+                                   Microsoft.Management.Infrastructure.Native.n
+                                   i.dll,
+                                   Microsoft.Management.Infrastructure.Native.U
+                                   nmanaged.DLL, mi.dll, miutils.dll,
+                                   wmidcom.dll, wbemprox.dll, wbemcomn.dll,
+                                   wbemsvc.dll, fastprox.dll,
+                                   Microsoft.PowerShell.Commands.Utility.ni.dll
+                                   , Microsoft.WSMan.Management.ni.dll,
+                                   smartscreenps.dll, shdocvw.dll,
+                                   WINHTTP.dll,
+                                   apisethost.appexecutionalias.dll
+conhost.exe                  31400 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   msvcp_win.dll, ucrtbase.dll, advapi32.dll,
+                                   msvcrt.dll, sechost.dll, RPCRT4.dll,
+                                   user32.dll, win32u.dll, GDI32.dll,
+                                   gdi32full.dll, IMM32.DLL, combase.dll,
+                                   kernel.appcore.dll, bcryptPrimitives.dll,
+                                   clbcatq.dll,
+                                   windows.staterepositorycore.dll,
+                                   uxtheme.dll, MSCTF.dll, shcore.dll,
+                                   TextShaping.dll, comctl32.DLL, dwmapi.dll,
+                                   OLEAUT32.dll, textinputframework.dll,
+                                   CoreMessaging.dll, CoreUIComponents.dll,
+                                   wintypes.dll, CRYPTBASE.DLL, ole32.dll,
+                                   windows.storage.dll, wtdccm.dll
+Taskmgr.exe                   9840 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   ucrtbase.dll, OLEAUT32.dll, msvcp_win.dll,
+                                   combase.dll, RPCRT4.dll, advapi32.dll,
+                                   msvcrt.dll, sechost.dll, powrprof.dll,
+                                   NSI.dll, ntmarta.dll, SHLWAPI.dll,
+                                   SHELL32.dll, USER32.dll, win32u.dll,
+                                   GDI32.dll, gdi32full.dll, wintypes.dll,
+                                   SETUPAPI.dll, SHCORE.dll, credui.dll,
+                                   DUI70.dll, DUser.dll, UxTheme.dll,
+                                   dwmapi.dll, COMCTL32.dll, pdh.dll,
+                                   dxcore.dll, dxgi.dll, d3d11.dll, d3d12.dll,
+                                   UMPDC.dll, IMM32.DLL,
+                                   directxdatabasehelper.dll,
+                                   kernel.appcore.dll, cfgmgr32.dll,
+                                   bcryptPrimitives.dll, clbcatq.dll,
+                                   Windows.Web.dll, Windows.Storage.dll,
+                                   ole32.dll, PROPSYS.dll, profapi.dll,
+                                   edputil.dll, Windows.StateRepositoryPS.dll,
+                                   urlmon.dll, iertutil.dll, srvcli.dll,
+                                   netutils.dll, SspiCli.dll, virtdisk.dll,
+                                   Wldp.dll, MPR.dll
+WmiPrvSE.exe                 37512 N/A
+smartscreen.exe              17512 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   ucrtbase.dll, combase.dll, RPCRT4.dll,
+                                   shcore.dll, user32.dll, win32u.dll,
+                                   GDI32.dll, gdi32full.dll, SmartScreen.DLL,
+                                   msvcp_win.dll, advapi32.dll, CRYPT32.dll,
+                                   msvcrt.dll, OLEAUT32.dll, sechost.dll,
+                                   WINHTTP.dll, WS2_32.dll, SHELL32.dll,
+                                   wintypes.dll, WINTRUST.dll, DNSAPI.dll,
+                                   cryptsp.dll, ole32.dll, IPHLPAPI.DLL,
+                                   NSI.dll, IMM32.DLL, MSASN1.dll,
+                                   kernel.appcore.dll, bcryptPrimitives.dll,
+                                   clbcatq.dll, smartscreenps.dll,
+                                   Windows.Management.Workplace.dll,
+                                   msvcp110_win.dll, policymanager.dll
+tasklist.exe                 19084 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   ADVAPI32.dll, msvcrt.dll, sechost.dll,
+                                   RPCRT4.dll, combase.dll, ucrtbase.dll,
+                                   OLEAUT32.dll, msvcp_win.dll, imagehlp.dll,
+                                   USER32.dll, win32u.dll, GDI32.dll,
+                                   SspiCli.dll, gdi32full.dll, WS2_32.dll,
+                                   MPR.dll, framedynos.dll, netutils.dll,
+                                   srvcli.dll, IMM32.DLL, kernel.appcore.dll,
+                                   bcryptPrimitives.dll, clbcatq.dll,
+                                   wbemprox.dll, wbemcomn.dll, Winsta.dll,
+                                   wbemsvc.dll, fastprox.dll, amsi.dll,
+                                   USERENV.dll, profapi.dll, mbamsi64.dll,
+                                   CRYPT32.dll, SHELL32.dll, wintypes.dll,
+                                   IPHLPAPI.DLL, WINTRUST.dll, PSAPI.DLL,
+                                   NETAPI32.dll, VERSION.dll, AUTHZ.dll,
+                                   bcrypt.dll, sfc.dll, sfc_os.DLL,
+                                   MSASN1.dll, CRYPTSP.dll, rsaenh.dll,
+                                   CRYPTBASE.dll, gpapi.dll, offreg.dll,
+                                   MpOav.dll, ole32.dll, wmiutils.dll,
+                                   dbghelp.dll
+
+C:\Users\z>stop-process NisSrv.exe
+'stop-process' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>stop-process NisSrv
+'stop-process' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>get-process
+'get-process' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  06:41 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  11:52 PM             3,124 back.reg
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               7 File(s)    494,799,962 bytes
+              18 Dir(s)  1,936,870,612,992 bytes free
+
+C:\Users\z>del back.reg
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  08:58 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  11:00 AM                59 .gitconfig
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               6 File(s)    494,796,838 bytes
+              18 Dir(s)  1,936,870,617,088 bytes free
+
+C:\Users\z>del .git
+C:\Users\z\.git\*, Are you sure (Y/N)? y
+
+C:\Users\z>del .gitconfig
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  08:59 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  08:29 AM             1,285 .bash_history
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/15/2025  06:13 AM                12 stop
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               5 File(s)    494,796,779 bytes
+              18 Dir(s)  1,936,870,617,088 bytes free
+
+C:\Users\z>del .bash_history
+
+C:\Users\z>del stop
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  08:59 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               3 File(s)    494,795,482 bytes
+              18 Dir(s)  1,936,870,621,184 bytes free
+
+C:\Users\z>del .swt
+C:\Users\z\.swt\*, Are you sure (Y/N)? y
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  08:59 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  06:24 AM                 9 query
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               3 File(s)    494,795,482 bytes
+              18 Dir(s)  1,936,870,621,184 bytes free
+
+C:\Users\z>del query
+
+C:\Users\z>stop
+'stop' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  08:59 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               2 File(s)    494,795,473 bytes
+              18 Dir(s)  1,936,870,621,184 bytes free
+
+C:\Users\z>sfc /scannow
+
+You must be an administrator running a console session in order to
+use the sfc utility.
+
+C:\Users\z>sfc /.git
+
+You must be an administrator running a console session in order to
+use the sfc utility.
+
+C:\Users\z>sfc /"ntuser.dat{62561e95-7925-11f0-97fe-e8226e74ae3d}.TM.blf"
+
+You must be an administrator running a console session in order to
+use the sfc utility.
+
+C:\Users\z>net user admin admin
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+
+C:\Users\z>net user
+
+User accounts for \\
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           NO
+WDAGUtilityAccount       z
+The command completed with one or more errors.
+
+
+C:\Users\z>net user /?
+The syntax of this command is:
+
+NET USER
+[username [password | *] [options]] [/DOMAIN]
+         username {password | *} /ADD [options] [/DOMAIN]
+         username [/DELETE] [/DOMAIN]
+         username [/TIMES:{times | ALL}]
+         username [/ACTIVE: {YES | NO}]
+
+
+C:\Users\z>net user no no
+System error 5 has occurred.
+
+Access is denied.
+
+
+C:\Users\z>takeown /f no
+ERROR: The system cannot find the file specified.
+
+C:\Users\z>rmfir
+'rmfir' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z>rmdir
+The syntax of the command is incorrect.
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  08:59 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  08:30 AM                10 README.md
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               2 File(s)    494,795,473 bytes
+              18 Dir(s)  1,936,870,608,896 bytes free
+
+C:\Users\z>del README.md
+
+C:\Users\z>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FA1D-76B4
+
+ Directory of C:\Users\z
+
+08/15/2025  09:01 AM    <DIR>          .
+08/14/2025  11:20 PM    <DIR>          ..
+08/13/2025  05:49 PM    <DIR>          .swt
+08/14/2025  10:50 PM    <DIR>          Desktop
+08/14/2025  03:01 PM    <DIR>          Documents
+08/14/2025  02:56 PM    <DIR>          Downloads
+08/13/2025  09:40 AM    <DIR>          Favorites
+08/13/2025  10:28 AM    <DIR>          Intel
+08/13/2025  09:40 AM    <DIR>          Links
+08/15/2025  06:28 AM    <DIR>          MASTER_ALL
+08/13/2025  09:40 AM    <DIR>          Music
+08/13/2025  08:42 AM    <DIR>          perfmon
+08/13/2025  04:28 PM    <DIR>          Pictures
+08/15/2025  06:28 AM    <DIR>          PURGE THE 'ROOTKIT' THEY SAID
+08/15/2025  05:36 AM       494,795,463 PURGE THE 'ROOTKIT' THEY SAID.7z
+08/15/2025  04:41 AM    <DIR>          RAW_DATA
+08/13/2025  09:40 AM    <DIR>          Saved Games
+08/13/2025  04:24 PM    <DIR>          test
+08/13/2025  12:04 PM    <DIR>          Videos
+               1 File(s)    494,795,463 bytes
+              18 Dir(s)  1,936,870,608,896 bytes free
+
+C:\Users\z>takeown .f .swt
+ERROR: Invalid argument/option - '.f'.
+Type "TAKEOWN /?" for usage.
+
+C:\Users\z>notepad
+
+C:\Users\z>
+

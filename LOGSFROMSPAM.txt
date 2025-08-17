@@ -1,0 +1,2474 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\WINDOWS\system32> @echo off
+At line:1 char:7
++ @echo off
++       ~~~
+Unexpected token 'off' in expression or statement.
+At line:1 char:1
++ @echo off
++ ~~~~~
+The splatting operator '@' cannot be used to reference variables in an expression. '@echo' can be used only as an
+argument to a command. To reference variables in an expression use '$echo'.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\WINDOWS\system32> cd ..
+PS C:\WINDOWS> cd ..
+PS C:\> dir
+
+
+    Directory: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/14/2025   4:56 PM                Backup
+d-----         8/13/2025   9:07 AM                inetpub
+d-----         8/13/2025  10:39 AM                logs
+d-----         8/13/2025  10:24 AM                PerfLogs
+d-r---         8/14/2025   2:18 PM                Program Files
+d-r---         8/14/2025   1:43 PM                Program Files (x86)
+d-r---         8/14/2025   4:11 PM                Users
+d-----         8/14/2025   1:36 PM                Windows
+-a----         8/14/2025  11:39 AM          12288 DumpStack.log
+-a----         8/13/2025  10:21 AM           3128 logpostzip.csv
+-a----         8/13/2025   4:39 PM             52 SavedSettings
+
+
+PS C:\> cd users
+PS C:\users> cd
+PS C:\users> cd .\Administrator\
+PS C:\users\Administrator> cd
+PS C:\users\Administrator> cd desktop
+PS C:\users\Administrator\desktop> dir
+
+
+    Directory: C:\users\Administrator\desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         8/14/2025   5:29 PM           1237 autorun.bat
+-a----         8/14/2025   5:29 PM           1237 autorun.inf
+-a----         8/14/2025   5:50 PM             31 bomb.txt
+-a----         8/14/2025   4:19 PM           3574 CacheTask.xml
+-a----         8/14/2025   5:15 PM           2016 catch.xml.bat
+-a----         8/14/2025   4:16 PM           3680 Driver Recovery on Reboot.xml
+-a----         8/14/2025   4:13 PM           3786 Metadata Refresh.xml
+-a----         8/14/2025   3:49 PM           1043 xml version=1.0 encoding=UTF-8.XML
+-a----         8/14/2025   5:16 PM           1372 [autorun].bat
+-a----         8/14/2025   5:19 PM           2227 [autorun].bat.txt
+-a----         8/14/2025   5:15 PM           2014 [autorun].inf.txt
+
+
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>watch -n 10 date
+'watch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>logger "This is a log message from the command line."
+'logger' is not recognized as an internal or external command,
+operable program or batch file.
+PS C:\users\Administrator\desktop> .\autorun.bat^C
+PS C:\users\Administrator\desktop> notepad .\autorun.bat
+PS C:\users\Administrator\desktop> notepad .\autorun.bat
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>logger "This is a log message from the command line."
+'logger' is not recognized as an internal or external command,
+operable program or batch file.
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+PS C:\users\Administrator\desktop> start
+
+cmdlet Start-Process at command pipeline position 1
+Supply values for the following parameters:
+FilePath:
+Start-Process : Cannot validate argument on parameter 'FilePath'. The argument is null or empty. Provide an argument
+that is not null or empty, and then try the command again.
+At line:1 char:1
++ start
++ ~~~~~
+    + CategoryInfo          : InvalidData: (:) [Start-Process], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\users\Administrator\desktop> start
+
+cmdlet Start-Process at command pipeline position 1
+Supply values for the following parameters:
+FilePath:
+Start-Process : Cannot validate argument on parameter 'FilePath'. The argument is null or empty. Provide an argument
+that is not null or empty, and then try the command again.
+At line:1 char:1
++ start
++ ~~~~~
+    + CategoryInfo          : InvalidData: (:) [Start-Process], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\catch.xml.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> start
+
+cmdlet Start-Process at command pipeline position 1
+Supply values for the following parameters:
+FilePath:
+Start-Process : Cannot validate argument on parameter 'FilePath'. The argument is null or empty. Provide an argument
+that is not null or empty, and then try the command again.
+At line:1 char:1
++ start
++ ~~~~~
+    + CategoryInfo          : InvalidData: (:) [Start-Process], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\users\Administrator\desktop> start
+
+cmdlet Start-Process at command pipeline position 1
+Supply values for the following parameters:
+FilePath:
+Start-Process : Cannot validate argument on parameter 'FilePath'. The argument is null or empty. Provide an argument
+that is not null or empty, and then try the command again.
+At line:1 char:1
++ start
++ ~~~~~
+    + CategoryInfo          : InvalidData: (:) [Start-Process], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> .\autorun.bat
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start "C:\Users\z\Desktop\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+'icon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\catch.xml.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+C:\Users\Administrator\Desktop>start="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+PS C:\users\Administrator\desktop> tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      1,664 K
+Registry                       316 Services                   0     66,352 K
+smss.exe                       952 Services                   0        488 K
+csrss.exe                     1248 Services                   0      3,652 K
+wininit.exe                   1336 Services                   0      2,800 K
+services.exe                  1420 Services                   0      8,348 K
+lsass.exe                     1504 Services                   0     21,488 K
+svchost.exe                   1636 Services                   0     25,844 K
+fontdrvhost.exe               1676 Services                   0      1,428 K
+svchost.exe                   1752 Services                   0     15,772 K
+svchost.exe                   1804 Services                   0      7,804 K
+svchost.exe                   2016 Services                   0      7,304 K
+svchost.exe                   2032 Services                   0     10,840 K
+svchost.exe                    928 Services                   0     16,304 K
+svchost.exe                   1180 Services                   0      4,264 K
+svchost.exe                   2060 Services                   0     10,212 K
+svchost.exe                   2084 Services                   0      7,448 K
+svchost.exe                   2092 Services                   0      5,864 K
+svchost.exe                   2188 Services                   0      3,320 K
+svchost.exe                   2212 Services                   0      5,776 K
+svchost.exe                   2228 Services                   0      7,840 K
+svchost.exe                   2336 Services                   0     11,688 K
+svchost.exe                   2404 Services                   0      3,420 K
+svchost.exe                   2624 Services                   0      3,172 K
+svchost.exe                   2724 Services                   0      4,556 K
+svchost.exe                   2760 Services                   0      6,948 K
+NVDisplay.Container.exe       2780 Services                   0     29,944 K
+svchost.exe                   2828 Services                   0      3,932 K
+svchost.exe                   2856 Services                   0     26,988 K
+svchost.exe                   2884 Services                   0      8,608 K
+svchost.exe                   2952 Services                   0     25,932 K
+svchost.exe                   2632 Services                   0      3,104 K
+svchost.exe                   2396 Services                   0      6,588 K
+svchost.exe                   2936 Services                   0     19,144 K
+svchost.exe                   3088 Services                   0     18,840 K
+svchost.exe                   3164 Services                   0      9,776 K
+Memory Compression            3288 Services                   0     29,476 K
+svchost.exe                   3360 Services                   0      3,272 K
+svchost.exe                   3432 Services                   0      4,392 K
+svchost.exe                   3440 Services                   0      7,440 K
+svchost.exe                   3572 Services                   0     11,840 K
+svchost.exe                   3616 Services                   0      4,496 K
+svchost.exe                   3688 Services                   0      3,796 K
+svchost.exe                   3696 Services                   0      4,488 K
+svchost.exe                   3784 Services                   0      5,648 K
+svchost.exe                   3884 Services                   0      6,012 K
+svchost.exe                   4044 Services                   0      9,588 K
+svchost.exe                   4076 Services                   0      7,044 K
+spoolsv.exe                   4144 Services                   0      5,436 K
+svchost.exe                   4180 Services                   0     13,224 K
+nordvpn-service.exe           4188 Services                   0    143,584 K
+svchost.exe                   4224 Services                   0      3,996 K
+logi_lamparray_service.ex     4756 Services                   0      4,088 K
+svchost.exe                   4764 Services                   0     41,020 K
+svchost.exe                   4772 Services                   0      3,504 K
+svchost.exe                   4788 Services                   0     16,532 K
+svchost.exe                   4796 Services                   0      3,064 K
+svchost.exe                   4804 Services                   0      6,868 K
+NordUpdateService.exe         4812 Services                   0     41,656 K
+jhi_service.exe               4820 Services                   0      2,240 K
+svchost.exe                   4836 Services                   0      5,576 K
+svchost.exe                   4852 Services                   0      2,272 K
+svchost.exe                   4860 Services                   0      3,504 K
+svchost.exe                   4868 Services                   0     16,320 K
+WMIRegistrationService.ex     4904 Services                   0      3,984 K
+MsMpEng.exe                   4928 Services                   0    505,748 K
+MpDefenderCoreService.exe     4940 Services                   0     16,080 K
+svchost.exe                   4948 Services                   0      3,528 K
+svchost.exe                   4960 Services                   0      6,088 K
+svchost.exe                   4980 Services                   0      2,532 K
+svchost.exe                   5360 Services                   0      5,932 K
+MBAMService.exe               5512 Services                   0    257,828 K
+svchost.exe                   6560 Services                   0     13,504 K
+msdtc.exe                     7844 Services                   0      3,540 K
+svchost.exe                   9044 Services                   0      2,616 K
+NisSrv.exe                    9260 Services                   0      6,980 K
+svchost.exe                   9416 Services                   0      6,280 K
+svchost.exe                  10216 Services                   0      9,464 K
+svchost.exe                   4612 Services                   0     12,140 K
+svchost.exe                   9468 Services                   0     16,040 K
+svchost.exe                   6340 Services                   0      9,904 K
+svchost.exe                  10880 Services                   0     12,224 K
+svchost.exe                  10984 Services                   0      6,692 K
+SearchIndexer.exe            12968 Services                   0     30,444 K
+SecurityHealthService.exe    13704 Services                   0     21,500 K
+svchost.exe                  14076 Services                   0     25,204 K
+svchost.exe                   6708 Services                   0      8,368 K
+svchost.exe                   5676 Services                   0      7,084 K
+svchost.exe                   2276 Services                   0      7,408 K
+svchost.exe                   2644 Services                   0      4,908 K
+svchost.exe                   2672 Services                   0      8,088 K
+svchost.exe                  10600 Services                   0     35,168 K
+svchost.exe                  11856 Services                   0      4,080 K
+svchost.exe                   9400 Services                   0      9,332 K
+svchost.exe                   5944 Services                   0      3,372 K
+svchost.exe                   6616 Services                   0      6,128 K
+svchost.exe                   6552 Services                   0      3,612 K
+svchost.exe                   4736 Services                   0      5,696 K
+srvstub.exe                  16556 Services                   0      1,280 K
+ProcessGovernor.exe           5456 Services                   0      8,244 K
+csrss.exe                     3104 Console                    3      7,908 K
+winlogon.exe                  6172 Console                    3      6,636 K
+fontdrvhost.exe              14676 Console                    3      5,076 K
+dwm.exe                      10352 Console                    3    159,404 K
+NVDisplay.Container.exe       5868 Console                    3     34,552 K
+mbamtray.exe                 17212 Console                    3     23,652 K
+sihost.exe                    9804 Console                    3     29,448 K
+ParkControl.exe              17964 Console                    3      2,772 K
+taskhostw.exe                14828 Console                    3     20,084 K
+bitsumsessionagent.exe        4604 Console                    3      2,624 K
+ProcessLasso.exe              8104 Console                    3     57,332 K
+ShellHost.exe                12000 Console                    3     22,144 K
+CrossDeviceResume.exe        16340 Console                    3     20,812 K
+ctfmon.exe                   15988 Console                    3     27,512 K
+dllhost.exe                  11720 Console                    3     14,932 K
+SecurityHealthSystray.exe     6292 Console                    3      7,544 K
+ApplicationFrameHost.exe     18372 Console                    3     57,244 K
+mmc.exe                      14000 Console                    3    309,972 K
+WindowsPackageManagerServ     9760 Console                    3     19,056 K
+snmptrap.exe                 19888 Services                   0      5,380 K
+svchost.exe                  15664 Services                   0      5,464 K
+explorer.exe                 16200 Console                    3    331,952 K
+Taskmgr.exe                  15716 Console                    3    189,820 K
+OptionalFeatures.exe         18912 Console                    3     25,384 K
+TrustedInstaller.exe          3808 Services                   0      9,752 K
+TiWorker.exe                 10448 Services                   0     53,900 K
+UserOOBEBroker.exe           13040 Console                    3     10,904 K
+audiodg.exe                  19304 Services                   0     15,980 K
+SearchProtocolHost.exe        3400 Services                   0     17,976 K
+svchost.exe                  19376 Services                   0     45,740 K
+explorer.exe                 11192 Console                    3    222,116 K
+svchost.exe                   4468 Console                    3     31,496 K
+StartMenuExperienceHost.e    18896 Console                    3    151,212 K
+RuntimeBroker.exe            16744 Console                    3     34,296 K
+svchost.exe                  13528 Console                    3      9,304 K
+svchost.exe                  11968 Console                    3     29,404 K
+svchost.exe                  12140 Console                    3     23,024 K
+svchost.exe                  12204 Console                    3     28,416 K
+svchost.exe                   4636 Console                    3      2,316 K
+SearchFilterHost.exe          2080 Services                   0     12,264 K
+smartscreen.exe               6308 Console                    3     13,420 K
+WindowsTerminal.exe          22748 Console                    3    123,588 K
+OpenWith.exe                  1368 Console                    3     79,708 K
+SearchHost.exe                2144 Console                    3    213,056 K
+RuntimeBroker.exe            22348 Console                    3     42,484 K
+cmd.exe                      16752 Console                    3      3,172 K
+conhost.exe                  10856 Console                    3     10,272 K
+OpenConsole.exe              23524 Console                    3     14,624 K
+powershell.exe               10800 Console                    3      3,160 K
+conhost.exe                   5808 Console                    3     10,240 K
+OpenConsole.exe              15696 Console                    3     14,628 K
+conhost.exe                  12892 Console                    3     10,240 K
+OpenConsole.exe              20924 Console                    3     14,620 K
+cmd.exe                      17836 Console                    3      3,172 K
+conhost.exe                   9056 Console                    3     10,244 K
+OpenConsole.exe              14816 Console                    3     14,628 K
+powershell.exe               20560 Console                    3     87,668 K
+conhost.exe                   3404 Console                    3     18,944 K
+Notepad.exe                  24360 Console                    3     16,068 K
+Notepad.exe                  23928 Console                    3    137,124 K
+SystemSettings.exe           13804 Console                    3    134,624 K
+Notepad.exe                  18808 Console                    3     15,540 K
+cmd.exe                      22172 Console                    3      8,116 K
+cmd.exe                      22488 Console                    3      8,120 K
+conhost.exe                  21688 Console                    3     16,972 K
+cmd.exe                       9764 Console                    3      8,124 K
+conhost.exe                  22480 Console                    3     14,852 K
+conhost.exe                  22168 Console                    3     14,820 K
+cmd.exe                      21184 Console                    3      8,124 K
+cmd.exe                      16084 Console                    3      8,112 K
+conhost.exe                  17508 Console                    3     14,792 K
+conhost.exe                  15260 Console                    3     14,868 K
+cmd.exe                        936 Console                    3      8,112 K
+cmd.exe                      13384 Console                    3      8,116 K
+conhost.exe                  13948 Console                    3     14,780 K
+cmd.exe                       6532 Console                    3      8,116 K
+conhost.exe                  17364 Console                    3     14,812 K
+conhost.exe                  10444 Console                    3     14,800 K
+cmd.exe                       6656 Console                    3      8,116 K
+conhost.exe                  16940 Console                    3     14,796 K
+cmd.exe                      10368 Console                    3      8,124 K
+conhost.exe                  23276 Console                    3     14,816 K
+cmd.exe                       2540 Console                    3      8,124 K
+conhost.exe                  21808 Console                    3     14,816 K
+cmd.exe                      14892 Console                    3      8,128 K
+cmd.exe                      22880 Console                    3      8,124 K
+conhost.exe                  16508 Console                    3     16,964 K
+conhost.exe                  24492 Console                    3     17,112 K
+cmd.exe                       5664 Console                    3      8,120 K
+cmd.exe                      23596 Console                    3      8,116 K
+conhost.exe                   7460 Console                    3     14,808 K
+cmd.exe                      20032 Console                    3      8,120 K
+conhost.exe                   2744 Console                    3     14,872 K
+conhost.exe                  17916 Console                    3     14,824 K
+cmd.exe                      24412 Console                    3      8,116 K
+cmd.exe                       1632 Console                    3      8,116 K
+conhost.exe                   6948 Console                    3     14,768 K
+conhost.exe                  18968 Console                    3     14,804 K
+cmd.exe                       3408 Console                    3      8,120 K
+conhost.exe                  11616 Console                    3     14,792 K
+cmd.exe                       4456 Console                    3      8,124 K
+cmd.exe                       8568 Console                    3      8,120 K
+conhost.exe                  16024 Console                    3     14,868 K
+cmd.exe                       1852 Console                    3      8,120 K
+conhost.exe                  11908 Console                    3     14,836 K
+conhost.exe                  14768 Console                    3     14,852 K
+cmd.exe                      16492 Console                    3      8,128 K
+cmd.exe                      10596 Console                    3      8,120 K
+conhost.exe                  14880 Console                    3     14,852 K
+conhost.exe                  21436 Console                    3     14,832 K
+cmd.exe                      14220 Console                    3      8,120 K
+cmd.exe                      11124 Console                    3      8,120 K
+conhost.exe                  13592 Console                    3     14,816 K
+conhost.exe                   6876 Console                    3     17,152 K
+cmd.exe                      17296 Console                    3      8,124 K
+conhost.exe                   7004 Console                    3     17,004 K
+cmd.exe                      10000 Console                    3      8,120 K
+cmd.exe                       3016 Console                    3      8,120 K
+conhost.exe                  20044 Console                    3     14,908 K
+cmd.exe                      18468 Console                    3      8,120 K
+conhost.exe                  14672 Console                    3     14,808 K
+conhost.exe                   4608 Console                    3     14,844 K
+cmd.exe                      12392 Console                    3      8,120 K
+conhost.exe                  21828 Console                    3     14,844 K
+cmd.exe                       4072 Console                    3      8,116 K
+cmd.exe                      12476 Console                    3      8,120 K
+conhost.exe                   2008 Console                    3     14,828 K
+cmd.exe                      18068 Console                    3      8,120 K
+conhost.exe                  15780 Console                    3     14,856 K
+conhost.exe                   9896 Console                    3     14,896 K
+cmd.exe                      22016 Console                    3      8,116 K
+conhost.exe                   3220 Console                    3     14,948 K
+cmd.exe                       7688 Console                    3      8,120 K
+conhost.exe                  24080 Console                    3     14,876 K
+cmd.exe                      24084 Console                    3      8,128 K
+conhost.exe                   9572 Console                    3     14,928 K
+cmd.exe                       6428 Console                    3      8,120 K
+cmd.exe                      15956 Console                    3      8,120 K
+conhost.exe                  20596 Console                    3     14,828 K
+conhost.exe                  18008 Console                    3     17,184 K
+cmd.exe                      14524 Console                    3      8,120 K
+conhost.exe                  19196 Console                    3     17,016 K
+cmd.exe                      19600 Console                    3      8,128 K
+cmd.exe                       3640 Console                    3      8,124 K
+conhost.exe                  18056 Console                    3     14,904 K
+conhost.exe                  16776 Console                    3     14,920 K
+cmd.exe                      15656 Console                    3      8,124 K
+conhost.exe                  11828 Console                    3     14,876 K
+cmd.exe                      17404 Console                    3      8,116 K
+conhost.exe                  21220 Console                    3     14,864 K
+cmd.exe                      23464 Console                    3      8,116 K
+cmd.exe                       3476 Console                    3      8,120 K
+conhost.exe                  10696 Console                    3     14,836 K
+cmd.exe                      13068 Console                    3      8,124 K
+conhost.exe                   9976 Console                    3     14,908 K
+cmd.exe                      20196 Console                    3      8,124 K
+conhost.exe                   6432 Console                    3     14,876 K
+conhost.exe                  18452 Console                    3     14,924 K
+cmd.exe                      17292 Console                    3      8,120 K
+cmd.exe                      17084 Console                    3      8,120 K
+conhost.exe                  19636 Console                    3     14,888 K
+conhost.exe                  21320 Console                    3     14,904 K
+cmd.exe                      10144 Console                    3      8,116 K
+cmd.exe                      19324 Console                    3      8,120 K
+conhost.exe                   9928 Console                    3     14,904 K
+conhost.exe                  21544 Console                    3     17,168 K
+cmd.exe                      10164 Console                    3      8,124 K
+conhost.exe                   9972 Console                    3     16,972 K
+cmd.exe                       8984 Console                    3      8,120 K
+cmd.exe                      16852 Console                    3      8,124 K
+conhost.exe                  17128 Console                    3     14,844 K
+conhost.exe                  23220 Console                    3     14,864 K
+cmd.exe                      11764 Console                    3      8,120 K
+cmd.exe                      19044 Console                    3      8,120 K
+conhost.exe                   7116 Console                    3     14,852 K
+conhost.exe                  21056 Console                    3     14,868 K
+cmd.exe                       2636 Console                    3      8,116 K
+cmd.exe                       8556 Console                    3      8,124 K
+conhost.exe                  15704 Console                    3     14,852 K
+conhost.exe                  16240 Console                    3     14,892 K
+cmd.exe                       4996 Console                    3      8,120 K
+conhost.exe                  14384 Console                    3     14,876 K
+cmd.exe                       7132 Console                    3      8,120 K
+conhost.exe                   5340 Console                    3     14,876 K
+cmd.exe                       6240 Console                    3      8,120 K
+conhost.exe                   3892 Console                    3     14,820 K
+cmd.exe                      20132 Console                    3      8,120 K
+cmd.exe                      13580 Console                    3      8,128 K
+conhost.exe                  18232 Console                    3     14,884 K
+conhost.exe                  15048 Console                    3     14,848 K
+cmd.exe                      18456 Console                    3      8,144 K
+conhost.exe                  16112 Console                    3     17,460 K
+cmd.exe                      23720 Console                    3      8,120 K
+conhost.exe                  17944 Console                    3     14,848 K
+cmd.exe                       2932 Console                    3      8,120 K
+conhost.exe                  15760 Console                    3     14,940 K
+cmd.exe                      21456 Console                    3      8,124 K
+cmd.exe                       2572 Console                    3      8,116 K
+conhost.exe                   2552 Console                    3     14,844 K
+cmd.exe                       6664 Console                    3      8,120 K
+conhost.exe                  19224 Console                    3     14,792 K
+conhost.exe                   6852 Console                    3     14,872 K
+cmd.exe                      14288 Console                    3      8,116 K
+conhost.exe                  18396 Console                    3     14,844 K
+cmd.exe                       5492 Console                    3      8,120 K
+conhost.exe                   7348 Console                    3     14,880 K
+cmd.exe                       9564 Console                    3      8,116 K
+cmd.exe                      15824 Console                    3      8,124 K
+conhost.exe                  18328 Console                    3     14,908 K
+conhost.exe                  18144 Console                    3     14,860 K
+cmd.exe                      16872 Console                    3      8,120 K
+conhost.exe                  12564 Console                    3     14,840 K
+cmd.exe                       6336 Console                    3      8,120 K
+cmd.exe                      17432 Console                    3      8,116 K
+conhost.exe                   6576 Console                    3     14,864 K
+conhost.exe                   2916 Console                    3     14,820 K
+cmd.exe                      17760 Console                    3      8,120 K
+conhost.exe                   1616 Console                    3     17,148 K
+cmd.exe                      18884 Console                    3      8,120 K
+cmd.exe                      20676 Console                    3      8,124 K
+conhost.exe                   3844 Console                    3     17,016 K
+cmd.exe                      20796 Console                    3      8,124 K
+conhost.exe                   3500 Console                    3     14,848 K
+cmd.exe                      22892 Console                    3      8,120 K
+conhost.exe                   1828 Console                    3     14,808 K
+conhost.exe                  22852 Console                    3     14,868 K
+cmd.exe                      24044 Console                    3      8,116 K
+cmd.exe                      24156 Console                    3      8,116 K
+conhost.exe                  20916 Console                    3     14,876 K
+conhost.exe                  24184 Console                    3     14,860 K
+cmd.exe                      21492 Console                    3      8,116 K
+cmd.exe                      23400 Console                    3      8,120 K
+conhost.exe                  21040 Console                    3     14,864 K
+conhost.exe                  18804 Console                    3     14,856 K
+cmd.exe                      23516 Console                    3      8,124 K
+conhost.exe                  24212 Console                    3     14,892 K
+cmd.exe                      23308 Console                    3      8,120 K
+cmd.exe                       9888 Console                    3      8,124 K
+conhost.exe                  12180 Console                    3     14,820 K
+conhost.exe                  18336 Console                    3     14,872 K
+cmd.exe                       7648 Console                    3      8,124 K
+cmd.exe                      11892 Console                    3      8,120 K
+conhost.exe                  13080 Console                    3     14,932 K
+conhost.exe                  16668 Console                    3     17,176 K
+cmd.exe                      19060 Console                    3      8,120 K
+cmd.exe                      23924 Console                    3      8,120 K
+conhost.exe                  10424 Console                    3     14,816 K
+conhost.exe                  21780 Console                    3     17,000 K
+cmd.exe                      18980 Console                    3      8,124 K
+cmd.exe                      10568 Console                    3      8,120 K
+conhost.exe                  17628 Console                    3     14,872 K
+cmd.exe                      21816 Console                    3      8,124 K
+conhost.exe                  12412 Console                    3     14,808 K
+conhost.exe                  21216 Console                    3     14,824 K
+cmd.exe                      21968 Console                    3      8,116 K
+conhost.exe                  20052 Console                    3     14,840 K
+cmd.exe                       1904 Console                    3      8,116 K
+conhost.exe                   4444 Console                    3     14,852 K
+cmd.exe                      11256 Console                    3      8,120 K
+cmd.exe                      10516 Console                    3      8,120 K
+conhost.exe                   6796 Console                    3     14,848 K
+conhost.exe                  11932 Console                    3     14,900 K
+cmd.exe                      23296 Console                    3      8,124 K
+cmd.exe                      21852 Console                    3      8,120 K
+conhost.exe                  17456 Console                    3     14,908 K
+conhost.exe                  21696 Console                    3     14,860 K
+cmd.exe                      21632 Console                    3      8,120 K
+cmd.exe                       2648 Console                    3      8,120 K
+conhost.exe                  23592 Console                    3     14,896 K
+conhost.exe                   1864 Console                    3     17,196 K
+cmd.exe                      22324 Console                    3      8,116 K
+conhost.exe                   9768 Console                    3     14,804 K
+cmd.exe                      18488 Console                    3      8,124 K
+conhost.exe                  16932 Console                    3     16,988 K
+cmd.exe                       5488 Console                    3      8,120 K
+cmd.exe                      11844 Console                    3      8,120 K
+conhost.exe                  24296 Console                    3     14,820 K
+conhost.exe                  18976 Console                    3     14,816 K
+cmd.exe                      16028 Console                    3      8,120 K
+cmd.exe                       6724 Console                    3      8,120 K
+conhost.exe                  19776 Console                    3     14,800 K
+conhost.exe                  21888 Console                    3     14,832 K
+cmd.exe                      19220 Console                    3      8,120 K
+cmd.exe                        324 Console                    3      8,128 K
+conhost.exe                   3960 Console                    3     14,880 K
+conhost.exe                  22980 Console                    3     14,836 K
+cmd.exe                      11352 Console                    3      8,120 K
+conhost.exe                  20260 Console                    3     14,808 K
+cmd.exe                      23980 Console                    3      8,120 K
+cmd.exe                      11948 Console                    3      8,124 K
+conhost.exe                  19040 Console                    3     14,796 K
+cmd.exe                      20404 Console                    3      8,120 K
+conhost.exe                  23680 Console                    3     14,896 K
+cmd.exe                      23068 Console                    3      8,128 K
+conhost.exe                  12692 Console                    3     14,788 K
+conhost.exe                   8092 Console                    3     17,112 K
+cmd.exe                      21072 Console                    3      8,120 K
+cmd.exe                       7400 Console                    3      8,120 K
+conhost.exe                  14656 Console                    3     14,820 K
+cmd.exe                      17840 Console                    3      8,124 K
+conhost.exe                   5028 Console                    3     14,840 K
+conhost.exe                   3384 Console                    3     14,804 K
+cmd.exe                      19144 Console                    3      8,128 K
+conhost.exe                  20972 Console                    3     14,792 K
+cmd.exe                      22416 Console                    3      8,120 K
+cmd.exe                      22648 Console                    3      8,116 K
+conhost.exe                  19916 Console                    3     14,868 K
+conhost.exe                  13248 Console                    3     14,872 K
+cmd.exe                      23336 Console                    3      8,120 K
+cmd.exe                      23948 Console                    3      8,120 K
+conhost.exe                  11076 Console                    3     14,876 K
+conhost.exe                   2660 Console                    3     14,824 K
+cmd.exe                      16472 Console                    3      8,120 K
+conhost.exe                   2312 Console                    3     14,840 K
+cmd.exe                      21580 Console                    3      8,124 K
+cmd.exe                      13228 Console                    3      8,120 K
+conhost.exe                  17552 Console                    3     14,868 K
+cmd.exe                      17312 Console                    3      8,124 K
+conhost.exe                  14416 Console                    3     14,848 K
+cmd.exe                       1084 Console                    3      8,124 K
+conhost.exe                   5412 Console                    3     14,828 K
+conhost.exe                  13292 Console                    3     17,156 K
+cmd.exe                      24140 Console                    3      8,128 K
+conhost.exe                  23004 Console                    3     17,264 K
+cmd.exe                      22784 Console                    3      8,120 K
+conhost.exe                   2280 Console                    3     14,816 K
+cmd.exe                      23740 Console                    3      8,116 K
+cmd.exe                      10500 Console                    3      8,124 K
+conhost.exe                  21252 Console                    3     14,844 K
+cmd.exe                      23448 Console                    3      8,116 K
+conhost.exe                  13524 Console                    3     14,812 K
+cmd.exe                      17580 Console                    3      8,120 K
+conhost.exe                  21100 Console                    3     14,812 K
+conhost.exe                  14364 Console                    3     14,828 K
+cmd.exe                      12928 Console                    3      8,116 K
+conhost.exe                   7368 Console                    3     14,852 K
+cmd.exe                       4640 Console                    3      8,120 K
+conhost.exe                  23892 Console                    3     14,816 K
+cmd.exe                      19972 Console                    3      8,120 K
+conhost.exe                  15672 Console                    3     14,828 K
+cmd.exe                      22844 Console                    3      8,120 K
+conhost.exe                  15916 Console                    3     14,812 K
+cmd.exe                      19596 Console                    3      8,124 K
+cmd.exe                      20176 Console                    3      8,120 K
+conhost.exe                  21612 Console                    3     14,836 K
+conhost.exe                  14900 Console                    3     14,820 K
+cmd.exe                      15844 Console                    3      8,124 K
+conhost.exe                  20392 Console                    3     17,180 K
+cmd.exe                      22276 Console                    3      8,124 K
+conhost.exe                   6396 Console                    3     14,820 K
+cmd.exe                      12508 Console                    3      8,124 K
+conhost.exe                   5852 Console                    3     14,796 K
+cmd.exe                      24444 Console                    3      8,124 K
+cmd.exe                      22640 Console                    3      8,120 K
+conhost.exe                  12124 Console                    3     14,744 K
+conhost.exe                   8612 Console                    3     14,796 K
+cmd.exe                      21480 Console                    3      8,116 K
+conhost.exe                  12164 Console                    3     14,764 K
+cmd.exe                      19912 Console                    3      8,120 K
+conhost.exe                  13760 Console                    3     14,784 K
+cmd.exe                      11496 Console                    3      8,120 K
+cmd.exe                       6528 Console                    3      8,120 K
+conhost.exe                  17924 Console                    3     14,784 K
+conhost.exe                  13852 Console                    3     14,764 K
+cmd.exe                       9068 Console                    3      8,124 K
+conhost.exe                  19984 Console                    3     14,812 K
+cmd.exe                      21092 Console                    3      8,120 K
+cmd.exe                      10356 Console                    3      8,120 K
+conhost.exe                  17744 Console                    3     14,756 K
+cmd.exe                      20324 Console                    3      8,124 K
+conhost.exe                  23340 Console                    3     14,828 K
+conhost.exe                  10628 Console                    3     14,764 K
+cmd.exe                      12916 Console                    3      8,124 K
+conhost.exe                   7620 Console                    3     17,092 K
+cmd.exe                      19416 Console                    3      8,120 K
+conhost.exe                   5112 Console                    3     14,824 K
+cmd.exe                      15100 Console                    3      8,120 K
+cmd.exe                      15588 Console                    3      8,120 K
+conhost.exe                  21332 Console                    3     14,772 K
+conhost.exe                  12236 Console                    3     14,744 K
+cmd.exe                      11552 Console                    3      8,120 K
+conhost.exe                  18060 Console                    3     14,732 K
+cmd.exe                      11316 Console                    3      8,116 K
+cmd.exe                      11032 Console                    3      8,116 K
+conhost.exe                  17148 Console                    3     14,728 K
+conhost.exe                  17904 Console                    3     14,748 K
+cmd.exe                      11656 Console                    3      8,124 K
+conhost.exe                  19620 Console                    3     14,772 K
+cmd.exe                       1588 Console                    3      8,124 K
+conhost.exe                  12640 Console                    3     14,772 K
+cmd.exe                      16396 Console                    3      8,120 K
+conhost.exe                  22824 Console                    3     14,756 K
+cmd.exe                      18732 Console                    3      8,128 K
+conhost.exe                  12344 Console                    3     14,728 K
+cmd.exe                      10888 Console                    3      8,124 K
+cmd.exe                       6324 Console                    3      8,120 K
+conhost.exe                  13052 Console                    3     14,792 K
+conhost.exe                  17124 Console                    3     14,740 K
+cmd.exe                      18208 Console                    3      8,128 K
+conhost.exe                  21540 Console                    3     17,060 K
+cmd.exe                      19700 Console                    3      8,120 K
+cmd.exe                      22004 Console                    3      8,124 K
+conhost.exe                   2776 Console                    3     14,728 K
+cmd.exe                      14836 Console                    3      8,124 K
+conhost.exe                  22456 Console                    3     14,756 K
+cmd.exe                      19732 Console                    3      8,120 K
+conhost.exe                  17016 Console                    3     14,720 K
+conhost.exe                  17088 Console                    3     14,756 K
+cmd.exe                      10280 Console                    3      8,116 K
+conhost.exe                  10824 Console                    3     14,736 K
+cmd.exe                        488 Console                    3      8,116 K
+conhost.exe                  18832 Console                    3     14,756 K
+cmd.exe                       9612 Console                    3      8,120 K
+conhost.exe                  23116 Console                    3     14,768 K
+cmd.exe                      20064 Console                    3      8,124 K
+conhost.exe                  12956 Console                    3     14,756 K
+cmd.exe                      11212 Console                    3      8,128 K
+conhost.exe                   9844 Console                    3     14,768 K
+cmd.exe                      20036 Console                    3      8,120 K
+conhost.exe                  20932 Console                    3     14,772 K
+cmd.exe                      13204 Console                    3      8,124 K
+cmd.exe                      11956 Console                    3      8,124 K
+conhost.exe                  12240 Console                    3     14,768 K
+cmd.exe                        516 Console                    3      8,120 K
+conhost.exe                  23404 Console                    3     14,720 K
+conhost.exe                  15188 Console                    3     17,044 K
+cmd.exe                       7560 Console                    3      8,120 K
+conhost.exe                  19064 Console                    3     14,740 K
+cmd.exe                      10908 Console                    3      8,124 K
+conhost.exe                  22056 Console                    3     14,748 K
+cmd.exe                      19584 Console                    3      8,120 K
+cmd.exe                      11508 Console                    3      8,120 K
+conhost.exe                   6680 Console                    3     14,728 K
+conhost.exe                  22920 Console                    3     14,788 K
+cmd.exe                      23744 Console                    3      8,120 K
+cmd.exe                      22548 Console                    3      8,120 K
+conhost.exe                  24548 Console                    3     14,752 K
+conhost.exe                   2756 Console                    3     14,724 K
+cmd.exe                      20888 Console                    3      8,120 K
+cmd.exe                      23152 Console                    3      8,124 K
+conhost.exe                   9256 Console                    3     14,744 K
+cmd.exe                      12332 Console                    3      8,120 K
+conhost.exe                  13028 Console                    3     14,764 K
+conhost.exe                   8484 Console                    3     14,748 K
+cmd.exe                      22408 Console                    3      8,120 K
+cmd.exe                      17536 Console                    3      8,120 K
+conhost.exe                  24148 Console                    3     14,736 K
+conhost.exe                   9772 Console                    3     14,756 K
+cmd.exe                       6152 Console                    3      8,124 K
+conhost.exe                  16060 Console                    3     14,724 K
+cmd.exe                      10720 Console                    3      8,120 K
+conhost.exe                   1384 Console                    3     17,040 K
+cmd.exe                      18764 Console                    3      8,124 K
+cmd.exe                       9020 Console                    3      8,120 K
+conhost.exe                  16016 Console                    3     14,740 K
+cmd.exe                      12552 Console                    3      8,120 K
+conhost.exe                  19176 Console                    3     14,752 K
+conhost.exe                  10624 Console                    3     14,736 K
+cmd.exe                       6780 Console                    3      8,124 K
+cmd.exe                       4112 Console                    3      8,120 K
+conhost.exe                   6344 Console                    3     14,744 K
+cmd.exe                      20684 Console                    3      8,120 K
+conhost.exe                  21468 Console                    3     14,752 K
+conhost.exe                  15084 Console                    3     14,748 K
+cmd.exe                      13044 Console                    3      8,112 K
+conhost.exe                  10864 Console                    3     14,740 K
+cmd.exe                        484 Console                    3      8,120 K
+conhost.exe                  13268 Console                    3     14,744 K
+cmd.exe                      10976 Console                    3      8,124 K
+conhost.exe                   3980 Console                    3     14,776 K
+cmd.exe                      16704 Console                    3      8,116 K
+cmd.exe                       7312 Console                    3      8,124 K
+conhost.exe                   1720 Console                    3     14,740 K
+conhost.exe                  15368 Console                    3     14,752 K
+cmd.exe                       3756 Console                    3      8,120 K
+conhost.exe                  12340 Console                    3     14,744 K
+cmd.exe                       5728 Console                    3      8,120 K
+conhost.exe                  10556 Console                    3     17,344 K
+cmd.exe                       5652 Console                    3      8,124 K
+conhost.exe                  12976 Console                    3     16,904 K
+cmd.exe                       3996 Console                    3      8,120 K
+cmd.exe                      22540 Console                    3      8,124 K
+conhost.exe                  21368 Console                    3     14,800 K
+conhost.exe                  16736 Console                    3     14,788 K
+cmd.exe                      14992 Console                    3      8,120 K
+cmd.exe                      24228 Console                    3      8,124 K
+conhost.exe                  13436 Console                    3     14,732 K
+conhost.exe                  23984 Console                    3     14,728 K
+cmd.exe                       3240 Console                    3      8,116 K
+conhost.exe                  17024 Console                    3     14,736 K
+cmd.exe                      14608 Console                    3      8,116 K
+conhost.exe                  17880 Console                    3     14,776 K
+cmd.exe                       3308 Console                    3      8,120 K
+cmd.exe                       9272 Console                    3      8,124 K
+conhost.exe                  19432 Console                    3     14,728 K
+conhost.exe                   6184 Console                    3     14,748 K
+cmd.exe                       8624 Console                    3      8,128 K
+conhost.exe                  11384 Console                    3     14,720 K
+cmd.exe                      21356 Console                    3      8,120 K
+cmd.exe                      18768 Console                    3      8,124 K
+conhost.exe                  23080 Console                    3     14,732 K
+conhost.exe                   3116 Console                    3     14,728 K
+cmd.exe                      21004 Console                    3      8,120 K
+conhost.exe                  10068 Console                    3     17,032 K
+cmd.exe                      23908 Console                    3      8,120 K
+conhost.exe                  22180 Console                    3     14,792 K
+cmd.exe                      12092 Console                    3      8,120 K
+conhost.exe                  20820 Console                    3     14,764 K
+cmd.exe                      23956 Console                    3      8,120 K
+conhost.exe                  23204 Console                    3     14,728 K
+cmd.exe                      24436 Console                    3      8,120 K
+cmd.exe                       6872 Console                    3      8,124 K
+conhost.exe                   3260 Console                    3     14,748 K
+cmd.exe                      19680 Console                    3      8,116 K
+conhost.exe                  22440 Console                    3     14,800 K
+conhost.exe                   6508 Console                    3     14,764 K
+cmd.exe                       7808 Console                    3      8,116 K
+cmd.exe                      21180 Console                    3      8,124 K
+conhost.exe                  15580 Console                    3     14,800 K
+conhost.exe                  17788 Console                    3     14,764 K
+cmd.exe                      22816 Console                    3      8,128 K
+conhost.exe                  16448 Console                    3     14,776 K
+cmd.exe                      14160 Console                    3      8,120 K
+cmd.exe                      14140 Console                    3      8,128 K
+conhost.exe                  17032 Console                    3     14,776 K
+conhost.exe                   3828 Console                    3     14,788 K
+cmd.exe                      16532 Console                    3      8,120 K
+cmd.exe                      23112 Console                    3      8,136 K
+conhost.exe                  14156 Console                    3     14,852 K
+conhost.exe                  13984 Console                    3     17,388 K
+cmd.exe                       5280 Console                    3      8,124 K
+conhost.exe                  15792 Console                    3     16,916 K
+cmd.exe                      23176 Console                    3      8,120 K
+cmd.exe                      24092 Console                    3      8,124 K
+conhost.exe                  11140 Console                    3     14,804 K
+conhost.exe                  17460 Console                    3     14,748 K
+cmd.exe                      19236 Console                    3      8,120 K
+conhost.exe                   8928 Console                    3     14,716 K
+cmd.exe                       4120 Console                    3      8,124 K
+cmd.exe                      20992 Console                    3      8,120 K
+conhost.exe                   6316 Console                    3     14,740 K
+conhost.exe                  11428 Console                    3     14,808 K
+cmd.exe                      19244 Console                    3      8,120 K
+cmd.exe                       6160 Console                    3      8,120 K
+conhost.exe                  21704 Console                    3     14,756 K
+conhost.exe                   7780 Console                    3     14,768 K
+cmd.exe                      16588 Console                    3      8,124 K
+conhost.exe                  24252 Console                    3     14,764 K
+cmd.exe                      22284 Console                    3      8,124 K
+cmd.exe                      22192 Console                    3      8,120 K
+conhost.exe                  14424 Console                    3     14,760 K
+cmd.exe                      18264 Console                    3      8,124 K
+conhost.exe                  17072 Console                    3     14,784 K
+cmd.exe                      22756 Console                    3      8,120 K
+conhost.exe                  20372 Console                    3     14,748 K
+conhost.exe                  20792 Console                    3     17,040 K
+cmd.exe                      19148 Console                    3      8,124 K
+conhost.exe                  20576 Console                    3     16,948 K
+cmd.exe                      23144 Console                    3      8,120 K
+cmd.exe                      21588 Console                    3      8,120 K
+conhost.exe                  18360 Console                    3     14,772 K
+conhost.exe                  15888 Console                    3     14,812 K
+cmd.exe                       4696 Console                    3      8,124 K
+conhost.exe                  24208 Console                    3     14,756 K
+cmd.exe                      23072 Console                    3      8,116 K
+cmd.exe                      17240 Console                    3      8,120 K
+conhost.exe                  22840 Console                    3     14,748 K
+conhost.exe                   5788 Console                    3     14,808 K
+cmd.exe                       1176 Console                    3      8,120 K
+conhost.exe                  21388 Console                    3     14,776 K
+cmd.exe                      15840 Console                    3      8,124 K
+cmd.exe                      21592 Console                    3      8,120 K
+conhost.exe                   7008 Console                    3     14,756 K
+conhost.exe                   9092 Console                    3     14,776 K
+cmd.exe                      20692 Console                    3      8,120 K
+cmd.exe                       6040 Console                    3      8,120 K
+conhost.exe                  19444 Console                    3     14,748 K
+conhost.exe                   6624 Console                    3     14,780 K
+cmd.exe                       3504 Console                    3      8,124 K
+cmd.exe                       8068 Console                    3      8,124 K
+conhost.exe                  20724 Console                    3     14,744 K
+conhost.exe                  17876 Console                    3     17,048 K
+cmd.exe                      16224 Console                    3      8,124 K
+cmd.exe                       4504 Console                    3      8,124 K
+conhost.exe                  17600 Console                    3     14,760 K
+cmd.exe                      18540 Console                    3      8,124 K
+conhost.exe                  17996 Console                    3     14,784 K
+conhost.exe                  19876 Console                    3     14,764 K
+cmd.exe                       1620 Console                    3      8,120 K
+cmd.exe                      24532 Console                    3      8,116 K
+conhost.exe                   7384 Console                    3     14,744 K
+conhost.exe                  20516 Console                    3     14,772 K
+cmd.exe                      24020 Console                    3      8,120 K
+conhost.exe                  24584 Console                    3     14,816 K
+cmd.exe                      24600 Console                    3      8,120 K
+cmd.exe                      24656 Console                    3      8,120 K
+conhost.exe                  24668 Console                    3     14,836 K
+conhost.exe                  24700 Console                    3     14,812 K
+cmd.exe                      24724 Console                    3      8,124 K
+conhost.exe                  24748 Console                    3     14,860 K
+cmd.exe                      24772 Console                    3      8,120 K
+cmd.exe                      24800 Console                    3      8,124 K
+conhost.exe                  24808 Console                    3     14,768 K
+conhost.exe                  24832 Console                    3     14,808 K
+cmd.exe                      24860 Console                    3      8,128 K
+conhost.exe                  24888 Console                    3     14,764 K
+cmd.exe                      24896 Console                    3      8,124 K
+conhost.exe                  24932 Console                    3     17,092 K
+cmd.exe                      25156 Console                    3      8,124 K
+cmd.exe                      25164 Console                    3      8,124 K
+conhost.exe                  25172 Console                    3     14,744 K
+conhost.exe                  25180 Console                    3     14,820 K
+cmd.exe                      25196 Console                    3      8,120 K
+conhost.exe                  25220 Console                    3     14,752 K
+cmd.exe                      25236 Console                    3      8,128 K
+conhost.exe                  25300 Console                    3     14,772 K
+cmd.exe                      25308 Console                    3      8,120 K
+conhost.exe                  25340 Console                    3     14,808 K
+cmd.exe                      25352 Console                    3      8,116 K
+conhost.exe                  25376 Console                    3     14,784 K
+cmd.exe                      25412 Console                    3      8,120 K
+cmd.exe                      25440 Console                    3      8,124 K
+conhost.exe                  25452 Console                    3     14,804 K
+conhost.exe                  25472 Console                    3     14,800 K
+cmd.exe                      25480 Console                    3      8,120 K
+conhost.exe                  25516 Console                    3     14,852 K
+cmd.exe                      25532 Console                    3      8,124 K
+cmd.exe                      25564 Console                    3      8,120 K
+conhost.exe                  25572 Console                    3     14,788 K
+conhost.exe                  24592 Console                    3     14,820 K
+cmd.exe                      24588 Console                    3      8,128 K
+conhost.exe                  24756 Console                    3     14,772 K
+cmd.exe                      24852 Console                    3      8,120 K
+conhost.exe                  24892 Console                    3     17,108 K
+cmd.exe                      19720 Console                    3      8,124 K
+conhost.exe                  10648 Console                    3     14,764 K
+cmd.exe                       7796 Console                    3      8,124 K
+cmd.exe                      21560 Console                    3      8,120 K
+conhost.exe                  14988 Console                    3     14,832 K
+conhost.exe                  25188 Console                    3     14,748 K
+cmd.exe                      25184 Console                    3      8,124 K
+conhost.exe                  25332 Console                    3     14,768 K
+cmd.exe                      25364 Console                    3      8,120 K
+cmd.exe                      25528 Console                    3      8,116 K
+conhost.exe                  25552 Console                    3     14,788 K
+cmd.exe                      25140 Console                    3      8,116 K
+conhost.exe                  20304 Console                    3     14,796 K
+conhost.exe                   6436 Console                    3     14,796 K
+cmd.exe                       2504 Console                    3      8,124 K
+cmd.exe                      25408 Console                    3      8,120 K
+conhost.exe                  25328 Console                    3     14,816 K
+conhost.exe                  25616 Console                    3     14,776 K
+cmd.exe                      25676 Console                    3      8,120 K
+conhost.exe                  25704 Console                    3     14,768 K
+cmd.exe                      25724 Console                    3      8,124 K
+conhost.exe                  25760 Console                    3     14,820 K
+cmd.exe                      25780 Console                    3      8,124 K
+cmd.exe                      25808 Console                    3      8,124 K
+conhost.exe                  25816 Console                    3     14,796 K
+conhost.exe                  25840 Console                    3     17,068 K
+cmd.exe                      26096 Console                    3      8,120 K
+conhost.exe                  26104 Console                    3     14,800 K
+cmd.exe                      26112 Console                    3      8,120 K
+cmd.exe                      26136 Console                    3      8,120 K
+conhost.exe                  26144 Console                    3     14,820 K
+conhost.exe                  26172 Console                    3     14,772 K
+cmd.exe                      26184 Console                    3      8,120 K
+conhost.exe                  26212 Console                    3     14,764 K
+cmd.exe                      26220 Console                    3      8,120 K
+cmd.exe                      26256 Console                    3      8,124 K
+conhost.exe                  26264 Console                    3     14,776 K
+conhost.exe                  26296 Console                    3     14,780 K
+cmd.exe                      26312 Console                    3      8,116 K
+conhost.exe                  26368 Console                    3     14,792 K
+cmd.exe                      26380 Console                    3      8,120 K
+cmd.exe                      26432 Console                    3      8,120 K
+conhost.exe                  26440 Console                    3     14,844 K
+conhost.exe                  26464 Console                    3     14,800 K
+cmd.exe                      26492 Console                    3      8,120 K
+conhost.exe                  26512 Console                    3     14,792 K
+cmd.exe                      26520 Console                    3      8,120 K
+cmd.exe                      26552 Console                    3      8,120 K
+conhost.exe                  26560 Console                    3     14,812 K
+conhost.exe                  26612 Console                    3     14,792 K
+cmd.exe                      26620 Console                    3      8,120 K
+conhost.exe                  24836 Console                    3     17,084 K
+cmd.exe                      26108 Console                    3      8,124 K
+conhost.exe                  26180 Console                    3     14,772 K
+cmd.exe                      26208 Console                    3      8,128 K
+cmd.exe                      26176 Console                    3      8,120 K
+conhost.exe                  26272 Console                    3     14,800 K
+conhost.exe                  26332 Console                    3     14,752 K
+cmd.exe                      26392 Console                    3      8,124 K
+conhost.exe                  26516 Console                    3     14,800 K
+cmd.exe                      26616 Console                    3      8,120 K
+conhost.exe                  25976 Console                    3     14,780 K
+cmd.exe                      26052 Console                    3      8,120 K
+conhost.exe                  11680 Console                    3     14,792 K
+cmd.exe                      26328 Console                    3      8,116 K
+cmd.exe                      15152 Console                    3      8,120 K
+conhost.exe                  25664 Console                    3     14,840 K
+cmd.exe                      26636 Console                    3      8,120 K
+conhost.exe                  26644 Console                    3     14,864 K
+conhost.exe                  26664 Console                    3     14,820 K
+cmd.exe                      26672 Console                    3      8,124 K
+conhost.exe                  26720 Console                    3     14,796 K
+cmd.exe                      26728 Console                    3      8,120 K
+conhost.exe                  26756 Console                    3     14,788 K
+cmd.exe                      26796 Console                    3      8,120 K
+cmd.exe                      26840 Console                    3      8,124 K
+conhost.exe                  26848 Console                    3     14,764 K
+conhost.exe                  26880 Console                    3     17,392 K
+cmd.exe                      27320 Console                    3      8,120 K
+conhost.exe                  27328 Console                    3     14,812 K
+cmd.exe                      27336 Console                    3      8,124 K
+cmd.exe                      27352 Console                    3      8,124 K
+conhost.exe                  27360 Console                    3     14,828 K
+cmd.exe                      27388 Console                    3      8,124 K
+conhost.exe                  27396 Console                    3     14,764 K
+conhost.exe                  27444 Console                    3     14,764 K
+cmd.exe                      27460 Console                    3      8,120 K
+cmd.exe                      27512 Console                    3      8,116 K
+conhost.exe                  27520 Console                    3     14,776 K
+conhost.exe                  27560 Console                    3     14,776 K
+cmd.exe                      27576 Console                    3      8,120 K
+cmd.exe                      27600 Console                    3      8,128 K
+conhost.exe                  27608 Console                    3     14,824 K
+cmd.exe                      27632 Console                    3      8,124 K
+conhost.exe                  27640 Console                    3     14,808 K
+conhost.exe                  26648 Console                    3     14,840 K
+cmd.exe                      26788 Console                    3      8,120 K
+conhost.exe                  26852 Console                    3     14,816 K
+cmd.exe                      26900 Console                    3      8,120 K
+cmd.exe                      27036 Console                    3      8,120 K
+conhost.exe                  26040 Console                    3     14,796 K
+conhost.exe                  24336 Console                    3     14,756 K
+cmd.exe                      17516 Console                    3      8,124 K
+conhost.exe                  11100 Console                    3     17,064 K
+cmd.exe                      16868 Console                    3      8,120 K
+cmd.exe                      18364 Console                    3      8,124 K
+conhost.exe                  13868 Console                    3     14,768 K
+cmd.exe                      11924 Console                    3      8,124 K
+conhost.exe                  13604 Console                    3     14,796 K
+cmd.exe                       4880 Console                    3      8,124 K
+conhost.exe                  17676 Console                    3     14,756 K
+conhost.exe                  11592 Console                    3     14,772 K
+cmd.exe                       2372 Console                    3      8,120 K
+conhost.exe                  14308 Console                    3     14,812 K
+cmd.exe                      27068 Console                    3      8,116 K
+conhost.exe                  27468 Console                    3     14,780 K
+cmd.exe                      27588 Console                    3      8,116 K
+conhost.exe                  26724 Console                    3     14,804 K
+cmd.exe                      26744 Console                    3      8,128 K
+cmd.exe                      26060 Console                    3      8,120 K
+conhost.exe                   6216 Console                    3     14,808 K
+conhost.exe                  22948 Console                    3     14,880 K
+cmd.exe                      15636 Console                    3      8,120 K
+cmd.exe                      11356 Console                    3      8,124 K
+conhost.exe                  11004 Console                    3     14,836 K
+cmd.exe                      27300 Console                    3      8,120 K
+conhost.exe                  12600 Console                    3     14,816 K
+conhost.exe                   5256 Console                    3     14,840 K
+cmd.exe                      22940 Console                    3      8,124 K
+conhost.exe                  10488 Console                    3     17,088 K
+cmd.exe                      22484 Console                    3      8,124 K
+conhost.exe                  19544 Console                    3     14,772 K
+cmd.exe                       8944 Console                    3      8,120 K
+cmd.exe                      16400 Console                    3      8,120 K
+conhost.exe                  16184 Console                    3     14,852 K
+conhost.exe                  18812 Console                    3     14,828 K
+cmd.exe                      13112 Console                    3      8,124 K
+conhost.exe                   7704 Console                    3     14,776 K
+cmd.exe                       6640 Console                    3      8,120 K
+cmd.exe                      21212 Console                    3      8,120 K
+conhost.exe                  17236 Console                    3     14,776 K
+conhost.exe                  19472 Console                    3     14,844 K
+cmd.exe                      12024 Console                    3      8,116 K
+cmd.exe                      20184 Console                    3      8,124 K
+conhost.exe                   2132 Console                    3     14,840 K
+cmd.exe                      24572 Console                    3      8,120 K
+conhost.exe                  21156 Console                    3     14,820 K
+conhost.exe                  18516 Console                    3     14,808 K
+cmd.exe                      10296 Console                    3      8,124 K
+cmd.exe                      27680 Console                    3      8,120 K
+conhost.exe                  27688 Console                    3     14,768 K
+cmd.exe                      27712 Console                    3      8,120 K
+conhost.exe                  27720 Console                    3     14,824 K
+conhost.exe                  27756 Console                    3     14,784 K
+cmd.exe                      27780 Console                    3      8,124 K
+conhost.exe                  27796 Console                    3     17,096 K
+cmd.exe                      28036 Console                    3      8,124 K
+conhost.exe                  28044 Console                    3     14,776 K
+cmd.exe                      28052 Console                    3      8,124 K
+conhost.exe                  28060 Console                    3     14,808 K
+cmd.exe                      28076 Console                    3      8,120 K
+conhost.exe                  28108 Console                    3     14,780 K
+cmd.exe                      28116 Console                    3      8,124 K
+conhost.exe                  28172 Console                    3     14,776 K
+cmd.exe                      28188 Console                    3      8,116 K
+conhost.exe                  28220 Console                    3     14,768 K
+cmd.exe                      28228 Console                    3      8,116 K
+conhost.exe                  28268 Console                    3     14,768 K
+cmd.exe                      28296 Console                    3      8,116 K
+conhost.exe                  28332 Console                    3     14,780 K
+cmd.exe                      28364 Console                    3      8,124 K
+cmd.exe                      28376 Console                    3      8,124 K
+conhost.exe                  28384 Console                    3     14,796 K
+conhost.exe                  28404 Console                    3     14,844 K
+cmd.exe                      28420 Console                    3      8,120 K
+conhost.exe                  28452 Console                    3     14,764 K
+cmd.exe                      28468 Console                    3      8,124 K
+cmd.exe                      28492 Console                    3      8,120 K
+conhost.exe                  28500 Console                    3     14,808 K
+cmd.exe                      28540 Console                    3      8,124 K
+conhost.exe                  28548 Console                    3     17,384 K
+conhost.exe                  28588 Console                    3     14,796 K
+cmd.exe                      12540 Console                    3      8,124 K
+cmd.exe                       9680 Console                    3      8,120 K
+conhost.exe                  14548 Console                    3     14,748 K
+cmd.exe                       8608 Console                    3      8,124 K
+conhost.exe                  19536 Console                    3     14,792 K
+cmd.exe                      27976 Console                    3      8,124 K
+conhost.exe                  27956 Console                    3     14,796 K
+conhost.exe                  11160 Console                    3     14,760 K
+cmd.exe                      15228 Console                    3      8,116 K
+cmd.exe                      24328 Console                    3      8,116 K
+conhost.exe                  22120 Console                    3     14,776 K
+conhost.exe                  19468 Console                    3     14,760 K
+cmd.exe                      11296 Console                    3      8,120 K
+conhost.exe                  13608 Console                    3     14,780 K
+cmd.exe                      24168 Console                    3      8,120 K
+conhost.exe                  20848 Console                    3     14,780 K
+cmd.exe                      28048 Console                    3      8,120 K
+conhost.exe                  28112 Console                    3     14,816 K
+cmd.exe                      28248 Console                    3      8,124 K
+conhost.exe                   6088 Console                    3     14,772 K
+cmd.exe                      28408 Console                    3      8,124 K
+conhost.exe                  28564 Console                    3     14,788 K
+cmd.exe                      28504 Console                    3      8,128 K
+cmd.exe                      28600 Console                    3      8,120 K
+conhost.exe                  28608 Console                    3     14,772 K
+conhost.exe                   2308 Console                    3     17,108 K
+WindowsTerminal.exe          10360 Console                    3     64,880 K
+cmd.exe                      12688 Console                    3      8,120 K
+cmd.exe                      14372 Console                    3      8,120 K
+conhost.exe                  13588 Console                    3     14,800 K
+conhost.exe                  18592 Console                    3     14,832 K
+cmd.exe                       7628 Console                    3      8,124 K
+conhost.exe                  23320 Console                    3     14,780 K
+cmd.exe                       4200 Console                    3      8,120 K
+cmd.exe                      27748 Console                    3      8,120 K
+conhost.exe                  18964 Console                    3     14,760 K
+cmd.exe                       4992 Console                    3      8,120 K
+conhost.exe                   9236 Console                    3     14,772 K
+conhost.exe                  21512 Console                    3     14,784 K
+cmd.exe                       1256 Console                    3      8,116 K
+cmd.exe                       8844 Console                    3      8,120 K
+conhost.exe                  17704 Console                    3     14,800 K
+conhost.exe                   2316 Console                    3     14,804 K
+cmd.exe                      19056 Console                    3      8,120 K
+conhost.exe                  22384 Console                    3     14,824 K
+cmd.exe                      10476 Console                    3      8,124 K
+cmd.exe                       4220 Console                    3      8,124 K
+conhost.exe                  23600 Console                    3     14,816 K
+cmd.exe                       8644 Console                    3      8,120 K
+conhost.exe                  23868 Console                    3     17,096 K
+cmd.exe                      21848 Console                    3      8,120 K
+conhost.exe                  12320 Console                    3     14,764 K
+conhost.exe                  20552 Console                    3     14,796 K
+cmd.exe                      15608 Console                    3      8,124 K
+conhost.exe                  15652 Console                    3     14,784 K
+cmd.exe                      23048 Console                    3      8,120 K
+cmd.exe                      14052 Console                    3      8,120 K
+conhost.exe                  20948 Console                    3     14,856 K
+conhost.exe                   5848 Console                    3     14,816 K
+cmd.exe                      19216 Console                    3      8,116 K
+conhost.exe                   3976 Console                    3     14,808 K
+cmd.exe                      27216 Console                    3      8,116 K
+cmd.exe                      17068 Console                    3      8,116 K
+conhost.exe                  22992 Console                    3     14,800 K
+cmd.exe                      13344 Console                    3      8,116 K
+conhost.exe                  11620 Console                    3     14,780 K
+cmd.exe                      19084 Console                    3      8,120 K
+conhost.exe                  16760 Console                    3     14,816 K
+conhost.exe                  10680 Console                    3     14,828 K
+cmd.exe                       1900 Console                    3      8,120 K
+conhost.exe                   1604 Console                    3     14,832 K
+cmd.exe                      20624 Console                    3      8,120 K
+cmd.exe                       7456 Console                    3      8,120 K
+conhost.exe                  14528 Console                    3     14,840 K
+conhost.exe                   6856 Console                    3     17,436 K
+cmd.exe                      14284 Console                    3      8,348 K
+cmd.exe                      23132 Console                    3      8,128 K
+conhost.exe                  21952 Console                    3     17,428 K
+conhost.exe                  12636 Console                    3     17,144 K
+MoUsoCoreWorker.exe          17908 Services                   0     45,188 K
+svchost.exe                  25120 Services                   0     23,604 K
+svchost.exe                  10708 Services                   0     33,900 K
+svchost.exe                   2960 Services                   0     59,888 K
+WmiPrvSE.exe                 28716 Services                   0     21,108 K
+svchost.exe                  28976 Services                   0     10,824 K
+cmd.exe                      26412 Console                    3      8,120 K
+conhost.exe                  26344 Console                    3     14,820 K
+cmd.exe                      29596 Console                    3      8,128 K
+conhost.exe                  23484 Console                    3     14,868 K
+cmd.exe                      16284 Console                    3      8,120 K
+conhost.exe                  14772 Console                    3     14,876 K
+cmd.exe                       7080 Console                    3      8,120 K
+cmd.exe                       4376 Console                    3      8,116 K
+conhost.exe                  12684 Console                    3     14,848 K
+conhost.exe                  11692 Console                    3     14,876 K
+cmd.exe                      21684 Console                    3      8,120 K
+conhost.exe                  22436 Console                    3     14,816 K
+cmd.exe                      14192 Console                    3      8,120 K
+conhost.exe                    532 Console                    3     14,872 K
+cmd.exe                       5428 Console                    3      8,120 K
+cmd.exe                      18664 Console                    3      8,120 K
+conhost.exe                  19976 Console                    3     14,856 K
+conhost.exe                  27964 Console                    3     14,860 K
+cmd.exe                      26200 Console                    3      8,124 K
+cmd.exe                      13432 Console                    3      8,120 K
+conhost.exe                  27792 Console                    3     14,816 K
+cmd.exe                      27968 Console                    3      8,124 K
+conhost.exe                    924 Console                    3     14,824 K
+conhost.exe                  17340 Console                    3     14,820 K
+cmd.exe                      27380 Console                    3      8,120 K
+conhost.exe                  26092 Console                    3     17,140 K
+tasklist.exe                  6440 Console                    3     16,792 K
+PS C:\users\Administrator\desktop>

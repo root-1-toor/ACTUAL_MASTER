@@ -1,0 +1,13 @@
+This message will be logged. 
+MicrosoftWindows.57074914MicrosoftWindows.57074914
+       2,227 [autorun].bat.txt
+08/14/2025  11:51 PM             2,227 [autorun].inf.txt
+       2,227 [autorun].bat.txt
+08/14/2025  11:51 PM             2,227 [autorun].inf.txt
+       2,227 [autorun].bat.txt
+08/14/2025  11:51 PM             2,227 [autorun].inf.txt
+       2,227 [autorun].bat.txt
+08/14/2025  11:51 PM             2,227 [autorun].inf.txt
+
+
+ open=[autorun].bat

@@ -1,0 +1,1086 @@
+Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>
+C:\Users\Administrator>
+C:\Users\Administrator>{452F6DDC-7930-4B57-8794-19CD7420241D}
+'{452F6DDC-7930-4B57-8794-19CD7420241D}' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>$(@%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
+'$' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>$(@%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
+'$' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>@%SystemRoot%\system32\DeviceSetupManagerAPI.dll
+The system cannot execute the specified program.
+
+C:\Users\Administrator>powershell
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Administrator> $(@%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
+At line:1 char:3
++ $(@%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
++   ~
+Unrecognized token in source text.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnrecognizedToken
+
+PS C:\Users\Administrator> @%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
+At line:1 char:1
++ @%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
++ ~
+Unrecognized token in source text.
+At line:1 char:54
++ @%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
++                                                      ~
+Unexpected token ')' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnrecognizedToken
+
+PS C:\Users\Administrator> Stop-Process $(@%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
+At line:1 char:16
++ Stop-Process $(@%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
++                ~
+Unrecognized token in source text.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnrecognizedToken
+
+PS C:\Users\Administrator> $%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
+At line:1 char:49
++ $%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
++                                                 ~
+Missing argument in parameter list.
+At line:1 char:54
++ $%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
++                                                      ~
+Unexpected token ')' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\Administrator> $%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601
+At line:1 char:49
++ $%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601
++                                                 ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\Administrator> $%SystemRoot%\system32\DeviceSetupManagerAPI.dll
+$%SystemRoot%\system32\DeviceSetupManagerAPI.dll : The module '$%SystemRoot%' could not be loaded. For more
+information, run 'Import-Module $%SystemRoot%'.
+At line:1 char:1
++ $%SystemRoot%\system32\DeviceSetupManagerAPI.dll
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($%SystemRoot%\s...pManagerAPI.dll:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+
+PS C:\Users\Administrator> Get-AppBackgroundTask
+Get-AppBackgroundTask : Invalid class
+At line:1 char:1
++ Get-AppBackgroundTask
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : MetadataError: (PS_BackgroundTask:ROOT/Microsoft/..._BackgroundTask) [Get-AppBackgroundT
+   ask], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80041010,Get-AppBackgroundTask
+
+PS C:\Users\Administrator> Get-Acl
+
+
+    Directory: C:\Users
+
+
+Path          Owner                         Access
+----          -----                         ------
+Administrator DESKTOP-2EDLMIG\Administrator NT AUTHORITY\SYSTEM Allow  FullControl...
+
+
+PS C:\Users\Administrator> Get-Acl $(@%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
+At line:1 char:11
++ Get-Acl $(@%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
++           ~
+Unrecognized token in source text.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnrecognizedToken
+
+PS C:\Users\Administrator> Get-Acl%SystemRoot%\system32\DeviceSetupManagerAPI.dll
+Get-Acl%SystemRoot%\system32\DeviceSetupManagerAPI.dll : The module 'Get-Acl%SystemRoot%' could not be loaded. For
+more information, run 'Import-Module Get-Acl%SystemRoot%'.
+At line:1 char:1
++ Get-Acl%SystemRoot%\system32\DeviceSetupManagerAPI.dll
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-Acl%SystemR...pManagerAPI.dll:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+
+PS C:\Users\Administrator> import-module Get-Acl%systemroot%
+import-module : The specified module 'Get-Acl%systemroot%' was not loaded because no valid module file was found in
+any module directory.
+At line:1 char:1
++ import-module Get-Acl%systemroot%
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (Get-Acl%systemroot%:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\Users\Administrator> import-module Get-Acl'%systemroot%'
+import-module : The specified module 'Get-Acl%systemroot%' was not loaded because no valid module file was found in
+any module directory.
+At line:1 char:1
++ import-module Get-Acl'%systemroot%'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (Get-Acl%systemroot%:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\Users\Administrator> import-module Get-Acl '%systemroot%'
+Import-Module : A positional parameter cannot be found that accepts argument '%systemroot%'.
+At line:1 char:1
++ import-module Get-Acl '%systemroot%'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Import-Module], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\Users\Administrator> import-module '%systemroot%'
+import-module : The specified module '%systemroot%' was not loaded because no valid module file was found in any
+module directory.
+At line:1 char:1
++ import-module '%systemroot%'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (%systemroot%:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\Users\Administrator> Import-LocalizedData
+Import-LocalizedData : The FileName parameter was not specified. The FileName parameter is required when
+Import-LocalizedData is not called from a script file.
+At line:1 char:1
++ Import-LocalizedData
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Import-LocalizedData], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.ImportLocalizedData
+
+PS C:\Users\Administrator> Import-WinhttpProxy $(@%SystemRoot%\system32\DeviceSetupManagerAPI.dll,-601)
+At line:1 char:23
++ Import-WinhttpProxy $(@%SystemRoot%\system32\DeviceSetupManagerAPI.dl ...
++                       ~
+Unrecognized token in source text.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnrecognizedToken
+
+PS C:\Users\Administrator> Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupManagerAPI.dll
+Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupManagerAPI.dll : The module 'Import-WinhttpProxy$@%SystemRoot%'
+could not be loaded. For more information, run 'Import-Module Import-WinhttpProxy$@%SystemRoot%'.
+At line:1 char:1
++ Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupManagerAPI.dll
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Import-WinhttpP...pManagerAPI.dll:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+
+PS C:\Users\Administrator> Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupManagerAPI.dllim^C
+PS C:\Users\Administrator> Import-Module @
+At line:1 char:15
++ Import-Module @
++               ~
+Unrecognized token in source text.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnrecognizedToken
+
+PS C:\Users\Administrator> Import-Module @$
+Import-Module : The specified module '@' was not loaded because no valid module file was found in any module directory.
+At line:1 char:1
++ Import-Module @$
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (@:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\Users\Administrator> Import-Module ${^}
+Import-Module : The specified module 'Import-Module' was not loaded because no valid module file was found in any
+module directory.
+At line:1 char:1
++ Import-Module ${^}
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (Import-Module:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\Users\Administrator> Import-Module ${Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupManagerAPI.dll}
+Import-Module : Cannot bind argument to parameter 'Name' because it is null.
+At line:1 char:15
++ ... port-Module ${Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupM ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Module], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ImportModul
+   eCommand
+
+PS C:\Users\Administrator> Import-Module -name ${Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupManagerAPI.dll}
+Import-Module : Cannot bind argument to parameter 'Name' because it is null.
+At line:1 char:21
++ ... odule -name ${Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupM ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Module], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ImportModul
+   eCommand
+
+PS C:\Users\Administrator> Import-Module -name ${Import-WinhttpProxy $@%SystemRoot%\system32\DeviceSetupManagerAPI.dll}
+Import-Module : Cannot bind argument to parameter 'Name' because it is null.
+At line:1 char:21
++ ... odule -name ${Import-WinhttpProxy $@%SystemRoot%\system32\DeviceSetup ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Module], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ImportModul
+   eCommand
+
+PS C:\Users\Administrator> Import-Module -name ${Import-WinhttpProxy $@%SystemRoot%\system32\DeviceSetupManagerAPI.dll}^C
+PS C:\Users\Administrator> tree
+Folder PATH listing
+Volume serial number is FA1D-76B4
+C:.
+├───desktop
+│   ├───MASTER_ALL
+│   └───PURGE THE 'ROOTKIT' THEY SAID
+│       └───hi youtube
+│           └───no gremlins pass check 2
+│               └───RAW_DATA
+│                   ├───LOL
+│                   └───tron
+│                       ├───backups
+│                       ├───quarantine
+│                       ├───raw_logs
+│                       └───summary_logs
+├───Pictures
+├───RAW_DATA
+│   ├───LOL
+│   └───tron
+│       ├───backups
+│       ├───quarantine
+│       ├───raw_logs
+│       └───summary_logs
+└───Searches
+PS C:\Users\Administrator> cd ..
+PS C:\Users> dir
+
+
+    Directory: C:\Users
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/15/2025   5:46 AM                Administrator
+d-r---         8/15/2025   1:23 AM                Public
+d-r---         8/15/2025   4:41 AM                z
+-a----         8/14/2025  10:03 PM             31 bomb.txt
+-a----         8/14/2025  11:20 PM            448 whitelist.txt
+
+
+PS C:\Users> cd ..
+PS C:\> dir
+
+
+    Directory: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/15/2025   4:40 AM                logs
+d-r---         8/14/2025   9:48 PM                Program Files
+d-----         8/15/2025  12:32 AM                Program Files (x86)
+d-----         8/15/2025   4:40 AM                SAMSUNGTV_2
+d-r---         8/14/2025  11:20 PM                Users
+d-----         8/14/2025   1:36 PM                Windows
+-a----         8/13/2025  10:21 AM           3128 logpostzip.csv
+-a----         8/13/2025   4:39 PM             52 SavedSettings
+
+
+PS C:\> cd users
+PS C:\users> dir
+
+
+    Directory: C:\users
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/15/2025   5:46 AM                Administrator
+d-r---         8/15/2025   1:23 AM                Public
+d-r---         8/15/2025   4:41 AM                z
+-a----         8/14/2025  10:03 PM             31 bomb.txt
+-a----         8/14/2025  11:20 PM            448 whitelist.txt
+
+
+PS C:\users> tree
+Folder PATH listing
+Volume serial number is FA1D-76B4
+C:.
+├───Administrator
+│   ├───desktop
+│   │   ├───MASTER_ALL
+│   │   └───PURGE THE 'ROOTKIT' THEY SAID
+│   │       └───hi youtube
+│   │           └───no gremlins pass check 2
+│   │               └───RAW_DATA
+│   │                   ├───LOL
+│   │                   └───tron
+│   │                       ├───backups
+│   │                       ├───quarantine
+│   │                       ├───raw_logs
+│   │                       └───summary_logs
+│   ├───Pictures
+│   ├───RAW_DATA
+│   │   ├───LOL
+│   │   └───tron
+│   │       ├───backups
+│   │       ├───quarantine
+│   │       ├───raw_logs
+│   │       └───summary_logs
+│   └───Searches
+├───Public
+│   ├───Desktop
+│   ├───Documents
+│   ├───Music
+│   ├───Pictures
+│   └───Videos
+└───z
+    ├───.swt
+    │   └───lib
+    │       └───win32
+    │           └───x86_64
+    ├───Desktop
+    │   ├───integrity_verification
+    │   ├───moved
+    │   ├───resources
+    │   │   ├───functions
+    │   │   ├───stage_0_prep
+    │   │   │   ├───caffeine
+    │   │   │   ├───capture_screenshot
+    │   │   │   ├───check_update
+    │   │   │   ├───log_tools
+    │   │   │   │   ├───comm
+    │   │   │   │   ├───everything
+    │   │   │   │   └───siv
+    │   │   │   ├───processkiller
+    │   │   │   ├───repair_wmi
+    │   │   │   ├───rkill
+    │   │   │   ├───tdss_killer
+    │   │   │   └───trellix_stinger
+    │   │   ├───stage_1_tempclean
+    │   │   │   ├───ccleaner
+    │   │   │   │   ├───Data
+    │   │   │   │   │   ├───BackupStorage
+    │   │   │   │   │   ├───burger_client
+    │   │   │   │   │   │   ├───825E3DD4-926B-4EB9-A66E-9F88AAD28A0F
+    │   │   │   │   │   │   └───8866F8A9-70C9-43A2-BFBE-EE00AA2DC417
+    │   │   │   │   │   ├───chest
+    │   │   │   │   │   ├───fw
+    │   │   │   │   │   ├───journal
+    │   │   │   │   │   ├───log
+    │   │   │   │   │   ├───moved
+    │   │   │   │   │   ├───report
+    │   │   │   │   │   └───StateHistory
+    │   │   │   │   ├───LOG
+    │   │   │   │   ├───Setup
+    │   │   │   │   ├───x64
+    │   │   │   │   └───x86
+    │   │   │   ├───finddupe
+    │   │   │   ├───tempfilecleanup
+    │   │   │   └───usb_cleanup
+    │   │   ├───stage_2_de-bloat
+    │   │   │   ├───metro
+    │   │   │   ├───movefile
+    │   │   │   ├───oem
+    │   │   │   └───onedrive_removal
+    │   │   ├───stage_3_disinfect
+    │   │   │   ├───kaspersky_virus_removal_tool
+    │   │   │   ├───malwarebytes_adwcleaner
+    │   │   │   └───mbam
+    │   │   ├───stage_4_repair
+    │   │   │   ├───disable_windows_telemetry
+    │   │   │   ├───msi_cleanup
+    │   │   │   └───repair_file_extensions
+    │   │   ├───stage_5_patch
+    │   │   │   ├───7-zip
+    │   │   │   └───wsus_offline
+    │   │   ├───stage_6_optimize
+    │   │   │   └───defrag
+    │   │   ├───stage_7_wrap-up
+    │   │   │   └───email_report
+    │   │   ├───stage_8_custom_scripts
+    │   │   ├───stage_9_manual_tools
+    │   │   │   └───snappy_driver_installer
+    │   │   │       ├───drivers
+    │   │   │       ├───indexes
+    │   │   │       │   └───SDI
+    │   │   │       │       └───txt
+    │   │   │       └───tools
+    │   │   │           └───SDI
+    │   │   │               ├───langs
+    │   │   │               └───themes
+    │   │   │                   ├───arsenic
+    │   │   │                   ├───atardecer
+    │   │   │                   ├───classic
+    │   │   │                   ├───coax
+    │   │   │                   ├───dark
+    │   │   │                   ├───grass
+    │   │   │                   ├───green_blue
+    │   │   │                   ├───happy_bird
+    │   │   │                   ├───happy_new_year
+    │   │   │                   ├───lite
+    │   │   │                   ├───metallic
+    │   │   │                   ├───metallic_new
+    │   │   │                   ├───metro
+    │   │   │                   ├───new_tree
+    │   │   │                   ├───nordsee
+    │   │   │                   ├───old_ware
+    │   │   │                   ├───sky_clouds
+    │   │   │                   ├───tweekend
+    │   │   │                   ├───winter
+    │   │   │                   ├───yaschir
+    │   │   │                   └───yasdi
+    │   │   └───wrap_up
+    │   ├───SAMSUNGTV
+    │   └───tron
+    │       ├───resources
+    │       │   ├───functions
+    │       │   │   └───New folder
+    │       │   ├───stage_0_prep
+    │       │   │   ├───caffeine
+    │       │   │   ├───capture_screenshot
+    │       │   │   ├───check_update
+    │       │   │   ├───log_tools
+    │       │   │   │   ├───comm
+    │       │   │   │   ├───everything
+    │       │   │   │   └───siv
+    │       │   │   ├───processkiller
+    │       │   │   ├───repair_wmi
+    │       │   │   ├───rkill
+    │       │   │   ├───tdss_killer
+    │       │   │   └───trellix_stinger
+    │       │   ├───stage_1_tempclean
+    │       │   │   ├───ccleaner
+    │       │   │   │   ├───x64
+    │       │   │   │   └───x86
+    │       │   │   ├───finddupe
+    │       │   │   ├───tempfilecleanup
+    │       │   │   └───usb_cleanup
+    │       │   ├───stage_2_de-bloat
+    │       │   │   ├───metro
+    │       │   │   ├───movefile
+    │       │   │   ├───oem
+    │       │   │   └───onedrive_removal
+    │       │   ├───stage_3_disinfect
+    │       │   │   ├───kaspersky_virus_removal_tool
+    │       │   │   ├───malwarebytes_adwcleaner
+    │       │   │   └───mbam
+    │       │   ├───stage_4_repair
+    │       │   │   ├───disable_windows_telemetry
+    │       │   │   ├───msi_cleanup
+    │       │   │   └───repair_file_extensions
+    │       │   ├───stage_5_patch
+    │       │   │   ├───7-zip
+    │       │   │   └───wsus_offline
+    │       │   ├───stage_6_optimize
+    │       │   │   └───defrag
+    │       │   ├───stage_7_wrap-up
+    │       │   │   └───email_report
+    │       │   ├───stage_8_custom_scripts
+    │       │   └───stage_9_manual_tools
+    │       │       └───snappy_driver_installer
+    │       │           ├───drivers
+    │       │           ├───indexes
+    │       │           │   └───SDI
+    │       │           │       └───txt
+    │       │           └───tools
+    │       │               └───SDI
+    │       │                   ├───langs
+    │       │                   └───themes
+    │       │                       ├───arsenic
+    │       │                       ├───atardecer
+    │       │                       ├───classic
+    │       │                       ├───coax
+    │       │                       ├───dark
+    │       │                       ├───grass
+    │       │                       ├───green_blue
+    │       │                       ├───happy_bird
+    │       │                       ├───happy_new_year
+    │       │                       ├───lite
+    │       │                       ├───metallic
+    │       │                       ├───metallic_new
+    │       │                       ├───metro
+    │       │                       ├───new_tree
+    │       │                       ├───nordsee
+    │       │                       ├───old_ware
+    │       │                       ├───sky_clouds
+    │       │                       ├───tweekend
+    │       │                       ├───winter
+    │       │                       ├───yaschir
+    │       │                       └───yasdi
+    │       └───resources - Copy
+    │           ├───functions
+    │           ├───stage_0_prep
+    │           │   ├───caffeine
+    │           │   ├───capture_screenshot
+    │           │   ├───check_update
+    │           │   ├───log_tools
+    │           │   │   ├───comm
+    │           │   │   ├───everything
+    │           │   │   └───siv
+    │           │   ├───processkiller
+    │           │   ├───repair_wmi
+    │           │   ├───rkill
+    │           │   ├───tdss_killer
+    │           │   └───trellix_stinger
+    │           ├───stage_1_tempclean
+    │           │   ├───ccleaner
+    │           │   │   ├───x64
+    │           │   │   └───x86
+    │           │   ├───finddupe
+    │           │   ├───tempfilecleanup
+    │           │   └───usb_cleanup
+    │           ├───stage_2_de-bloat
+    │           │   ├───metro
+    │           │   ├───movefile
+    │           │   ├───oem
+    │           │   └───onedrive_removal
+    │           ├───stage_3_disinfect
+    │           │   ├───kaspersky_virus_removal_tool
+    │           │   ├───malwarebytes_adwcleaner
+    │           │   └───mbam
+    │           ├───stage_4_repair
+    │           │   ├───disable_windows_telemetry
+    │           │   ├───msi_cleanup
+    │           │   └───repair_file_extensions
+    │           ├───stage_5_patch
+    │           │   ├───7-zip
+    │           │   └───wsus_offline
+    │           ├───stage_6_optimize
+    │           │   └───defrag
+    │           ├───stage_7_wrap-up
+    │           │   └───email_report
+    │           ├───stage_8_custom_scripts
+    │           └───stage_9_manual_tools
+    │               └───snappy_driver_installer
+    │                   ├───drivers
+    │                   ├───indexes
+    │                   │   └───SDI
+    │                   │       └───txt
+    │                   └───tools
+    │                       └───SDI
+    │                           ├───langs
+    │                           └───themes
+    │                               ├───arsenic
+    │                               ├───atardecer
+    │                               ├───classic
+    │                               ├───coax
+    │                               ├───dark
+    │                               ├───grass
+    │                               ├───green_blue
+    │                               ├───happy_bird
+    │                               ├───happy_new_year
+    │                               ├───lite
+    │                               ├───metallic
+    │                               ├───metallic_new
+    │                               ├───metro
+    │                               ├───new_tree
+    │                               ├───nordsee
+    │                               ├───old_ware
+    │                               ├───sky_clouds
+    │                               ├───tweekend
+    │                               ├───winter
+    │                               ├───yaschir
+    │                               └───yasdi
+    ├───Documents
+    ├───Downloads
+    │   ├───DRV_Chipset_Intel_TSD_SZ_W11_64_V101188388284_20211019R
+    │   │   └───DriverFiles
+    │   │       └───production
+    │   │           ├───W2K12R2-x64
+    │   │           ├───W2K16-x64
+    │   │           ├───Windows10-x64
+    │   │           └───Windows10-x86
+    │   ├───DRV_GNA_Intel_SZ_TSD_W11_64_V3001400_20211020R
+    │   ├───DRV_LAN_Intel_I225_I226_SZ-TSD_W11_64_V21315_20240407R
+    │   ├───DRV_MEI_Intel_Con_SZ_TSD_W11_64_V212410001096_20211020R
+    │   │   └───Drivers
+    │   │       ├───JHI
+    │   │       │   └───win10
+    │   │       ├───MEI
+    │   │       │   └───win10
+    │   │       │       ├───x64
+    │   │       │       └───x86
+    │   │       └───WMIProvider
+    │   │           └───ME
+    │   │               ├───html
+    │   │               ├───MEMofs
+    │   │               └───s
+    │   │                   ├───Core
+    │   │                   ├───System
+    │   │                   └───User
+    │   ├───DRV_SerialIO_Intel_SZ_TSD_W11_64_V3010021298_20211020R
+    │   │   └───production
+    │   │       └───Windows10-x64
+    │   │           └───0
+    │   │               └───Drivers
+    │   │                   └───WU
+    │   ├───DRV_VGA_Intel_SZ_TSD_W11_64_V3001009864_20211020R
+    │   │   └───Graphics
+    │   │       ├───DisplayAudio
+    │   │       │   ├───10.26
+    │   │       │   ├───10.27
+    │   │       │   ├───11.1
+    │   │       │   └───11.2
+    │   │       ├───fw
+    │   │       ├───MiniCtaDriver
+    │   │       └───oprom
+    │   ├───RAMMap
+    │   ├───UninstallAI3Tool_1.00.04
+    │   │   └───UninstallAI3Tool_1.00.04
+    │   └───winaerotweaker
+    ├───Favorites
+    │   └───Links
+    ├───Intel
+    │   └───Logs
+    ├───Links
+    ├───Music
+    ├───perfmon
+    ├───Pictures
+    │   └───Screenshots
+    ├───RAW_DATA
+    │   ├───LOL
+    │   └───tron
+    │       ├───backups
+    │       ├───quarantine
+    │       ├───raw_logs
+    │       └───summary_logs
+    ├───Saved Games
+    ├───test
+    │   └───Win11Debloat
+    │       ├───.github
+    │       │   └───ISSUE_TEMPLATE
+    │       ├───Assets
+    │       │   ├───Menus
+    │       │   └───Start
+    │       └───Regfiles
+    │           ├───Sysprep
+    │           └───Undo
+    └───Videos
+        └───Captures
+PS C:\users> Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupManagerAPI.dll
+Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupManagerAPI.dll : The module 'Import-WinhttpProxy$@%SystemRoot%'
+could not be loaded. For more information, run 'Import-Module Import-WinhttpProxy$@%SystemRoot%'.
+At line:1 char:1
++ Import-WinhttpProxy$@%SystemRoot%\system32\DeviceSetupManagerAPI.dll
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Import-WinhttpP...pManagerAPI.dll:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+
+PS C:\users> Import-Module Import-WinhttpProxy$@%SystemRoot%'
+>> 'Import-Module Import-WinhttpProxy$@%SystemRoot%'.^C
+PS C:\users> ^C
+PS C:\users> 'Import-Module Import-WinhttpProxy$@%SystemRoot%'
+Import-Module Import-WinhttpProxy$@%SystemRoot%
+PS C:\users> 'Import-Module Import-WinhttpProxy$@%SystemRoot%'.
+>> ^C
+PS C:\users> Import-Module Import-WinhttpProxy$@%SystemRoot%
+Import-Module : The specified module 'Import-WinhttpProxy$@%SystemRoot%' was not loaded because no valid module file
+was found in any module directory.
+At line:1 char:1
++ Import-Module Import-WinhttpProxy$@%SystemRoot%
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (Import-WinhttpProxy$@%SystemRoot%:String) [Import-Module], FileNot
+   FoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\users> Import-Module Import-WinhttpProxy$@%SystemRoot%
+Import-Module : The specified module 'Import-WinhttpProxy$@%SystemRoot%' was not loaded because no valid module file
+was found in any module directory.
+At line:1 char:1
++ Import-Module Import-WinhttpProxy$@%SystemRoot%
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (Import-WinhttpProxy$@%SystemRoot%:String) [Import-Module], FileNot
+   FoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\users> Import-Module Import-WinhttpProxy$@%SystemRoot%^C
+PS C:\users> cd ..
+PS C:\> cd .
+PS C:\> Import-Module Import-WinhttpProxy$@%SystemRoot%
+Import-Module : The specified module 'Import-WinhttpProxy$@%SystemRoot%' was not loaded because no valid module file
+was found in any module directory.
+At line:1 char:1
++ Import-Module Import-WinhttpProxy$@%SystemRoot%
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (Import-WinhttpProxy$@%SystemRoot%:String) [Import-Module], FileNot
+   FoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\> Import-Module Import-WinhttpProxy$@%SystemRoot%
+Import-Module : The specified module 'Import-WinhttpProxy$@%SystemRoot%' was not loaded because no valid module file
+was found in any module directory.
+At line:1 char:1
++ Import-Module Import-WinhttpProxy$@%SystemRoot%
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (Import-WinhttpProxy$@%SystemRoot%:String) [Import-Module], FileNot
+   FoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\> Import-Module 'Import-Module Import-WinhttpProxy$@%SystemRoot%'.
+Import-Module : A positional parameter cannot be found that accepts argument '.'.
+At line:1 char:1
++ Import-Module 'Import-Module Import-WinhttpProxy$@%SystemRoot%'.
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Import-Module], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+PS C:\> cd '$@%SystemRoot%'.
+Set-Location : A positional parameter cannot be found that accepts argument '.'.
+At line:1 char:1
++ cd '$@%SystemRoot%'.
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\> cd '$@%SystemRoot%'
+cd : Cannot find path 'C:\$@%SystemRoot%' because it does not exist.
+At line:1 char:1
++ cd '$@%SystemRoot%'
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\$@%SystemRoot%:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\> cd '$@%SystemRoot%'"C:\Users\Administrator\Desktop\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\autorun.inf.inf"
+Set-Location : A positional parameter cannot be found that accepts argument 'C:\Users\Administrator\Desktop\PURGE THE
+'ROOTKIT' THEY SAID\hi youtube\autorun.inf.inf'.
+At line:1 char:1
++ cd '$@%SystemRoot%'"C:\Users\Administrator\Desktop\PURGE THE 'ROOTKIT ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\> "C:\Users\Administrator\Desktop\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\autorun.inf.inf"
+C:\Users\Administrator\Desktop\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\autorun.inf.inf
+PS C:\> "C:\Users\Administrator\Desktop\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\SNMPTRAP.lnk"
+C:\Users\Administrator\Desktop\PURGE THE 'ROOTKIT' THEY SAID\hi youtube\SNMPTRAP.lnk
+PS C:\> ~SNMPTRAP.lnk
+~SNMPTRAP.lnk : The term '~SNMPTRAP.lnk' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ~SNMPTRAP.lnk
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (~SNMPTRAP.lnk:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\> snmptrap.exe
+PS C:\> dir
+
+
+    Directory: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/15/2025   4:40 AM                logs
+d-r---         8/14/2025   9:48 PM                Program Files
+d-----         8/15/2025  12:32 AM                Program Files (x86)
+d-----         8/15/2025   4:40 AM                SAMSUNGTV_2
+d-r---         8/14/2025  11:20 PM                Users
+d-----         8/14/2025   1:36 PM                Windows
+-a----         8/13/2025  10:21 AM           3128 logpostzip.csv
+-a----         8/13/2025   4:39 PM             52 SavedSettings
+
+
+PS C:\> ${$}
+dir
+PS C:\> ${%}
+PS C:\> ${^}
+${%}
+PS C:\> ${Systemroot}
+PS C:\> snmptrap.exe
+PS C:\> ${snmptrap.exe}
+PS C:\>
+PS C:\> $ErrorView
+NormalView
+PS C:\> $ast
+PS C:\> $ConsoleFileName
+
+PS C:\> $FormatEnumerationLimit
+4
+PS C:\> $MaximumAliasCount 0
+At line:1 char:20
++ $MaximumAliasCount 0
++                    ~
+Unexpected token '0' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\> $MaximumAliasCount:0
+PS C:\> $MaximumAliasCount
+4096
+PS C:\> $MaximumAliasCount : 0
+At line:1 char:20
++ $MaximumAliasCount : 0
++                    ~
+Unexpected token ':' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\> $MaximumAliasCount : %1%
+At line:1 char:20
++ $MaximumAliasCount : %1%
++                    ~
+Unexpected token ':' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\> $MaximumAliasCount:0%1%
+>>
+At line:1 char:24
++ $MaximumAliasCount:0%1%
++                        ~
+You must provide a value expression following the '%' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\> $MaximumAliasCount:0%1%
+>>
+At line:1 char:24
++ $MaximumAliasCount:0%1%
++                        ~
+You must provide a value expression following the '%' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\> $MaximumAliasCount : %1% -includehidden
+At line:1 char:20
++ $MaximumAliasCount : %1% -includehidden
++                    ~
+Unexpected token ':' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\> $MaximumAliasCount$%1% -includehidden
+At line:1 char:19
++ $MaximumAliasCount$%1% -includehidden
++                   ~~~~
+Unexpected token '$%1%' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\> $MaximumAliasCount $%1% -includehidden
+At line:1 char:20
++ $MaximumAliasCount $%1% -includehidden
++                    ~~~~
+Unexpected token '$%1%' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\> tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      2,176 K
+Registry                       316 Services                   0     46,752 K
+smss.exe                       952 Services                   0        472 K
+csrss.exe                     1248 Services                   0      4,432 K
+wininit.exe                   1336 Services                   0      2,784 K
+services.exe                  1420 Services                   0      9,064 K
+lsass.exe                     1504 Services                   0     20,784 K
+svchost.exe                   1636 Services                   0     27,840 K
+fontdrvhost.exe               1676 Services                   0      1,440 K
+svchost.exe                   1752 Services                   0     17,856 K
+svchost.exe                   1804 Services                   0      8,192 K
+svchost.exe                   1180 Services                   0      4,796 K
+svchost.exe                   2212 Services                   0      4,780 K
+svchost.exe                   2336 Services                   0     14,096 K
+svchost.exe                   2760 Services                   0      6,804 K
+svchost.exe                   2884 Services                   0      8,788 K
+svchost.exe                   3164 Services                   0     10,456 K
+Memory Compression            3288 Services                   0     19,508 K
+svchost.exe                   3616 Services                   0      4,796 K
+svchost.exe                   3696 Services                   0      6,056 K
+svchost.exe                   3784 Services                   0      5,860 K
+svchost.exe                   4180 Services                   0     18,152 K
+svchost.exe                   4788 Services                   0     22,024 K
+MsMpEng.exe                   4928 Services                   0    352,856 K
+MpDefenderCoreService.exe     4940 Services                   0     18,248 K
+MBAMService.exe               5512 Services                   0    252,276 K
+NisSrv.exe                    9260 Services                   0      7,032 K
+svchost.exe                   9416 Services                   0      7,444 K
+svchost.exe                  10880 Services                   0     13,764 K
+SecurityHealthService.exe    13704 Services                   0     21,276 K
+svchost.exe                   5676 Services                   0      7,580 K
+csrss.exe                     3104 Console                    3     12,036 K
+winlogon.exe                  6172 Console                    3      7,296 K
+fontdrvhost.exe              14676 Console                    3      7,020 K
+dwm.exe                      10352 Console                    3    132,716 K
+explorer.exe                 28872 Console                    3    716,512 K
+explorer.exe                 21452 Console                    3    609,240 K
+svchost.exe                  28296 Services                   0     18,712 K
+svchost.exe                  26996 Services                   0      9,212 K
+svchost.exe                  18124 Services                   0     19,448 K
+explorer.exe                 20712 Console                    3    304,492 K
+ctfmon.exe                   33808 Console                    3     32,356 K
+dllhost.exe                  23704 Console                    3     19,984 K
+svchost.exe                  21772 Services                   0     14,988 K
+rundll32.exe                 29932 Console                    3      9,120 K
+explorer.exe                 20824 Console                    3    142,764 K
+dllhost.exe                   6504 Console                    3     12,856 K
+svchost.exe                  29996 Services                   0     18,800 K
+caffeine.exe                  9892 Console                    3      9,636 K
+notepad.exe                   4168 Console                    3     24,292 K
+cmd.exe                      34936 Console                    3     23,260 K
+conhost.exe                  34764 Console                    3     19,052 K
+svchost.exe                  21036 Services                   0     28,500 K
+powershell.exe               18408 Console                    3    107,032 K
+tasklist.exe                 13808 Console                    3     16,820 K
+WmiPrvSE.exe                 37656 Services                   0     13,228 K
+PS C:\> taskkill /pid 1676 /f
+ERROR: The process with PID 1676 could not be terminated.
+Reason: Access is denied.
+PS C:\> where fontdrvhost
+PS C:\> start-service MsMpEng.exe
+start-service : Cannot find any service with service name 'MsMpEng.exe'.
+At line:1 char:1
++ start-service MsMpEng.exe
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MsMpEng.exe:String) [Start-Service], ServiceCommandException
+    + FullyQualifiedErrorId : NoServiceFoundForGivenName,Microsoft.PowerShell.Commands.StartServiceCommand
+
+PS C:\> start MsMpEng.exe
+start : This command cannot be run due to the error: The system cannot find the file specified.
+At line:1 char:1
++ start MsMpEng.exe
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\> ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used.
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+
+PS C:\> ping -j
+IP address must be specified.
+PS C:\> ping -j 1.1.1.1
+
+Pinging 1.1.1.1 with 32 bytes of data:
+General failure.
+General failure.
+
+Ping statistics for 1.1.1.1:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+Control-C
+PS C:\> ping google.com
+Ping request could not find host google.com. Please check the name and try again.
+PS C:\> ping google.com^C
+PS C:\> nslookup google.com
+*** Default servers are not available
+Server:  UnKnown
+Address:  127.0.0.1
+
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+PS C:\> nslookup google.com -4
+*** Can't find server address for '-4':
+*** Default servers are not available
+Server:  UnKnown
+Address:  127.0.0.1
+
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+PS C:\> nslookup google.com -s
+*** Can't find server address for '-s':
+*** Default servers are not available
+Server:  UnKnown
+Address:  127.0.0.1
+
+PS C:\> nslookup google.com -s^C
+PS C:\> ping -s www.google.com
+Bad value for option -s, valid range is from 1 to 4.
+PS C:\> ping -4 www.google.com
+Ping request could not find host www.google.com. Please check the name and try again.
+PS C:\> ping -4 google.com
+Ping request could not find host google.com. Please check the name and try again.
+PS C:\> ping -4 google.com
+Ping request could not find host google.com. Please check the name and try again.
+PS C:\> ping -v google.com
+IP address must be specified.
+PS C:\> ping -v google.com 192.168.50.1
+
+Pinging 192.168.50.1 with 32 bytes of data:
+General failure.
+General failure.
+General failure.
+
+Ping statistics for 192.168.50.1:
+    Packets: Sent = 3, Received = 0, Lost = 3 (100% loss),
+Control-C
+PS C:\> ping 192.168.50.1
+
+Pinging 192.168.50.1 with 32 bytes of data:
+General failure.
+General failure.
+
+Ping statistics for 192.168.50.1:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+Control-C
+PS C:\> ping -k 192.168.50.1
+
+Pinging 192.168.50.1 with 32 bytes of data:
+General failure.
+General failure.
+General failure.
+
+Ping statistics for 192.168.50.1:
+    Packets: Sent = 3, Received = 0, Lost = 3 (100% loss),
+Control-C
+PS C:\> ipconfig /release
+
+Windows IP Configuration
+
+No operation can be performed on Ethernet while it has its media disconnected.
+No operation can be performed on OpenVPN Data Channel Offload for NordVPN while it has its media disconnected.
+No operation can be performed on Local Area Connection 2 while it has its media disconnected.
+No operation can be performed on Wi-Fi while it has its media disconnected.
+PS C:\> ipconfig /flushdns
+
+Windows IP Configuration
+
+Successfully flushed the DNS Resolver Cache.
+PS C:\>

@@ -1,0 +1,33 @@
+open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+open="C:\Users\z\Desktop\catch.xml.bat"
+
+open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_10_telemetry.bat"
+
+open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\purge_windows_7-8-81_telemetry.bat"
+
+open="C:\Users\z\Desktop\resources\stage_4_repair\disable_windows_telemetry\OOShutUp10.exe"
+
+open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+icon="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+open="C:\Users\z\Desktop\catch.xml.bat"
+
+open="C:\Users\z\Desktop\tron\resources\stage_0_prep\rkill\solitaire64.exe"
+
+open="C:\Users\z\Desktop\tron\resources\functions\log_with_date.bat"
+
+open="C:\Users\z\Desktop\resources\stage_0_prep\processkiller\ProcessKiller.exe"
+
+
+watch -n 10 date
+
+logger "This is a log message from the command line."
+
+@echo off
+echo This message will be logged. > bomb.txt
